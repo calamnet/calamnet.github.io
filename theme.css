@@ -25,6 +25,8 @@ FOLLOW THIS FORMAT:
     font-style: normal;
 }
 
+a { color:  #ff000;}
+
 body {
     color: white;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
