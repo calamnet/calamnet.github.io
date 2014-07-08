@@ -25,7 +25,7 @@ FOLLOW THIS FORMAT:
     font-style: normal;
 }
 
-a[href="/game/enchantment"]:after { content: "testing"; }
+a[href="/game/enchantment"] { content: "testing"; color: #ff0000; }
 
 body {
     color: white;
