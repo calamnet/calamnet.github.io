@@ -25,7 +25,7 @@ FOLLOW THIS FORMAT:
     font-style: normal;
 }
 
-a[href="/wol/game/enchantment"]::after { content: "testing"; }
+a[href="/wol/game/enchantment"]::after { content: "&nbsp; <a href='http://msu.edu'>testing</a>"; }
 
 body {
     color: white;
