@@ -176,17 +176,6 @@ body {
 }
 
 #middle {
-    /* positioning and size */
-    /* border styling */
-    /* internal styling - padding etc. */
-    background-image: url(./images/leather.jpg);
-    background-repeat: repeat-y;
-    background-position: top left;
-    /* typography */
-    /* colors */
-    /* display, opacity and special effects */
-    box-shadow: 3px -3px 5px #191919, -10px 10px 10px #000;
-
 }
 
 a {
