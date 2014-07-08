@@ -25,7 +25,7 @@ FOLLOW THIS FORMAT:
     font-style: normal;
 }
 
-a[href="/wol/game/enchantment"] { content: "testing"; color: #ff0000; }
+a[href="/wol/game/enchantment"] { color: #ff0000; }
 
 body {
     color: white;
