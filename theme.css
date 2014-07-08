@@ -27,6 +27,11 @@ FOLLOW THIS FORMAT:
 
 a[href="/wol/game/enchantment"] { color: #ff0000; }
 
+a:after
+{
+content: " (" attr(href) ")";
+}
+
 body {
     color: white;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
