@@ -26,9 +26,9 @@ FOLLOW THIS FORMAT:
 }
 
 body {
-    color: white;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background-color: black;
+    color: #000;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
 }
 
 
@@ -50,7 +50,7 @@ body {
     /* internal styling - padding etc. */
 
     /* typography */
-    font-family: KnightsQuestRegular;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: normal;
     text-align: left;
@@ -102,7 +102,7 @@ body {
 }
 
 #account-container {
-    font-family: KnightsQuestRegular;
+    font-family: Arial, sans-serif;
     font-size: 20px;
 }
 
@@ -211,8 +211,8 @@ a:hover {
 h1,
 h2,
 h3 {
-    font-family: KnightsQuestRegular;
-    font-weight: 200;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
     color: #fff;
     -moz-text-shadow: -1px 1px 2px #000;
     -webkit-text-shadow: -1px 1px 2px #000;
