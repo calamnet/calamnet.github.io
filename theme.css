@@ -2,7 +2,7 @@
 
 body {
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #000;
 }
 
@@ -25,7 +25,7 @@ body {
     /* internal styling - padding etc. */
 
     /* typography */
-    font-family: Arial, sans-serif;
+    
     font-size: 16px;
     line-height: 18px;
     font-weight: normal;
@@ -38,9 +38,9 @@ body {
 }
 .navigation a {
     display: inline-block;
-    padding: 0 8px;
+    padding: 8px;
     margin: 0; 
-    border-right: 1px solid #fff;
+    border-right: none;
     text-decoration: none;
     color: #fff;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 #account-container {
-    font-family: Arial, sans-serif;
+    
     font-size: 16px;
     top: 10px;
     position: absolute;
@@ -87,7 +87,7 @@ body {
 #account-details
 {
     font-size: 12px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    
     line-height: 16px;
     background-color: #494432;
 }
@@ -96,7 +96,7 @@ body {
 {
     font-size: 18px;
     font-weight: bolder;
-    font-family: KnightsQuestRegular;
+    
     border-bottom: 1px solid #29261c;
     -moz-box-shadow: 0px 2px 1px -1px #7b7354;
     -webkit-box-shadow: 0px 2px 1px -1px #7b7354;
@@ -147,7 +147,7 @@ a.highlighted {
 }
 
 a.info-link {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    
     font-size: 14px;
 }
 
@@ -159,13 +159,9 @@ a:hover {
 h1,
 h2,
 h3 {
-    font-family: Arial, sans-serif;
+    
     font-weight: 700;
     color: #fff;
-    -moz-text-shadow: -1px 1px 2px #000;
-    -webkit-text-shadow: -1px 1px 2px #000;
-    text-shadow: -1px 1px 2px #000;
-    filter: glow(color=#252525,strength=3);
 }
 
 #footer {
@@ -176,18 +172,6 @@ h3 {
 .report-this {
     color: #c4a112;
     background-color: #18100e;
-    border-bottom-left-radius: 8px 8px;
-    -moz-border-radius-bottomleft: 8px 8px;
-
-
-    -moz-box-shadow: 0px 3px 4px #000;
-    -webkit-box-shadow: 0px 3px 4px #000;
-    box-shadow: 0px 3px 4px #000;
-    /* For IE 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000')";
-    /* For IE 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000');
-
 }
 
 .report-this:hover {
@@ -204,10 +188,6 @@ h3 {
 {
     background-color: #2f2e2e;
     border:1px solid #666;
-    box-shadow:0 0 90px 5px #000;
-    -moz-box-shadow:0 0 90px 5px #000;
-    -webkit-box-shadow: 0 0 90px #000;
-
 }
 
 .overlay .close
@@ -223,28 +203,9 @@ h3 {
     border-radius: 12px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
-
-
-    /* internal styling - padding etc. */
-
-    /* typography */
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
-
     /* colors */
     border-color: #555555;
-    -moz-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-
     background: #494432; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #7b7354 0%, #29261c 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7b7354), color-stop(100%,#29261c)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* W3C */
 }
 
 .lobby-panel h1 {
@@ -270,7 +231,7 @@ h3 {
 }
 
 .lobby-panel table th {
-    font-family: KnightsQuestRegular;
+    
     font-size: 20px;
 }
 
@@ -331,77 +292,32 @@ h3 {
 
     /* internal styling - padding etc. */
     /* typography */
-    font-family: KnightsQuestRegular;
+    
     font-size: 20px;
 }
 
 .good.message
 {
     color: #fefff7;
-    -moz-text-shadow: -1px 1px 2px #363a19, 1px -1px 2px #363a19;
-    -webkit-text-shadow: -1px 1px 2px #363a19, 1px -1px 2px #363a19;
-    text-shadow: -1px 1px 2px #363a19, 1px -1px 1px #363a19;
-
     /* colors */
     border-color: #feffea;
-    -moz-box-shadow: 1px -1px 1px 0px #cbd3a9 , -1px 1px 2px #363a19, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #cbd3a9 , -1px 1px 2px #363a19, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #cbd3a9 , -1px 1px 2px #363a19, inset 0px 0px 10px #000;
-
     background: #718d16; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #789316 0%, #5d7a19 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#789316 ), color-stop(100%,#5d7a19)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #789316  0%,#5d7a19 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #789316  0%,#5d7a19 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #789316  0%,#5d7a19 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #789316  0%,#5d7a19 100%); /* W3C */
-
 }
 
 .bad.message
 {
     color: #FFFCF7;
-    -moz-text-shadow: -1px 1px 2px #331100, 1px -1px 2px #331100;
-    -webkit-text-shadow: -1px 1px 2px #331100, 1px -1px 2px #331100;
-    text-shadow: -1px 1px 2px #331100, 1px -1px 1px #331100;
-
     /* colors */
     border-color: #feffea;
-    -moz-box-shadow: 1px -1px 1px 0px #D3AEA9 , -1px 1px 2px #331100, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #D3AEA9 , -1px 1px 2px #331100, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #D3AEA9 , -1px 1px 2px #331100, inset 0px 0px 10px #000;
-
     background: #521802; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover, #641E04 0%, #401100 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#641E04 ), color-stop(100%,#401100)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #641E04  0%,#401100 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #641E04  0%,#401100 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #641E04  0%,#401100 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #641E04  0%,#401100 100%); /* W3C */
-
 }
 
 .info.message
 {
     color: #FFFCF7;
-    -moz-text-shadow: -1px 1px 2px #362301, 1px -1px 2px #362301;
-    -webkit-text-shadow: -1px 1px 2px #362301, 1px -1px 2px #362301;
-    text-shadow: -1px 1px 2px #362301, 1px -1px 1px #362301;
-
     /* colors */
     border-color: #feffea;
-    -moz-box-shadow: 1px -1px 1px 0px #D4C7AF , -1px 1px 2px #362301, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #D4C7AF , -1px 1px 2px #362301, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #D4C7AF , -1px 1px 2px #362301, inset 0px 0px 10px #000;
-
     background: #D09734; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover, #D09734 0%, #594118 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#D09734 ), color-stop(100%,#594118)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #D09734  0%,#594118 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #D09734  0%,#594118 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #D09734  0%,#594118 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #D09734  0%,#594118 100%); /* W3C */
-
 }
 
 
@@ -432,13 +348,13 @@ h3 {
 
     padding: 11px 0px;
 
-    font-family: Arial, sans-serif;
+    
     font-size: 16px;
     text-shadow: none;
 
     /* border styling */
-    border: 2px solid;
-    border-radius: 2px;
+    border: none;
+    border-radius: 5px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
 
@@ -467,62 +383,17 @@ h3 {
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-
     /* internal styling - padding etc. */
-
     /* typography */
-    font-family: KnightsQuestRegular;
+    
     font-size: 14px;
-
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
-
     /* colors */
     border-color: #555555;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000,
-                                    -1px 0px 2px #000,
-                                    inset 1px 0px 1px #fffbf1,
-                                    inset -1px 0px 2px #000,
-                                    1px 0px 1px #fffbf1;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                                        inset 0px 1px 2px #000,
-                                        inset 0px -1px 1px #fffbf1,
-                                        0px 1px 1px #000,
-                                        -1px 0px 2px #000,
-                                        inset 1px 0px 1px #fffbf1,
-                                        inset -1px 0px 2px #000,
-                                        1px 0px 1px #fffbf1;
-    box-shadow:     0px -1px 1px #fffbf1,
-                                inset 0px 1px 2px #000,
-                                inset 0px -1px 1px #fffbf1,
-                                0px 1px 1px #000,
-                                -1px 0px 2px #000,
-                                inset 1px 0px 1px #fffbf1,
-                                inset -1px 0px 2px #000,
-                                1px 0px 1px #fffbf1;
-
     background: #d7d7d7; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #d7d7d7 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d7d7d7), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* W3C */
-
 }
 
 #resource-bar thead {
     background: #3a3830; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #3a3830 0%, #23221f 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3a3830), color-stop(100%,#23221f)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* W3C */
 }
 
 #resource-bar thead th {
@@ -534,19 +405,13 @@ h3 {
     width: 98px;
     border-right: 1px inset #444444;
     border-bottom: 1px inset #444444;
-
     padding: 3px 6px 3px 6px;
     background: transparent;
-
     font-size: 11px;
     font-weight: lighter;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    
     text-align: right;
     color: #a9a9a9;
-    -moz-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    -webkit-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    filter: glow(color=#252525,strength=3);
 }
 
 #resource-bar tbody th {
@@ -575,60 +440,29 @@ h3 {
     border: 2px solid;
     border-left: 0px;
     border-right: 0px;
-
     /* internal styling - padding etc. */
-
     /* colors */
     border-color: #181818;
-
-    -moz-box-shadow: inset 0px 0px 6px #000,
-                     inset -3px 3px 3px 2px #545454;
-    -webkit-box-shadow: inset 0px 0px 6px #000,
-                        inset -3px 3px 3px  2px #545454;
-    box-shadow: inset 0px 0px 6px #000,
-                inset -3px 3px 3px 2px #545454;
-
     color: #fff;
-    -moz-text-shadow: -1px 1px 1px #000, 1px -1px 1px #69634D;
-    -webkit-text-shadow: -1px 1px 1px #000, 1px -1px 1px #69634D;
-    text-shadow: -1px 1px 1px #000, 1px -1px 1px #69634D;
-
     background: rgb(86, 83, 74); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #d7d7d7 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d7d7d7), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* W3C */
 
 }
 
 .game-content h3 {
     font-size: 24px;
     color: #fff;
-    -moz-text-shadow: -1px 1px 1px #000, 1px -1px 1px #69634D;
-    -webkit-text-shadow: -1px 1px 1px #000, 1px -1px 1px #69634D;
-    text-shadow: -1px 1px 1px #000, 1px -1px 1px #69634D;
 }
 
 .game-content form {
     font-size: 12px;
     font-weight: bolder;
     background: rgb(86, 83, 74); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #706e62 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#898989), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* W3C */
 }
 
 .game-content form.no-visible-fields {
     width: auto;
     background: none;
     border: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 
 }
@@ -639,35 +473,24 @@ form ul.errorlist {
 
 .game-content form.change-kingdom {
     /* typography */
-    font-family: KnightsQuestRegular;
+    
     font-size: 16px;
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
     font-size: 30px;
-    filter: glow(color=#252525,strength=3);
     line-height: 24px;
 }
 
 .game-content form.change-kingdom .change-kingdom-form {
     font-size: 30px;
     color: #a9a9a9;
-    -moz-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    -webkit-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
 }
 
 .game-content form.change-kingdom.change-kingdom-target {
     border: 0px;
     border-top: 2px solid;
     border-color: #555555;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-    box-shadow:         0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-
 }
 
 input[type=text],
@@ -677,24 +500,11 @@ form input[type=password] {
     border-width: 1px;
     border-color: #d7d7d7;
     padding-left: 3px;
-    font-family: KnightsQuestRegular;
+    
     font-size: 20px;
     text-align: left;
-
-    -moz-box-shadow: inset 0px 0px 4px #7c4a14;
-    -webkit-box-shadow: inset 0px 0px 4px #7c4a14;
-    box-shadow: inset 0px 0px 6px #000;
-
     color: #fff;
     background: #3a3830; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #3a3830 0%, #23221f 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3a3830), color-stop(100%,#23221f)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* W3C */
-
-
 }
 
 form input[type=text],
@@ -720,27 +530,14 @@ form input[type=submit],
 
     /* internal styling - padding etc. */
     /* typography */
-    font-family: KnightsQuestRegular;
+    
     font-size: 20px;
     font-weight: normal;
-    -moz-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    -webkit-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 1px #3d2f1a;
 
     /* colors */
     border-color: #7c551a;
-    -moz-box-shadow: 1px -1px 1px 0px #D4CAA8 , -1px 1px 2px #3d2f1a, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #D4CAA8 , -1px 1px 2px #3d2f1a, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #D4CAA8 , -1px 1px 2px #3d2f1a, inset 0px 0px 10px #000;
 
     background: #9c7815; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #E5C40F 0%, #7c551a 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#E5C40F ), color-stop(100%,#7c551a)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #E5C40F  0%,#7c551a 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #E5C40F  0%,#7c551a 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #E5C40F  0%,#7c551a 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #E5C40F  0%,#7c551a 100%); /* W3C */
-
     color: #fff;
 }
 
@@ -748,24 +545,12 @@ form input[type=submit]:hover,
 .button-link:hover {
     /* colors */
     background: #c99a1a;
-    background: -moz-radial-gradient(center, ellipse cover,  #ead464 0%, #775f3a 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ead464 ), color-stop(100%,#775f3a)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #ead464  0%,#775f3a 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #ead464  0%,#775f3a 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #ead464  0%,#775f3a 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #ead464  0%,#775f3a 100%); /* W3C */
 }
 
 form input[type=submit]:active,
 .button-link:active {
     /* colors */
     background: #ba8500;
-    background: -moz-radial-gradient(center, ellipse cover,  #fceea6 0%, #9b7e52 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fceea6 ), color-stop(100%,#9b7e52)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #fceea6  0%,#9b7e52 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #fceea6  0%,#9b7e52 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #fceea6  0%,#9b7e52 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #fceea6  0%,#9b7e52 100%); /* W3C */
 }
 
 div.selector span,
@@ -774,13 +559,10 @@ div.uploader span.action
 {
     padding-left: 5px;
     /* typography */
-    font-family: KnightsQuestRegular;
+    
     font-size: 20px;
     font-weight: normal;
     text-align: left;
-    -moz-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    -webkit-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 1px #3d2f1a;
 }
 div.uploader span.filename,
 div.uploader span.action
@@ -793,13 +575,6 @@ div.uploader span.action
     border-top: 2px solid;
     border-color: #555555;
     margin-bottom: 10px;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-    box-shadow:         0px -1px 1px #fffbf1,
-                        inset 0px 1px 2px #000;
-
     text-align: left;
 
 }
@@ -807,7 +582,7 @@ div.uploader span.action
 .game-content form table thead th {
     height: 36px;
 
-    font-family: KnightsQuestRegular;
+    
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -817,7 +592,7 @@ div.uploader span.action
 
 .game-content form tbody th {
     border-left: 2px ridge rgba(48, 48, 48, 0.4);
-    font-family: KnightsQuestRegular;
+    
     font-size: 20px;
 
 }
@@ -856,7 +631,7 @@ div.uploader span.action
 
 .game-content form.change-kingdom #royal-commands table tbody td,
 .game-content form.change-kingdom #royal-commands input[type=text] {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    
     font-size: 13px;
     font-weight: normal;
 }
@@ -936,7 +711,7 @@ td.news-province-modification {
 }
 
 .provinces-legend .invitations {
-    font-family: KnightsQuestRegular;
+    
     font-size: 18px;
 }
 
@@ -1012,12 +787,6 @@ td.news-province-modification {
     border-top: 2px solid #6b6348;
     border-bottom: 2px solid #6b6348;
     background: #655e44; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #d4caa8 0%, #45402e 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d4caa8), color-stop(100%,#45402e)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #d4caa8 0%,#45402e 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #d4caa8 0%,#45402e 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #d4caa8 0%,#45402e 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #d4caa8 0%,#45402e 100%); /* W3C */
 }
 
 .game-header h1
@@ -1028,36 +797,13 @@ td.news-province-modification {
 
     font-size: 24px;
     text-decoration: none;
-    font-family: KnightsQuestRegular;
-    -moz-text-shadow: 1px -1px 1px #908661;
-    -webkit-text-shadow: 1px -1px 1px #908661;
-    text-shadow: 1px -1px 1px #908661;
-    filter: glow(color=#252525,strength=3);
-
-    -moz-box-shadow: 1px 1px 1px 1px #6d664a;
-    -webkit-box-shadow: 1px 1px 1px 1px #6d664a;
-    box-shadow: 1px 1px 1px 1px #6d664a;
-
+    
     background: #c4bea9; /* Old browsers */
-    background: -moz-linear-gradient(top,  #908661 0%, #c4bea9 15%, #f9f9f9 33%, #f9f9f9 65%, #c4bea9 84%, #908661 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#908661), color-stop(15%,#c4bea9), color-stop(33%,#f9f9f9), color-stop(65%,#f9f9f9), color-stop(84%,#c4bea9), color-stop(100%,#908661)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* IE10+ */
-    background: linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* W3C */
-
     color: #000;
-
 }
 
 .game-header a h1 {
     background: #494432; /* Old browsers */
-    background: -moz-linear-gradient(top,  #29261c 0%, #494432 15%, #7b7354 45%, #7b7354 55%, #494432 84%, #29261c 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29261c), color-stop(15%,#494432), color-stop(45%,#7b7354), color-stop(55%,#7b7354), color-stop(84%,#494432), color-stop(100%,#29261c)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* IE10+ */
-    background: linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* W3C */
 }
 
 .game-header a h1:hover
@@ -1065,15 +811,7 @@ td.news-province-modification {
     -moz-text-shadow: none;
     -webkit-text-shadow: none;
     text-shadow: none;
-
     background: #29261c; /* Old browsers */
-    background: -moz-linear-gradient(top,  #29261c 0%, #494432 15%, #7b7354 45%, #7b7354 55%, #494432 84%, #29261c 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29261c), color-stop(15%,#494432), color-stop(45%,#7b7354), color-stop(55%,#7b7354), color-stop(84%,#494432), color-stop(100%,#29261c)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* IE10+ */
-    background: linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* W3C */
-
     color: #fff;
     box-shadow: 0px 5px 3px -3px #fff;
 
@@ -1090,30 +828,6 @@ td.news-province-modification {
 
     /* colors */
     border-color: #555555;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000,
-                                    -1px 0px 2px #000,
-                                    inset 1px 0px 1px #fffbf1,
-                                    inset -1px 0px 2px #000,
-                                    1px 0px 1px #fffbf1;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                                        inset 0px 1px 2px #000,
-                                        inset 0px -1px 1px #fffbf1,
-                                        0px 1px 1px #000,
-                                        -1px 0px 2px #000,
-                                        inset 1px 0px 1px #fffbf1,
-                                        inset -1px 0px 2px #000,
-                                        1px 0px 1px #fffbf1;
-    box-shadow:     0px -1px 1px #fffbf1,
-                                inset 0px 1px 2px #000,
-                                inset 0px -1px 1px #fffbf1,
-                                0px 1px 1px #000,
-                                -1px 0px 2px #000,
-                                inset 1px 0px 1px #fffbf1,
-                                inset -1px 0px 2px #000,
-                                1px 0px 1px #fffbf1;
 }
 
 .game-content h2 {
@@ -1122,19 +836,6 @@ td.news-province-modification {
     border-top: 2px solid;
     border-bottom: 2px solid;
     border-color: #555555;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000;
-    box-shadow:         0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000;
-
     line-height: 30px;
     font-size: 30px;
 
@@ -1142,26 +843,14 @@ td.news-province-modification {
 
 
 .game-content thead th {
-    font-family: KnightsQuestRegular;
+    
     font-weight: normal;
     font-size: 18px;
-
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
-
     background: #3a3830; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #3a3830 0%, #23221f 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3a3830), color-stop(100%,#23221f)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* W3C */
 }
-
 .game-content tbody th {
     border-left: 6px ridge rgba(48, 48, 48, 0.4);
-    font-family: KnightsQuestRegular;
+    
     font-size: 18px;
 
 }
@@ -1225,12 +914,6 @@ td.news-province-modification {
 /* GAME PREFERENCES */
 .game-content div.preference-box {
     background: rgb(86, 83, 74); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #706e62 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#898989), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* W3C */
 }
 
 .game-content div.preference-box.disabled {
@@ -1245,12 +928,6 @@ td.news-province-modification {
 
 table.mail-view td.formatted-text {
     background: rgb(86, 83, 74); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #706e62 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#898989), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* W3C */
 }
 
 div.wysiwyg {
@@ -1300,9 +977,6 @@ body.wysiwyg {
 #bookmark-details #bookmarks {
     border-top: 1px solid #29261c;
     border-bottom: 1px solid #29261c;
-    -moz-box-shadow: 0px 2px 1px -1px #7b7354;
-    -webkit-box-shadow: 0px 2px 1px -1px #7b7354;
-    box-shadow: 0px 2px 1px -1px #7b7354;
 
 }
 
@@ -1359,7 +1033,7 @@ body.wysiwyg {
 }
 
 .campaigns .campaign-message-intro {
-    font-family: KnightsQuestRegular;
+    
     font-weight: 200;
     color: white;
     text-shadow: -1px 1px 2px black;
@@ -1384,5 +1058,3 @@ td#inline-hostility-meter {
     text-shadow: none;
     font-weight: normal;
 }
-
-
