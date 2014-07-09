@@ -77,7 +77,6 @@ h3 { font-size: 1em; }
 .bad.message { color: #FFFCF7; border-color: #feffea; background: #521802; }
 .info.message { color: #FFFCF7; border-color: #feffea; background: #D09734; }
 
-
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
 .lobby-panel .statement h2 { line-height: 16px; }
@@ -102,6 +101,17 @@ h3 { font-size: 1em; }
 #resource-bar .negative { color: #d0aeae; }
 
 /* Game-Content */
+.game-content { width: 698px; }
+.game-content thead th { font-weight: normal; font-size: 12px !important; background: #3a3830; }
+.game-content tbody th { border-left: 6px ridge rgba(48, 48, 48, 0.4); }
+.game-content tbody th:first-child { border-left: none; }
+.game-content tbody td { padding-right: 20px; }
+.game-content tbody tr { border-bottom: 2px groove rgba(48, 48, 48, 0.4); border-top: 2px groove rgba(48, 48, 48, 0.4); }
+.game-content tbody tr:nth-child(even) { background: rgb(48, 48, 48); }
+.game-content tbody tr.sub-total { background: none; }
+.game-content tr.sub-total td { border-top: 2px solid #B9B9B9; padding-bottom: 25px; }
+.game-content table.schedule { font-size:0.8em; }
+
 .game-content form, .game-content h2 { color: #fff; background: #400000; line-height: 20px; }
 .game-content h3 { color: #fff; }
 .game-content form { font-size: 12px !important; font-weight: bolder; background: rgb(86, 83, 74); }
@@ -136,6 +146,12 @@ div.uploader span.filename, div.uploader span.action { }
 .game-content form.change-kingdom #royal-commands table { border-top: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
 .game-content form.change-kingdom #royal-commands table tbody td, .game-content form.change-kingdom #royal-commands input[type=text] { font-size: 13px; font-weight: normal; }
 .game-content form.change-kingdom #royal-commands .button-link { line-height: 20px; }
+
+/* Game-Header */
+.game-header { height: 30px; }
+.game-header h1 { height: 22px; margin: 0px 1px; padding: 6px 8px; text-decoration: none;color: #fff; background: #400000; }
+.game-header a h1 { background: #230000; }
+.game-header a h1:hover { color: #fff;  background: #230000;  text-decoration: underline; }
 
 /* KINGDOM NEWS */
 .news-legend span.news-aid:before { content: url(./images/kingdom_news/aid_inline.png); }
@@ -187,25 +203,6 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .province-flag .flag-image .default-flag { background: url('./images/province_profile/default_flag.png') no-repeat; }
 .motto { background: url('./images/province_profile/scroll.png') no-repeat; }
 
-
-/* Game-Header */
-.game-header { height: 30px;  background: #400000; }
-.game-header h1 { height: 22px;  margin: 0px 1px;  padding: 6px 4px 1px 4px;  text-decoration: none;  color: #fff; }
-.game-header a h1 { background: #230000; }
-.game-header a h1:hover { color: #fff;  background: #230000;  text-decoration: underline; }
-
-/* Game-Content */
-.game-content { border: 2px solid; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-color: #555555; }
-.game-content thead th { font-weight: normal; font-size: 12px !important; background: #3a3830; }
-.game-content tbody th { border-left: 6px ridge rgba(48, 48, 48, 0.4); }
-.game-content tbody th:first-child { border-left: none; }
-.game-content tbody td { padding-right: 20px; }
-.game-content tbody tr { border-bottom: 2px groove rgba(48, 48, 48, 0.4); border-top: 2px groove rgba(48, 48, 48, 0.4); }
-.game-content tbody tr:nth-child(even) { background: rgb(48, 48, 48); }
-.game-content tbody tr.sub-total { background: none; }
-.game-content tr.sub-total td { border-top: 2px solid #B9B9B9; padding-bottom: 25px; }
-.game-content table.schedule { font-size:0.8em; }
-
 .two-digit-input { width: 50px; }
 .three-digit-input { width: 55px; }
 .four-digit-input { width: 70px; }
@@ -253,3 +250,5 @@ body.wysiwyg { color: #fff; background: #3a3830; font-size: 12px !important; }
 #uniform-id-orderby span, #uniform-id-orderby.focus span, #uniform-id-orderby.hover span, #uniform-id-orderby:hover span { font-size: 30px; background-position: right -38px; }
 
 td#inline-hostility-meter { text-align: left; text-shadow: none; font-weight: normal; }
+
+.throne-game-message { display: none; }
