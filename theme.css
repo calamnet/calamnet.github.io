@@ -491,7 +491,7 @@ div.uploader span.action
 
     
     font-weight: normal;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
     vertical-align: bottom;
@@ -500,7 +500,7 @@ div.uploader span.action
 .game-content form tbody th {
     border-left: 2px ridge rgba(48, 48, 48, 0.4);
     
-    font-size: 20px;
+    font-size: 14px;
 
 }
 
@@ -704,6 +704,7 @@ td.news-province-modification {
 }
 
 .game-header a h1 {
+    background: #ccc;
 }
 
 .game-header a h1:hover
@@ -712,6 +713,7 @@ td.news-province-modification {
     -webkit-text-shadow: none;
     text-shadow: none;
     color: #fff;
+    background: #ccc;
 }
 
 .game-content {
@@ -811,7 +813,7 @@ td.news-province-modification {
 table.mail-view td.formatted-text {
     background: rgb(86, 83, 74); /* Old browsers */
 }
-.game-content table.mail-view tr td.forum-moderator-buttons { padding: 0; }
+.game-content table.mail-view tr td.forum-moderator-buttons { padding: 10px 0 0 0; }
 
 div.wysiwyg {
     border: 1px solid #999;
