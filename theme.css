@@ -14,7 +14,7 @@ body {
 }
 
 #header { background:  #400000; height:  40px; width: 100%; margin: 0 0 10px 0; padding: 0; position: relative; }
-#header-navigation { left: 20px; top: 0; padding: 10px 0;}
+#header-navigation { left: 20px; top: 0; padding: 5px 0; }
 #header-navigation div { margin: 0 !important; }
 
 .navigation {
@@ -745,18 +745,6 @@ td.news-province-modification {
     border-color: #555555;
 }
 
-.game-content h2 {
-    margin-top: 20px;
-    border: 0px;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-color: #555555;
-    line-height: 30px;
-    font-size: 30px;
-
-}
-
-
 .game-content thead th {
     
     font-weight: normal;
@@ -766,7 +754,7 @@ td.news-province-modification {
 .game-content tbody th {
     border-left: 6px ridge rgba(48, 48, 48, 0.4);
     
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
