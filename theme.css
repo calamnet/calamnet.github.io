@@ -808,7 +808,7 @@ td.news-province-modification {
 .game-content table.mail-view .button-link {
     font-size: 14px;
 }
-
+.game-content table.mail-view tr th:last-child { width: 30% !important;}
 table.mail-view td.formatted-text {
     background: rgb(86, 83, 74); /* Old browsers */
 }
