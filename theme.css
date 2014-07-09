@@ -74,6 +74,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .divider-small { background-image: url(./images/divider-small.png); background-repeat: no-repeat; background-position: top center; }
 
 /* Lobby-Panel */
+.lobby-panel { border-radius: 4px; width: 450px; margin: 0; padding: 0; }
 .lobby-panel table { margin: 0; }
 .lobby-panel table th{ }
 .lobby-panel table td { }
