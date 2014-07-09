@@ -28,7 +28,7 @@ div#right-column { position: absolute; top: 0; right: 250px; }
 #game-navigation .navigation { background: #5C1D1A; border-radius:4px; }
 
 /* Account */
-#account-container { top: 10px;  position: absolute;  right: 250px;  width: 250px; }
+#account-container { top: 10px;  position: absolute;  right: 400px;  width: 250px; }
 #account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
 #account-header { color: #edf2fd; }
 #account-header:hover { background-color: #494432; }
