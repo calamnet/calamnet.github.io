@@ -6,7 +6,7 @@ body {
     background-color: #000;
 }
 
-#inner-container { margin-top: 0; }
+#inner-container { margin-top: 0; margin-right: 0; margin-left: 0; }
 
 
 #header-logo {
@@ -704,7 +704,7 @@ td.news-province-modification {
 }
 
 .game-header a h1 {
-    background: #ccc;
+    background: #230000;
 }
 
 .game-header a h1:hover
@@ -713,7 +713,7 @@ td.news-province-modification {
     -webkit-text-shadow: none;
     text-shadow: none;
     color: #fff;
-    background: #ccc;
+    background: #230000;
 }
 
 .game-content {
