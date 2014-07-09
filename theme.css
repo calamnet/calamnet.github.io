@@ -88,7 +88,7 @@ h3 { font-size: 1em; }
 .warning { color: #e55700; }
 .error { color: #e55700; }
 
-#game-navigation .current-date { padding: 11px 0px; text-shadow: none; border: none; border-radius: 5px; border-color: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; background: #3a3830; }
+#game-navigation .current-date { padding: 5px 0px; text-shadow: none; border: none; border-radius: 4px; border-color: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; background: #3a3830; }
 #game-navigation a { line-height: 0.6em; }
 #game-navigation a:hover { box-shadow: none; }
 
@@ -119,9 +119,9 @@ h3 { font-size: 1em; }
 .game-content form.no-visible-fields { width: auto; background: none; border: none; box-shadow: none; }
 
 form ul.errorlist { color: #e26f80; }
-.game-content form.change-kingdom { border-top-right-radius:2em; border-bottom-right-radius:2em; }
+.game-content form.change-kingdom { border-top-right-radius:4px; border-bottom-right-radius:4px; }
 .game-content form.change-kingdom .change-kingdom-heading { line-height: 20px; padding-top: 10px; }
-.game-content form.change-kingdom .change-kingdom-form { color: #a9a9a9; }
+.game-content form.change-kingdom .change-kingdom-form { color: #a9a9a9; right: 40px; }
 .game-content form.change-kingdom.change-kingdom-target { border: 0px; border-top: 2px solid; border-color: #555555; }
 .game-content form.change-kingdom .change-kingdom-nav a { width: 75px;  background: 400000;  border-color: none;  border-radius: 4px;  color: #fff; }
 
