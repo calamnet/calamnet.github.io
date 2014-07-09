@@ -119,8 +119,8 @@ h3 { font-size: 1em; }
 .game-content form.no-visible-fields { width: auto; background: none; border: none; box-shadow: none; }
 
 form ul.errorlist { color: #e26f80; }
-.game-content form.change-kingdom {}
-.game-content form.change-kingdom .change-kingdom-heading { line-height: 20px; }
+.game-content form.change-kingdom { border-top-right-radius:2em; border-bottom-right-radius:2em; }
+.game-content form.change-kingdom .change-kingdom-heading { line-height: 20px; padding-top: 10px; }
 .game-content form.change-kingdom .change-kingdom-form { color: #a9a9a9; }
 .game-content form.change-kingdom.change-kingdom-target { border: 0px; border-top: 2px solid; border-color: #555555; }
 .game-content form.change-kingdom .change-kingdom-nav a { width: 75px;  background: 400000;  border-color: none;  border-radius: 4px;  color: #fff; }
@@ -149,6 +149,7 @@ div.uploader span.filename, div.uploader span.action { }
 .game-content form.change-kingdom #royal-commands table tbody td, .game-content form.change-kingdom #royal-commands input[type=text] { font-size: 13px; font-weight: normal; }
 .game-content form.change-kingdom #royal-commands .button-link { line-height: 20px; }
 .game-content form.change-kingdom.change-kingdom-target #change-kingdom-button { height: 25px; top: 0; right: 0; }
+#change-kingdom-button { height: 25px; width: auto; }
 
 /* Game-Header */
 .game-header { height: 30px; }
