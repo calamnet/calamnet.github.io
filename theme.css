@@ -257,3 +257,5 @@ body.wysiwyg { color: #fff; background: #3a3830; font-size: 12px !important; }
 td#inline-hostility-meter { text-align: left; text-shadow: none; font-weight: normal; }
 
 div#throne-game-message { display: none; }
+
+div.selector select { font-family: Arial, sans-serif; }
