@@ -389,7 +389,7 @@ h3 {
     font-size: 14px;
     /* colors */
     border-color: #555555;
-    background: #d7d7d7; /* Old browsers */
+    background: #400000; /* Old browsers */
 }
 
 #resource-bar thead {
@@ -440,11 +440,9 @@ h3 {
     border: 2px solid;
     border-left: 0px;
     border-right: 0px;
-    /* internal styling - padding etc. */
-    /* colors */
     border-color: #181818;
     color: #fff;
-    background: rgb(86, 83, 74); /* Old browsers */
+    background: #400000; /* Old browsers */
 
 }
 
