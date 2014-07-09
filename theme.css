@@ -14,6 +14,8 @@ body {
     position: absolute;
 }
 
+#header { background:  #400000; height:  80px; width: 100%; margin: 0; padding: 20px 0; }
+
 .navigation {
 
     /* border styling */
