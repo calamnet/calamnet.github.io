@@ -90,11 +90,10 @@ h3 { font-size: 1em; }
 #game-navigation a:hover { box-shadow: none; }
 
 /* Resource Bar */
-#resource-bar { border: 2px solid; border-radius: 2px; border-color: #555555; background: #400000; }
+#resource-bar { background: #400000; }
 #resource-bar thead { background: #3a3830; }
 #resource-bar thead th { font-weight: normal; }
-#resource-bar tbody th,
-#resource-bar tbody td { width: 98px; border-right: 1px inset #444444; border-bottom: 1px inset #444444; padding: 3px 6px 3px 6px; background: transparent; font-size: 11px !important; font-weight: lighter; text-align: right; color: #a9a9a9; }
+#resource-bar tbody th, #resource-bar tbody td { width: 98px; border-right: 1px inset #444444; border-bottom: 1px inset #444444; padding: 3px 6px 3px 6px; background: transparent; font-size: 11px !important; font-weight: lighter; text-align: right; color: #a9a9a9; }
 #resource-bar tbody th { font-size: 12px !important; font-weight: bolder; }
 #resource-bar thead th { width: 98px; border-right: 1px inset #141413; border-bottom: 1px inset #141413; background: transparent; }
 #resource-bar .positive { color: #8FA94A; }
@@ -111,7 +110,6 @@ h3 { font-size: 1em; }
 .game-content tbody tr.sub-total { background: none; }
 .game-content tr.sub-total td { border-top: 2px solid #B9B9B9; padding-bottom: 25px; }
 .game-content table.schedule { font-size:0.8em; }
-
 .game-content form, .game-content h2 { color: #fff; background: #400000; line-height: 20px; }
 .game-content h3 { color: #fff; }
 .game-content form { font-size: 12px !important; font-weight: bolder; background: rgb(86, 83, 74); }
