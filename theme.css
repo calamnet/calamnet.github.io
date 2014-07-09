@@ -108,6 +108,8 @@ h3 { font-size: 1em; }
 #resource-bar thead th { font-weight: normal; padding: 3px 0; }
 #resource-bar tbody th, #resource-bar tbody td { width: 98px; border-right: 1px inset #444444; border-bottom: 1px inset #444444; padding: 3px 6px 3px 6px; background: transparent; font-size: 11px !important; font-weight: lighter; text-align: right; color: #fff; }
 #resource-bar tbody th { font-size: 12px !important; font-weight: bolder; }
+#resource-bar tbody th:first-child { border-bottom-left-radius:4px;  }
+#resource-bar tbody th:last-child { border-bottom-right-radius:4px;  }
 #resource-bar thead th { width: 98px; border-right: 1px inset #141413; border-bottom: 1px inset #141413; background: transparent; }
 #resource-bar .positive { color: #8FA94A; }
 #resource-bar .negative { color: #d0aeae; }
