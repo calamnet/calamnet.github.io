@@ -11,8 +11,8 @@ body {
     display:none;
 }
 
-#header { background:  #400000; height:  25px; width: 100%; margin: 0; padding: 10px 0; }
-#header-navigation { left: 20px;}
+#header { background:  #400000; height:  auto; width: 100%; margin: 0; padding: 10px 0; }
+#header-navigation { left: 20px; top: 0;}
 #header-navigation div { margin: 0 !important; }
 
 .navigation {
