@@ -96,13 +96,13 @@ h3 { font-size: 1em; }
 .error { color: #e55700; }
 
 #game-navigation { background: #44851E; border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
-#game-navigation .current-date { padding: 5px 0px; text-shadow: none; border: none; border-radius: 4px; border-color: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; background: #2e2e2e; }
+#game-navigation .current-date { padding: 5px 0px; text-shadow: none; border: none; border-radius: 4px; border-color: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; background: #747474; }
 #game-navigation a { line-height: 0.6em; color: #fff; }
 #game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Resource Bar */
 #resource-bar { background: #44851E; width: 1000px; }
-#resource-bar thead { background: #2e2e2e; }
+#resource-bar thead { background: #747474; }
 #resource-bar thead th { font-weight: normal; }
 #resource-bar tbody th, #resource-bar tbody td { width: 98px; border-right: 1px inset #444444; border-bottom: 1px inset #444444; padding: 3px 6px 3px 6px; background: transparent; font-size: 11px !important; font-weight: lighter; text-align: right; color: #fff; }
 #resource-bar tbody th { font-size: 12px !important; font-weight: bolder; }
@@ -133,7 +133,7 @@ form ul.errorlist { color: #e26f80; }
 .game-content form.change-kingdom.change-kingdom-target { border: 0px; border-top: 2px solid; border-color: #555555; }
 .game-content form.change-kingdom .change-kingdom-nav a { width: 75px;  background: 44851E;  border-color: none;  border-radius: 4px;  color: #fff; }
 
-input[type=text], form textarea, form input[type=text], form input[type=password] { border-width: 1px; border-color: #d7d7d7; padding-left: 3px; text-align: left; color: #fff; background: #2e2e2e; }
+input[type=text], form textarea, form input[type=text], form input[type=password] { border-width: 1px; border-color: #d7d7d7; padding-left: 3px; text-align: left; color: #fff; background: #747474; }
 
 form input[type=text], form input[type=password] { height: 18px; }
 form .errorlist { font-size: 12px !important; }
@@ -233,7 +233,7 @@ table.mail-view td.formatted-text { background: rgb(86, 83, 74); }
 
 div.wysiwyg { border: 1px solid #999; padding: 5px; background: rgb(86, 83, 74); }
 div.wysiwyg ul.toolbar li { background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px; border: 1px outset #83817d; }
-body.wysiwyg { color: #fff; background: #2e2e2e; font-size: 12px !important; }
+body.wysiwyg { color: #fff; background: #747474; font-size: 12px !important; }
 
 #bookmark-header { background-image: url(./images/gold_star.png); background-repeat: no-repeat; background-position: center 3px; }
 #bookmark-header:hover, #bookmark-header.selected { background-color: #494432; }
