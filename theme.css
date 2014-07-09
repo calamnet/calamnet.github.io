@@ -393,12 +393,12 @@ form ul.errorlist {
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
-    font-size: 30px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 20px;
 }
 
 .game-content form.change-kingdom .change-kingdom-form {
-    font-size: 30px;
+    font-size: 18px;
     color: #a9a9a9;
 }
 
@@ -407,6 +407,7 @@ form ul.errorlist {
     border-top: 2px solid;
     border-color: #555555;
 }
+.game-content form.change-kingdom-nav { width: 75px; background: 400000; border-color: none; border-radius: 4px; color: #fff; }
 
 input[type=text],
 form textarea,
@@ -699,9 +700,7 @@ td.news-province-modification {
 .game-header
 {
     height: 30px;
-    border-top: 2px solid #6b6348;
-    border-bottom: 2px solid #6b6348;
-    background: #655e44; /* Old browsers */
+    background: #400000; /* Old browsers */
 }
 
 .game-header h1
