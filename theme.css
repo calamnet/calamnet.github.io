@@ -8,11 +8,11 @@ div#left-column { width: auto; }
 div#right-column { position: absolute; top: 0; right: 250px; }
 
 #header-logo { display:none; }
-#header { background:  #400000;  height:  40px;  width: 100%;  margin: 0 0 10px 0;  padding: 0;  position: relative; }
+#header { background:  #400000;  height:  41px;  width: 100%;  margin: 0 0 10px 0;  padding: 0;  position: relative; }
 #header-navigation { left: 20px;  top: 0;  padding: 0; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation div:hover { }
-#header-navigation a { display: inline-block;  padding: 13px;  margin: 0; border-right: none; text-decoration: none;  color: #fff; }
+#header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none;  color: #fff; }
 #header-navigation a:hover, #header-navigation a:active, #header-navigation a:focus { color: #000; background: #e5c40f;}
 
 /* Navigation */
