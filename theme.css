@@ -35,7 +35,7 @@ div#right-column { position: absolute; top: 0; right: 250px; }
 #account-header.selected { background-color: #494432; }
 #account-details { font-size: 12px !important;  line-height: 16px;  background-color: #494432; }
 #account-details .account-title { font-weight: bolder;  border-bottom: 1px solid #29261c; }
-#account-details .alert a { color: #ff771c; }
+#account-details .alert a { color: #fff; }
 #account-details a:hover { }
 #account-details .account-summary { border-bottom: 1px solid #29261c; }
 #account-details .account-signout { border-top: 1px solid #29261c;  font-weight: bold;  text-align: right; }
