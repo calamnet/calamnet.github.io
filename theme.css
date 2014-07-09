@@ -407,7 +407,7 @@ form ul.errorlist {
     border-top: 2px solid;
     border-color: #555555;
 }
-.game-content form.change-kingdom-nav { width: 75px; background: 400000; border-color: none; border-radius: 4px; color: #fff; }
+.game-content form.change-kingdom-nav a { width: 75px; background: 400000; border-color: none; border-radius: 4px; color: #fff; }
 
 input[type=text],
 form textarea,
@@ -708,16 +708,12 @@ td.news-province-modification {
     height: 22px;
     margin: 0px 1px;
     padding: 6px 4px 1px 4px;
-
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
-    
-    background: #c4bea9; /* Old browsers */
-    color: #000;
+    color: #fff;
 }
 
 .game-header a h1 {
-    background: #494432; /* Old browsers */
 }
 
 .game-header a h1:hover
@@ -725,10 +721,7 @@ td.news-province-modification {
     -moz-text-shadow: none;
     -webkit-text-shadow: none;
     text-shadow: none;
-    background: #29261c; /* Old browsers */
     color: #fff;
-    box-shadow: 0px 5px 3px -3px #fff;
-
 }
 
 .game-content {
@@ -738,8 +731,6 @@ td.news-province-modification {
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-
-
     /* colors */
     border-color: #555555;
 }
