@@ -41,7 +41,7 @@ h1 { font-size: 1.25em; }
 h2 { font-size: 1.1em; }
 h3 { font-size: 1em; }
 
-#footer { color: #4d5355;  font-size: 10px; }
+#footer { display: none; }
 
 /* Report This */
 .report-this { color: #c4a112;  background-color: #18100e; }
@@ -142,6 +142,7 @@ div.uploader span.filename, div.uploader span.action { }
 .game-content form tbody td { padding-right: 20px; font-size: 12px !important; text-align: center; }
 .game-content form tbody tr { border: none; }
 .game-content form tbody tr:nth-child(even) { background: rgb(48, 48, 48); }
+.game-content form.change-kingdom { margin:  0 0 10px 0; }
 .game-content form.change-kingdom #royal-commands { border-top: 2px dotted #000; }
 .game-content form.change-kingdom #royal-commands table { border-top: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
 .game-content form.change-kingdom #royal-commands table tbody td, .game-content form.change-kingdom #royal-commands input[type=text] { font-size: 13px; font-weight: normal; }
@@ -149,9 +150,9 @@ div.uploader span.filename, div.uploader span.action { }
 
 /* Game-Header */
 .game-header { height: 30px; }
-.game-header h1 { height: 22px; margin: 0px 1px; padding: 6px 8px; text-decoration: none;color: #fff; background: #400000; }
-.game-header a h1 { background: #230000; }
-.game-header a h1:hover { color: #fff;  background: #230000;  text-decoration: underline; }
+.game-header h1 { height: 22px; margin: 0px 1px; padding: 6px 8px 1px 8px; text-decoration: none;color: #fff; background: #400000; }
+.game-header a h1 { background: #671919; }
+.game-header a h1:hover { color: #fff;  background: #671919;  text-decoration: underline; }
 
 /* KINGDOM NEWS */
 .news-legend span.news-aid:before { content: url(./images/kingdom_news/aid_inline.png); }
