@@ -811,7 +811,7 @@ td.news-province-modification {
 table.mail-view td.formatted-text {
     background: rgb(86, 83, 74); /* Old browsers */
 }
-.game-content table.mail-view tr td.forum-moderator-buttons { width: 190px; }
+.game-content table.mail-view tr td.forum-moderator-buttons { padding: 0; }
 
 div.wysiwyg {
     border: 1px solid #999;
