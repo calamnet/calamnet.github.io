@@ -210,8 +210,8 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .five-digit-input { width: 85px; }
 .six-digit-input { width: 100px; }
 
-table.two-column-stats th { width: 20%; }
-table.two-column-stats td { width: 30%; }
+table.two-column-stats th { width: 20% !important; }
+table.two-column-stats td { width: 30% !important; }
 
 /* GAME PREFERENCES */
 .game-content div.preference-box { background: rgb(86, 83, 74); }
