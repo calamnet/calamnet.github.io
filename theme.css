@@ -18,22 +18,12 @@ body {
 #header-navigation div { margin: 0 !important; }
 
 .navigation {
-
-    /* border styling */
-    
-
-    /* internal styling - padding etc. */
-
-    /* typography */
-    
     font-size: 16px;
     line-height: 18px;
     font-weight: normal;
     text-align: left;
     padding: 0; 
     margin: 0; 
-
-    /* colors */
     color: #fff;
 }
 .navigation a {
@@ -50,14 +40,9 @@ body {
     color: 000;
 }
 
-#header-navigation div {
-}
-
-#header-navigation div:hover {
-}
+#header-navigation div:hover {}
 
 #account-container {
-    
     font-size: 16px;
     top: 10px;
     position: absolute;
@@ -68,22 +53,9 @@ body {
     background: url(./images/anonymous_small.png) no-repeat top left;
     margin-top: -5px;
 }
-
-#account-header
-{
-    color: #edf2fd;
-}
-
-#account-header:hover
-{
-    background-color: #494432;
-}
-
-#account-header.selected
-{
-    background-color: #494432;
-}
-
+#account-header { color: #edf2fd; }
+#account-header:hover { background-color: #494432; }
+#account-header.selected { background-color: #494432; }
 #account-details
 {
     font-size: 12px;
@@ -96,12 +68,7 @@ body {
 {
     font-size: 18px;
     font-weight: bolder;
-    
     border-bottom: 1px solid #29261c;
-    -moz-box-shadow: 0px 2px 1px -1px #7b7354;
-    -webkit-box-shadow: 0px 2px 1px -1px #7b7354;
-    box-shadow: 0px 2px 1px -1px #7b7354;
-
 }
 
 #account-details .alert a {
@@ -117,52 +84,24 @@ body {
 #account-details .account-summary {
     /* internal styling - padding etc. */
     border-bottom: 1px solid #29261c;
-    -moz-box-shadow: 0px 2px 1px -1px #7b7354;
-    -webkit-box-shadow: 0px 2px 1px -1px #7b7354;
-    box-shadow: 0px 2px 1px -1px #7b7354;
-
 }
 
 #account-details .account-signout
 {
     border-top: 1px solid #29261c;
-    -moz-box-shadow: inset 0px 2px 1px -1px #7b7354;
-    -webkit-box-shadow: inset 0px 2px 1px -1px #7b7354;
-    box-shadow: inset 0px 2px 1px -1px #7b7354;
     font-weight: bold;
     text-align: right;
-
 }
 
 #middle {
 }
 
-a {
-    color: #e5c40f;
-    text-decoration: none;
-}
+a, a:link, a:visited { color: #e5c40f; text-decoration: none; } 
+a.highlighted { color: #E68910; }
+a.info-link { font-size: 14px; }
+a:focus, a:hover, a:active { color: #fff; }
 
-a.highlighted {
-    color: #E68910;
-}
-
-a.info-link {
-    
-    font-size: 14px;
-}
-
-a:focus,
-a:hover {
-    color: #fff;
-}
-
-h1,
-h2,
-h3 {
-    
-    font-weight: 700;
-    color: #fff;
-}
+h1, h2, h3 { font-weight: 700; color: #fff; }
 
 #footer {
     color: #4d5355;
@@ -201,8 +140,6 @@ h3 {
     /* border styling */
     border: 2px solid;
     border-radius: 12px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
     /* colors */
     border-color: #555555;
     background: #494432; /* Old browsers */
@@ -282,17 +219,8 @@ h3 {
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
-
-    /* border styling */
     border: 1px solid;
     border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-
-
-    /* internal styling - padding etc. */
-    /* typography */
-    
     font-size: 20px;
 }
 
@@ -347,18 +275,12 @@ h3 {
 #game-navigation .current-date {
 
     padding: 11px 0px;
-
-    
     font-size: 16px;
     text-shadow: none;
 
     /* border styling */
     border: none;
     border-radius: 5px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
-
     border-color: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -381,8 +303,6 @@ h3 {
     /* border styling */
     border: 2px solid;
     border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
     /* internal styling - padding etc. */
     /* typography */
     
@@ -437,13 +357,10 @@ h3 {
 
 .game-content form,
 .game-content h2 {
-    border: 2px solid;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: #181818;
     color: #fff;
     background: #400000; /* Old browsers */
-
+    font-size: 18px;
+    line-height: 20px;
 }
 
 .game-content h3 {
