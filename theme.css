@@ -37,6 +37,9 @@ a.info-link { font-size: 12px !important; }
 a:focus, a:hover, a:active { color: #fff; }
 
 h1, h2, h3 { font-weight: 700;  color: #fff; }
+h1 { font-size: 1.25em; }
+h2 { font-size: 1.1em; }
+h3 { font-size: 1em; }
 
 #footer { color: #4d5355;  font-size: 10px; }
 
