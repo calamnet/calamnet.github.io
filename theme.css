@@ -104,7 +104,7 @@ h3 { font-size: 1em; }
 #resource-bar { background: #44851E; width: 1000px; }
 #resource-bar thead { background: #2e2e2e; }
 #resource-bar thead th { font-weight: normal; }
-#resource-bar tbody th, #resource-bar tbody td { width: 98px; border-right: 1px inset #444444; border-bottom: 1px inset #444444; padding: 3px 6px 3px 6px; background: transparent; font-size: 11px !important; font-weight: lighter; text-align: right; color: #a9a9a9; }
+#resource-bar tbody th, #resource-bar tbody td { width: 98px; border-right: 1px inset #444444; border-bottom: 1px inset #444444; padding: 3px 6px 3px 6px; background: transparent; font-size: 11px !important; font-weight: lighter; text-align: right; color: #fff; }
 #resource-bar tbody th { font-size: 12px !important; font-weight: bolder; }
 #resource-bar thead th { width: 98px; border-right: 1px inset #141413; border-bottom: 1px inset #141413; background: transparent; }
 #resource-bar .positive { color: #8FA94A; }
