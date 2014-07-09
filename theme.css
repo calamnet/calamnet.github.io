@@ -110,7 +110,7 @@ h3 { font-size: 1em; }
 #resource-bar tbody th { font-size: 12px !important; font-weight: bolder; }
 #resource-bar tbody th:first-child { border-bottom-left-radius:4px;  }
 #resource-bar tbody th:last-child { border-bottom-right-radius:4px;  }
-#resource-bar thead th { width: 98px; border-right: 1px inset #141413; border-bottom: 1px inset #141413; background: transparent; }
+#resource-bar thead th { width: 98px; border-right: 1px inset #141413; background: transparent; }
 #resource-bar .positive { color: #8FA94A; }
 #resource-bar .negative { color: #d0aeae; }
 
