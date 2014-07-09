@@ -32,7 +32,8 @@ body {
 }
 .navigation a {
     display: inline-block;
-    padding: 0 4px;
+    padding: 0 8px;
+    margin: 0; 
     border-right: 1px solid #fff;
     text-decoration: none;
     color: #fff;
