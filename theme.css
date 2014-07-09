@@ -74,7 +74,8 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .divider-small { background-image: url(./images/divider-small.png); background-repeat: no-repeat; background-position: top center; }
 
 /* Lobby-Panel */
-.lobby-panel table th { }
+.lobby-panel table { margin: 0; }
+.lobby-panel table th{ }
 .lobby-panel table td { }
 .lobby-panel h2 { font-size: 24px;  line-height: 30px; }
 .age-changes h3, .campaigns h3 { line-height: 24px; }
