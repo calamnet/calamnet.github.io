@@ -425,8 +425,8 @@ form input[type=password] {
 
 form input[type=text],
 form input[type=password] {
-    height: 30px;
-    font-size: 30px;
+    height: 18px;
+    font-size: 20px;
 }
 
 form .errorlist {
@@ -440,13 +440,6 @@ form input[type=submit],
     /* border styling */
     border: 1px solid;
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-
-
-    /* internal styling - padding etc. */
-    /* typography */
-    
     font-size: 20px;
     font-weight: normal;
 
@@ -459,13 +452,11 @@ form input[type=submit],
 
 form input[type=submit]:hover,
 .button-link:hover {
-    /* colors */
     background: #c99a1a;
 }
 
 form input[type=submit]:active,
 .button-link:active {
-    /* colors */
     background: #ba8500;
 }
 
@@ -627,8 +618,7 @@ td.news-province-modification {
 }
 
 .provinces-legend .invitations {
-    
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .dip-status
