@@ -103,7 +103,7 @@ h3 { font-size: 1em; }
 #game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Resource Bar */
-#resource-bar { background: #5C1D1A; width: 725px; border-radius: 4px; }
+#resource-bar { width: 725px; }
 #resource-bar thead { background: #747474; }
 #resource-bar thead th { font-weight: normal; padding: 3px 0; }
 #resource-bar tbody th, #resource-bar tbody td { width: 98px; border-right: 1px inset #444444; border-bottom: 1px inset #444444; padding: 3px 6px 3px 6px; background: transparent; font-size: 11px !important; font-weight: lighter; text-align: right; color: #fff; }
