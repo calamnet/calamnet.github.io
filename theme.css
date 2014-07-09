@@ -2,7 +2,7 @@
 
 body { color: #fff; font-family: Arial, Helvetica, sans-serif; 
 background-color: #000;
-background-image: url("http://s3.postimg.org/4tl9jvlep/segal.png"); 
+background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2013/08/05/128155/78875a0a114f9ac4ae451b55c96904b4.jpg"); 
 background-repeat: no-repeat;
 background-size: cover;font-size: 14px; }
 
@@ -13,21 +13,21 @@ div#left-column { width: auto; }
 div#right-column { position: absolute; top: 0; right: 250px; }
 
 #header-logo { display:none; }
-#header { background:  #44851E;  height:  41px;  width: 100%;  margin: 0 0 10px 0;  padding: 0;  position: relative; }
+#header { background:  #5C1D1A;  height:  41px;  width: 100%;  margin: 0 0 10px 0;  padding: 0;  position: relative; }
 #header-navigation { left: 20px;  top: 0;  padding: 0; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation div:hover { }
 #header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none;  color: #fff; }
-#header-navigation a:hover, #header-navigation a:active, #header-navigation a:focus { color: #000; background: #e5c40f;}
+#header-navigation a:hover, #header-navigation a:active, #header-navigation a:focus { color: #000; background: #4C3A2C;}
 
 /* Navigation */
-.navigation { font-weight: normal;  text-align: left;  padding: 0;   margin: 0;   color: #fff; }
-.navigation a { display: inline-block;  padding: 8px;  margin: 0;   border-right: none;  text-decoration: none;  color: #fff; }
+.navigation { font-weight: normal;  text-align: left; padding: 0; margin: 0; color: #fff; }
+.navigation a { display: inline-block;  padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 .navigation a:hover  { color: 000; }
 
 /* Account */
 #account-container { top: 10px;  position: absolute;  right: 250px;  width: 250px; }
-#account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left;  margin-top: -5px; }
+#account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
 #account-header { color: #edf2fd; }
 #account-header:hover { background-color: #494432; }
 #account-header.selected { background-color: #494432; }
@@ -41,7 +41,7 @@ div#right-column { position: absolute; top: 0; right: 250px; }
 /* Middle */
 #middle { }
 
-a, a:link, a:visited { color: #e5c40f;  text-decoration: none; } 
+a, a:link, a:visited { color: #4C3A2C;  text-decoration: none; } 
 a.highlighted { color: #E68910; }
 a.info-link { font-size: 12px !important; }
 a:focus, a:hover, a:active { color: #fff; }
@@ -95,13 +95,13 @@ h3 { font-size: 1em; }
 .warning { color: #e55700; }
 .error { color: #e55700; }
 
-#game-navigation { background: #44851E; border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
+#game-navigation { background: #5C1D1A; border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
 #game-navigation .current-date { padding: 5px 0px; text-shadow: none; border: none; border-radius: 4px; border-color: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; background: #747474; }
 #game-navigation a { line-height: 0.6em; color: #fff; }
 #game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Resource Bar */
-#resource-bar { background: #44851E; width: 725px; border-radius: 4px; }
+#resource-bar { background: #5C1D1A; width: 725px; border-radius: 4px; }
 #resource-bar thead { background: #747474; }
 #resource-bar thead th { font-weight: normal; }
 #resource-bar tbody th, #resource-bar tbody td { width: 98px; border-right: 1px inset #444444; border-bottom: 1px inset #444444; padding: 3px 6px 3px 6px; background: transparent; font-size: 11px !important; font-weight: lighter; text-align: right; color: #fff; }
@@ -122,7 +122,7 @@ h3 { font-size: 1em; }
 .game-content tbody tr.sub-total { background: none; }
 .game-content tr.sub-total td { border-top: 2px solid #B9B9B9; padding-bottom: 25px; }
 .game-content table.schedule { font-size:0.8em; }
-.game-content form, .game-content h2 { color: #fff; background: #44851E; line-height: 20px; }
+.game-content form, .game-content h2 { color: #fff; background: #5C1D1A; line-height: 20px; }
 .game-content h3 { color: #fff; }
 .game-content form { font-size: 12px !important; font-weight: bolder; background: rgb(86, 83, 74); }
 .game-content form.no-visible-fields { width: auto; background: none; border: none; box-shadow: none; }
@@ -132,7 +132,7 @@ form ul.errorlist { color: #e26f80; }
 .game-content form.change-kingdom .change-kingdom-heading { line-height: 20px; padding-top: 10px; }
 .game-content form.change-kingdom .change-kingdom-form { color: #a9a9a9; right: 40px; }
 .game-content form.change-kingdom.change-kingdom-target { border: 0px; border-top: 2px solid; border-color: #555555; }
-.game-content form.change-kingdom .change-kingdom-nav a { width: 75px;  background: 44851E;  border-color: none;  border-radius: 4px;  color: #fff; }
+.game-content form.change-kingdom .change-kingdom-nav a { width: 75px;  background: 5C1D1A;  border-color: none;  border-radius: 4px;  color: #fff; }
 
 input[type=text], form textarea, form input[type=text], form input[type=password] { border-width: 1px; border-color: #d7d7d7; padding-left: 3px; text-align: left; color: #fff; background: #747474; }
 
@@ -162,7 +162,7 @@ div.uploader span.filename, div.uploader span.action { }
 
 /* Game-Header */
 .game-header { height: 30px; }
-.game-header h1 { border-top-left-radius:4px; border-top-right-radius:4px; height: 22px; margin: 0px 1px; padding: 6px 8px 1px 8px; text-decoration: none;color: #fff; background: #44851E; }
+.game-header h1 { border-top-left-radius:4px; border-top-right-radius:4px; height: 22px; margin: 0px 1px; padding: 6px 8px 1px 8px; text-decoration: none;color: #fff; background: #5C1D1A; }
 .game-header a h1 { background: #58AB27; }
 .game-header a h1:hover { color: #fff;  background: #58AB27;  text-decoration: underline; }
 
@@ -258,7 +258,7 @@ body.wysiwyg { color: #fff; background: #747474; font-size: 12px !important; }
 .fails-criteria div.full { background-color: #CD4331; }
 
 .recruitment-header .rank-bar, .campaigns .rank-bar { background-color: #867721; }
-.recruitment-header .selected-rank, .campaigns .selected-rank { background-color: #E5C40F; }
+.recruitment-header .selected-rank, .campaigns .selected-rank { background-color: #4C3A2C; }
 
 .campaigns .campaign-message-intro { font-weight: 200; color: white; text-shadow: -1px 1px 2px black; }
 
