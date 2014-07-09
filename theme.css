@@ -151,7 +151,7 @@ div.uploader span.filename, div.uploader span.action { }
 
 /* Game-Header */
 .game-header { height: 30px; }
-.game-header h1 { height: 22px; margin: 0px 1px; padding: 6px 8px 1px 8px; text-decoration: none;color: #fff; background: #400000; }
+.game-header h1 { border-top-left-radius:4px; border-top-right-radius:4px; height: 22px; margin: 0px 1px; padding: 6px 8px 1px 8px; text-decoration: none;color: #fff; background: #400000; }
 .game-header a h1 { background: #671919; }
 .game-header a h1:hover { color: #fff;  background: #671919;  text-decoration: underline; }
 
