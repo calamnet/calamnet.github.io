@@ -105,7 +105,7 @@ h3 { font-size: 1em; }
 /* Resource Bar */
 #resource-bar { width: 725px; }
 #resource-bar thead { background: #747474; }
-#resource-bar thead th { font-weight: normal; padding: 3px 0; width: 98px; border-right: 1px inset #141413; background: transparent; }
+#resource-bar thead th { font-weight: normal; padding: 3px 0; width: 98px; border-right: 1px inset #141413; }
 #resource-bar tbody th, #resource-bar tbody td { background: #5C1D1A; width: 98px; border-right: 1px inset #444444; padding: 3px 6px 3px 6px; background: transparent; font-size: 11px !important; font-weight: lighter; text-align: right; color: #fff; }
 #resource-bar tbody th { font-size: 12px !important; font-weight: bolder; }
 #resource-bar tbody th:first-child { border-bottom-left-radius:4px;  }
