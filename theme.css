@@ -16,7 +16,7 @@ body {
 .navigation {
 
     /* border styling */
-
+    
 
     /* internal styling - padding etc. */
 
@@ -31,8 +31,11 @@ body {
     color: #fff;
 }
 .navigation a {
+    display: inline-block;
+    padding: 0 4px;
+    border-right: 1px solid #fff;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .navigation a:hover  {
