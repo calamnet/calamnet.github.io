@@ -8,10 +8,7 @@ body {
 
 
 #header-logo {
-    background: url(./images/logo_header.png) no-repeat top left;
-    width: 243px;
-    height: 49px;
-    position: absolute;
+    display:none;
 }
 
 #header { background:  #400000; height:  80px; width: 100%; margin: 0; padding: 20px 0; }
@@ -19,24 +16,19 @@ body {
 .navigation {
 
     /* border styling */
-    border: 2px solid;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
+
 
     /* internal styling - padding etc. */
 
     /* typography */
     font-family: Arial, sans-serif;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 18px;
     font-weight: normal;
     text-align: left;
 
     /* colors */
-    border-color: #555555;
-    
-    background: #ccc; /* Old browsers */
+    color: #fff;
 }
 .navigation a {
     text-decoration: none;
