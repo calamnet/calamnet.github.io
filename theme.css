@@ -89,12 +89,12 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .campaigns .basic-details .campaign-summary h2 { }
 .campaigns .basic-details .campaign-summary .highlight-keyword { }
 
-.good { color: #90ee90; }
-.bad { color: #EC7566; }
-.message { font-weight: bold; line-height: 20px; border: 1px solid; border-radius: 8px; }
-.good.message { color: #fefff7; border-color: #feffea; background: #718d16; }
-.bad.message { color: #FFFCF7; border-color: #feffea; background: #521802; }
-.info.message { color: #FFFCF7; border-color: #feffea; background: #D09734; }
+.good { color: #5C1D1A; }
+.bad { color: #5C1D1A; }
+.message { font-weight: bold; line-height: 20px; border: 1px solid; border-radius: 4px; }
+.good.message { color: #fefff7; border-color: #feffea; background: #5C1D1A; }
+.bad.message { color: #FFFCF7; border-color: #feffea; background: #5C1D1A; }
+.info.message { color: #FFFCF7; border-color: #feffea; background: #5C1D1A; }
 
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
