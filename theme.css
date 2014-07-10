@@ -67,7 +67,8 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .overlay .close { background-image:url("./images/overlay-close.png"); }
 
 .age-changes, .lobby-panel, .campaigns { background: #c1c1c1; color: #747474; }
-.lobby-panel h1 { font-size: 24px; line-height: 26px; color: #747474; font-weight: 700; }
+.lobby-panel h1 { font-size: 24px; line-height: 26px; font-weight: 700; }
+.lobby-panel h1 a { color: #747474; }
 .lobby-panel h1 a:hover { color: #000; }
 
 .divider { background-image: url(./images/divider.png); background-repeat: no-repeat; background-position: top center; }
