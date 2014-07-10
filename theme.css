@@ -163,7 +163,7 @@ input[type=text], form textarea, form input[type=text], form input[type=password
 
 form input[type=text], form input[type=password] { height: 18px; }
 form .errorlist { font-size: 12px !important; }
-form input[type=submit], .button-link { border: 1px solid; border-radius: 4px; font-weight: normal; background: #5C1D1A; color: #fff; margin-top: 10px; }
+form input[type=submit], .button-link { border: 1px solid; border-radius: 4px; font-weight: normal; background: #5C1D1A; color: #fff !important; margin-top: 10px; }
 form input[type=submit]:hover, .button-link:hover { background: #c99a1a; }
 form input[type=submit]:active, .button-link:active { background: #ba8500; }
 
