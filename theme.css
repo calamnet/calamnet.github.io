@@ -209,7 +209,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .unused-slot { color: #B0B0B0; }
 .protected, .intel-fresh { color: #99ffbb; }
 .monarch, .at-war, .intel-rotten { color: #F28585; }
-.chamberlain, .intel-stale { color: #FFC583; }
+.chamberlain, .intel-stale { color: #5C1D1A; }
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em;  color: #B0B0B0; }
 
