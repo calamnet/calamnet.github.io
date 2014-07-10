@@ -96,6 +96,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .good.message { color: #fefff7; border-color: #feffea; background: #5C1D1A; }
 .bad.message { color: #FFFCF7; border-color: #feffea; background: #5C1D1A; }
 .info.message { color: #FFFCF7; border-color: #feffea; background: #5C1D1A; }
+.good.message a, .bad.message a, .info.message a { color: #fff; }
 
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
