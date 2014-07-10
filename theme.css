@@ -18,7 +18,7 @@ div#right-column { position: absolute; top: 50px; left: 860px; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation div:hover { }
 #header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none;  color: #fff; }
-#header-navigation a:hover, #header-navigation a:active, #header-navigation a:focus { color: #000; background: #4C3A2C;}
+#header-navigation a:hover, #header-navigation a:active, #header-navigation a:focus { color: #fff; background: #4C3A2C;}
 
 /* Navigation */
 .navigation { font-weight: normal;  text-align: left; padding: 0; margin: 0; color: #fff; }
