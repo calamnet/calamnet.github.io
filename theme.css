@@ -264,6 +264,7 @@ table.mail-view td.formatted-text { background: rgb(86, 83, 74); }
 .pagination { background:  #c1c1c1; color: #747474; }
 
 div.wysiwyg { border: 1px solid #999; padding: 5px; background: rgb(86, 83, 74); }
+div.wysiwyg input, div.wysiwyg textarea { background: #fff; color: #000; }
 div.wysiwyg ul.toolbar li { background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px; border: 1px outset #83817d; }
 body.wysiwyg { color: #fff; background: #747474; font-size: 12px !important; }
 
