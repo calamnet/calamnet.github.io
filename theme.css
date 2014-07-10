@@ -92,7 +92,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 
 .good { color: #663311; }
 .bad { color: #663311; }
-.message { font-weight: bold; line-height: 20px; border: 1px solid; border-radius: 4px; }
+.message, .messages { font-weight: bold; line-height: 20px; border: 1px solid; border-radius: 4px; }
 .good.message, .bad.message, .info.message, .messages { color: #000; background: #ddaa77; }
 .good.message a, .bad.message a, .info.message a, .messages a { color: #000 !imoprtant; }
 
