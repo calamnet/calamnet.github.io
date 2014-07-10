@@ -146,7 +146,7 @@ p.advice-message, p.warning { background: #c1c1c1; padding: 20px; width: 450px; 
 .game-content form.no-visible-fields { width: auto; background: none; border: none; box-shadow: none; }
 .game-content .page-summary { width: 685px; padding: 20px; margin: 10px 0; border-radius: 4px; background: #c1c1c1; }
 .game-content a { text-decoration:  underline !important; }
-.game-content div#throne-monarch-message p { color: #000; background: #ddaa77; }
+.game-content #throne-monarch-message p { color: #000; background: #ddaa77 !important; }
 
 form ul.errorlist { color: #e26f80; }
 .game-content form.change-kingdom { border-top-right-radius:4px; border-bottom-right-radius:4px; background: #5C1D1A; color: #fff; }
