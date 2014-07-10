@@ -310,4 +310,4 @@ div#throne-game-message { display: none; }
 
 div.selector select { font-family: Arial, sans-serif; }
 div#aid-trade-blockade { background: #c1c1c1; color: #000; }
-labe[for="id_spell"] { width: 150px; }
+label[for="id_spell"] { width: 150px; }
