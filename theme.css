@@ -296,3 +296,4 @@ td#inline-hostility-meter { text-align: left; text-shadow: none; font-weight: no
 div#throne-game-message { display: none; }
 
 div.selector select { font-family: Arial, sans-serif; }
+div#aid-trade-blockade { background: #c1c1c1; color: #747474; }
