@@ -74,16 +74,17 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .divider-small { background-image: url(./images/divider-small.png); background-repeat: no-repeat; background-position: top center; }
 
 /* Lobby-Panel */
-.lobby-panel { border-radius: 4px; width: 450px; margin: 0; padding: 0 20px; }
+.lobby-panel { border-radius: 4px; width: 450px; margin: 0; padding: 20px; }
 .lobby-panel table { margin: 0; }
 .lobby-panel table th{ }
 .lobby-panel table td { }
 .lobby-panel h2 { font-size: 24px;  line-height: 30px; }
 .lobby-panel a { color: #fff !important; }
-.lobby-panel p:first-child { margin: 10px 0; }
+.lobby-panel p:first-child { margin: 0 0 10px 0; }
 .age-changes h3, .campaigns h3 { line-height: 24px; }
 .recruitment-campaigns h1, .race-changes h1, .trait-changes h1 { font-size: 40px; line-height: 45px; }
 .race-changes h2, .trait-changes h2 { font-size: 30px; }
+.page-summary { width: 450px; }
 
 .campaigns .basic-details .campaign-summary h2 { }
 .campaigns .basic-details .campaign-summary .highlight-keyword { }
