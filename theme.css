@@ -10,7 +10,7 @@ background-size: cover;font-size: 14px; }
 #inner-container { margin-top: 0;  margin-right: 0;  margin-left: 0; width: auto; }
 
 div#left-column { width: auto; }
-div#right-column {  }
+div#right-column { position: absolute; top: 250px; left: 1000px; }
 
 #header-logo { display:none; }
 #header { background:  #5C1D1A;  height:  41px;  width: 100%;  margin: 0 0 10px 0;  padding: 0;  position: relative; }
