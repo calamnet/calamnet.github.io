@@ -157,6 +157,7 @@ form ul.errorlist { color: #e26f80; }
 .game-content form.change-kingdom .change-kingdom-form { color: #a9a9a9; right: 40px; }
 .game-content form.change-kingdom.change-kingdom-target { margin-top: 20px; border-radius: 4px; background: #5C1D1A; color: #fff; margin-bottom: 0 !important; padding: 20px 0; }
 .game-content form.change-kingdom .change-kingdom-nav a { width: 75px;  background: #5C1D1A;  border-color: none;  border-radius: 4px;  color: #fff; }
+.game-content form.change-kingdom a.button-link { background: #fff; color: #747474; }
 
 input[type=text], form textarea, form input[type=text], form input[type=password] { padding-left: 3px; text-align: left; color: #fff; background: #747474; }
 
