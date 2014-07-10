@@ -104,7 +104,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 
 .advice-message { color: #747474; }
 p.advice-message, p.warning { background: #c1c1c1; padding: 20px; width: 450px; font-weight: bold; margin: 10px 0; border-radius: 4px; }
-.game-content p.advice-message, .game-content p.warning { width: 685px; background: #c1c1c1; padding: 20px; border-radius: 0; font-weight: bold; margin: 10px 0; }
+.game-content p.advice-message, .game-content p.warning { width: 685px; background: #c1c1c1; padding: 20px; border-radius: 0; font-weight: bold; margin: 0 0 10px 0; }
 .warning { color: #e55700; }
 .error { color: #e55700; }
 
