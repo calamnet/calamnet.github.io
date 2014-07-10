@@ -2,7 +2,7 @@
 
 body { color: #fff; font-family: Arial, Helvetica, sans-serif; 
 background-color: #000;
-background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2013/08/05/128155/78875a0a114f9ac4ae451b55c96904b4.jpg"); 
+background-image: url(./images/background.jpg); 
 background-repeat: no-repeat;
 background-size: cover;font-size: 14px; }
 
