@@ -141,7 +141,7 @@ p.advice-message, p.warning { background: #c1c1c1; padding: 20px; width: 450px; 
 .game-content h2, .game-content form h2 { padding: 10px 0; border-top-right-radius:4px; border-top-left-radius:4px; margin: 20px 0 0 0; }
 .game-content h3 { color: #fff; }
 .game-content p { background: #c1c1c1; margin: 0; padding: 20px; color: #000; }
-.game-content p:empty { height: 0; padding: 0; margin: 0; width: 0; display: none; }
+.game-content p:empty { height: 0; padding: 0 !important; margin: 0; width: 0; display: none; }
 .game-content p:first-child { border-top-right-radius:4px; }
 .game-content form { font-size: 12px !important; font-weight: bolder; }
 .game-content form.no-visible-fields { width: auto; background: none; border: none; box-shadow: none; }
