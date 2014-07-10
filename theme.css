@@ -260,7 +260,7 @@ table.two-column-stats td { width: 30% !important; }
 table.mail-view { width: 725px !important; }
 table.mail-view th {}
 table.mail-view th a { font-size: 1em; }
-table.mail-view td.formatted-text { background: rgb(86, 83, 74); }
+table.mail-view td.formatted-text { background: #c1c1c1); }
 table.mail-view tbody td { padding-bottom: 10px; }
 .game-content table.mail-view tr td.forum-moderator-buttons { padding: 10px 0 0 0; }
 .pagination { background:  #c1c1c1; color: #000; }
