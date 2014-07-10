@@ -259,8 +259,8 @@ table.two-column-stats td { width: 30% !important; }
 .game-content div.preference-box.disabled { opacity: 0.5; }
 .game-content table.applicant-view input[type="submit"], .game-content table.mail-view input[type="submit"], .game-content table.mail-view .button-link { font-size: 14px !important; }
 table.mail-view { width: 725px !important; }
-table.mail-view th {}
-table.mail-view th a { font-size: 1em; }
+table.mail-view th { vertical-align: bottom; }
+.game-content table.mail-view th a { font-size: 1em !important; color: #fff !important; }
 table.mail-view td.formatted-text { background: #c1c1c1); }
 table.mail-view tbody td { padding-bottom: 10px; }
 .game-content table.mail-view tr td.forum-moderator-buttons { padding: 10px 0 0 0; }
