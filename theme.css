@@ -187,6 +187,7 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 .game-header a h1:hover { color: #fff;  background: #5A3E32;  text-decoration: underline; }
 
 /* KINGDOM NEWS */
+.news-legend { background: #c1c1c1; color: #747474; }
 .news-legend span.news-aid:before { content: url(./images/kingdom_news/aid_inline.png); }
 .news-legend span.news-intra-kingdom-conflict:before { content: url(./images/kingdom_news/intra_kingdom_conflict_inline.png); }
 .news-legend span.news-actions-against-our-kingdom:before { content: url(./images/kingdom_news/actions_against_our_kingdom_inline.png); }
