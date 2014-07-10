@@ -93,10 +93,8 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .good { color: #663311; }
 .bad { color: #663311; }
 .message { font-weight: bold; line-height: 20px; border: 1px solid; border-radius: 4px; }
-.good.message { color: #000; background: #ddaa77; }
-.bad.message { color: #000; background: #ddaa77; }
-.info.message { color: #000; background: #ddaa77; }
-.good.message a, .bad.message a, .info.message a { color: #000 !imoprtant; }
+.good.message, .bad.message, .info.message, .messages { color: #000; background: #ddaa77; }
+.good.message a, .bad.message a, .info.message a, .messages a { color: #000 !imoprtant; }
 
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
