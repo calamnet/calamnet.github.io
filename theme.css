@@ -25,7 +25,7 @@ div#right-column { position: absolute; top: 50px; left: 860px; }
 .navigation a { display: inline-block;  padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 .navigation a:hover  { color: 000; }
 
-#game-navigation .navigation { background: #5C1D1A; border-radius:4px; }
+#game-navigation .navigation { background: #5C1D1A; border-radius:4px; opacity: 0.6; filter: alpha(opacity=60); /* For IE8 and earlier */}
 
 /* Account */
 #account-container { top: 10px;  position: absolute;  right: 500px;  width: 250px; }
