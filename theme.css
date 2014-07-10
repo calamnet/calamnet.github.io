@@ -160,7 +160,7 @@ form ul.errorlist { color: #e26f80; }
 .game-content form.change-kingdom .change-kingdom-nav a, .game-content form.change-kingdom .change-kingdom-nav a.button-link { width: 75px;  background: #c1c1c1 !important;  border-color: none;  border-radius: 4px;  color: #000 !important; }
 .game-content form.change-kingdom a.button-link { background: #fff; color: #000; }
 
-input[type=text], form textarea, form input[type=text], form input[type=password] { padding-left: 3px; text-align: left; color: #fff; background: #747474; }
+input[type=text], form textarea, form input[type=text], form input[type=password] { padding-left: 3px; text-align: left; color: #000; background: #fff; }
 
 form input[type=text], form input[type=password] { height: 18px; }
 form .errorlist { font-size: 12px !important; }
