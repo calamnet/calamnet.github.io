@@ -80,6 +80,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .lobby-panel table td { }
 .lobby-panel h2 { font-size: 24px;  line-height: 30px; }
 .lobby-panel a { color: #fff !important; }
+.lobby-panel+p { margin: 10px 0; }
 .age-changes h3, .campaigns h3 { line-height: 24px; }
 .recruitment-campaigns h1, .race-changes h1, .trait-changes h1 { font-size: 40px; line-height: 45px; }
 .race-changes h2, .trait-changes h2 { font-size: 30px; }
