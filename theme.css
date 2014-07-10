@@ -135,8 +135,9 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .game-content tr.sub-total td { border-top: 2px solid #B9B9B9; padding-bottom: 25px; }
 .game-content table.schedule { font-size:0.8em; }
 .game-content form, .game-content h2 { color: #fff; background: #5C1D1A; line-height: 20px; }
-.game-content h2 { padding: 10px 0; border-top-right-radius:4px; border-top-left-radius:4px; margin: 10px 0 0 0; }
+.game-content h2 { padding: 10px 0; border-top-right-radius:4px; border-top-left-radius:4px; margin: 8px 0 0 0; }
 .game-content h3 { color: #fff; }
+.game-content p { background: #c1c1c1; }
 .game-content form { font-size: 12px !important; font-weight: bolder; background: rgb(86, 83, 74); }
 .game-content form.no-visible-fields { width: auto; background: none; border: none; box-shadow: none; }
 
