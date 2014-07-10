@@ -131,7 +131,7 @@ p.advice-message, p.warning { background: #c1c1c1; padding: 20px; width: 450px; 
 .game-content tbody th { border-left: 6px ridge rgba(48, 48, 48, 0.4); }
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
-.game-content tbody td input { background: #fff; }
+.game-content tbody td input { background: #fff; color: #000; }
 .game-content tbody tr { border-bottom: 2px groove rgba(48, 48, 48, 0.4); border-top: 2px groove rgba(48, 48, 48, 0.4); }
 .game-content tbody tr:nth-child(even) { background: #747474 !important; color: #fff; }
 .game-content tbody tr.sub-total { background: none; }
