@@ -80,7 +80,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .lobby-panel table th{ }
 .lobby-panel table td { }
 .lobby-panel h2 { font-size: 24px;  line-height: 30px; }
-.lobby-panel a { color: #000 !important; text-decoration: underline; text-align: left; margin: 0 0 10px 0; }
+.lobby-panel a { color: #747474 !important; text-decoration: underline; text-align: left; margin: 0 0 10px 0; }
 .lobby-panel p:first-child { margin: 0 0 10px 0; }
 .age-changes h3, .campaigns h3 { line-height: 24px; }
 .recruitment-campaigns h1, .race-changes h1, .trait-changes h1 { font-size: 40px; line-height: 45px; }
@@ -90,8 +90,8 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .campaigns .basic-details .campaign-summary h2 { }
 .campaigns .basic-details .campaign-summary .highlight-keyword { }
 
-.good { color: #5C1D1A; }
-.bad { color: #5C1D1A; }
+.good { color: #663311; }
+.bad { color: #663311; }
 .message { font-weight: bold; line-height: 20px; border: 1px solid; border-radius: 4px; }
 .good.message { color: #fefff7; border-color: #feffea; background: #5C1D1A; }
 .bad.message { color: #FFFCF7; border-color: #feffea; background: #5C1D1A; }
@@ -109,13 +109,13 @@ p.advice-message, p.warning { background: #c1c1c1; padding: 20px; width: 450px; 
 .error { color: #e55700; }
 
 #game-navigation { }
-#game-navigation .current-date { padding: 5px 0px; text-shadow: none; border: none; border-radius: 4px; border-color: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; background: #000; }
+#game-navigation .current-date { padding: 5px 0px; text-shadow: none; border: none; border-radius: 4px; border-color: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; background: #747474; }
 #game-navigation a { line-height: 0.6em; color: #fff; }
 #game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Resource Bar */
 #resource-bar { width: 725px; }
-#resource-bar thead { background: #000; }
+#resource-bar thead { background: #747474; }
 #resource-bar thead th { font-weight: normal; padding: 3px 0; width: 98px; border-right: 1px inset #141413; }
 #resource-bar thead th:first-child { border-top-left-radius:4px; }
 #resource-bar thead th:last-child { border-top-right-radius:4px; border-right: none; }
@@ -129,13 +129,13 @@ p.advice-message, p.warning { background: #c1c1c1; padding: 20px; width: 450px; 
 /* Game-Content */
 .game-content { margin-top: -1px; width: 725px; color: #000; border-top-right-radius:4px; border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
 .game-content table { margin-bottom: 0; background: #c1c1c1; color: #000; }
-.game-content thead th { font-weight: normal; font-size: 12px !important; background: #000; color: #fff; text-align: center !important; }
+.game-content thead th { font-weight: normal; font-size: 12px !important; background: #747474; color: #fff; text-align: center !important; }
 .game-content tbody th { border-left: 6px ridge rgba(48, 48, 48, 0.4); }
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
 .game-content tbody td input, .game-content tbody td textarea { background: #fff; color: #000; }
 .game-content tbody tr { border-bottom: 2px groove rgba(48, 48, 48, 0.4); border-top: 2px groove rgba(48, 48, 48, 0.4); }
-.game-content tbody tr:nth-child(even) { background: #000 !important; color: #fff; }
+.game-content tbody tr:nth-child(even) { background: #747474 !important; color: #fff; }
 .game-content tbody tr.sub-total { background: none; }
 .game-content tr.sub-total td { border-top: 2px solid #B9B9B9; padding-bottom: 25px; }
 .game-content table.schedule { font-size:0.8em; }
@@ -159,7 +159,7 @@ form ul.errorlist { color: #e26f80; }
 .game-content form.change-kingdom .change-kingdom-nav a { width: 75px;  background: #5C1D1A;  border-color: none;  border-radius: 4px;  color: #fff; }
 .game-content form.change-kingdom a.button-link { background: #fff; color: #000; }
 
-input[type=text], form textarea, form input[type=text], form input[type=password] { padding-left: 3px; text-align: left; color: #fff; background: #000; }
+input[type=text], form textarea, form input[type=text], form input[type=password] { padding-left: 3px; text-align: left; color: #fff; background: #747474; }
 
 form input[type=text], form input[type=password] { height: 18px; }
 form .errorlist { font-size: 12px !important; }
@@ -268,7 +268,7 @@ table.mail-view tbody td { padding-bottom: 10px; }
 div.wysiwyg { border: 1px solid #999; padding: 5px; background: rgb(86, 83, 74); }
 div.wysiwyg input, div.wysiwyg textarea { background: #fff; color: #000; }
 div.wysiwyg ul.toolbar li { background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px; border: 1px outset #83817d; }
-body.wysiwyg { color: #fff; background: #000; font-size: 12px !important; }
+body.wysiwyg { color: #fff; background: #747474; font-size: 12px !important; }
 
 #bookmark-header { background-image: url(./images/gold_star.png); background-repeat: no-repeat; background-position: center 3px; }
 #bookmark-header:hover, #bookmark-header.selected { background-color: #494432; }
