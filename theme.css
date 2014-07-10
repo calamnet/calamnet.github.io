@@ -101,7 +101,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
 .lobby-panel .statement h2 { line-height: 16px; }
 
-.advice-message { color: #a5d387; }
+.advice-message { color: #747474; }
 .warning { color: #e55700; }
 .error { color: #e55700; }
 
