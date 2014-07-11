@@ -315,5 +315,5 @@ label[for="id_spell"] { width: 100px; display: inline-block; }
 /* Monarchy Form */
 form#monarchy-form {}
 form#monarchy-form table {}
-form#monarchy-form table th { width: 125px; vertical-align: top; font-weight: bold; }
+form#monarchy-form table th { width: 150px; vertical-align: top; font-weight: bold; }
 form#monarchy-form table td {}
