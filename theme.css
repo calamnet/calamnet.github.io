@@ -67,20 +67,18 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .overlay { background-color: #2f2e2e;  border:1px solid #666; }
 .overlay .close { background-image:url("./images/overlay-close.png"); }
 
-.age-changes, .lobby-panel, .campaigns { background: #c1c1c1; color: #000; }
-.lobby-panel { margin: 40px 0; }
-.lobby-panel h1 { font-size: 24px; line-height: 26px; font-weight: 700; text-align: left; margin: 0 0 10px 0; }
-.lobby-panel h1 a { color: #000; }
-.lobby-panel h1 a:hover { color: #000; }
-
 .divider { background-image: url(./images/divider.png); background-repeat: no-repeat; background-position: top center; }
 .divider-small { background-image: url(./images/divider-small.png); background-repeat: no-repeat; background-position: top center; }
 
 /* Lobby-Panel */
-.lobby-panel { border-radius: 4px; width: 450px; margin: 0; padding: 20px; }
+.age-changes, .lobby-panel, .campaigns { background: #c1c1c1; color: #000; }
+.lobby-panel { border-radius: 4px; width: 450px; margin: 40px 0; padding: 20px; }
 .lobby-panel table { margin: 0; }
 .lobby-panel table th{ }
 .lobby-panel table td { }
+.lobby-panel h1 { font-size: 24px; line-height: 26px; font-weight: 700; text-align: left; margin: 0 0 10px 0; }
+.lobby-panel h1 a { color: #000; }
+.lobby-panel h1 a:hover { color: #000; }
 .lobby-panel h2 { font-size: 24px;  line-height: 30px; }
 .lobby-panel a { color: #747474 !important; text-decoration: underline; text-align: left; margin: 0 0 10px 0; }
 .lobby-panel p:first-child { margin: 0 0 10px 0; }
