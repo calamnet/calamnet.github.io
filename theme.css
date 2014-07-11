@@ -14,7 +14,7 @@ div#right-column { position: absolute; top: 50px; left: 860px; }
 
 #header-logo { display:none; }
 #header { position: absolute; top: 0; left: 100px; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background:  #5C1D1A;  height:  41px;  width: 100%;  margin: 0 0 10px 0;  padding: 0; }
-#header-navigation { left: 50px;  top: 0;  padding: 0; }
+#header-navigation { left: 0;  top: 0;  padding: 0; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation div:hover { }
 #header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none;  color: #fff; }
@@ -28,7 +28,7 @@ div#right-column { position: absolute; top: 50px; left: 860px; }
 #game-navigation .navigation { background: #5C1D1A; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
 /* Account */
-#account-container { top: 10px;  position: absolute;  right: 500px;  width: 250px; }
+#account-container { top: 10px;  position: absolute;  left: 475px;  width: 250px; }
 #account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
 #account-header { color: #edf2fd; }
 #account-header:hover { background-color: #494432; }
