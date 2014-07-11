@@ -13,7 +13,7 @@ div#left-column { width: auto; }
 div#right-column { position: absolute; top: 50px; left: 860px; }
 
 #header-logo { display:none; }
-#header { opacity: 0.8; filter: alpha(opacity=80); z-index: 900; background:  #5C1D1A;  height:  41px;  width: 100%;  margin: 0 0 10px 50px;  padding: 0;  position: relative; }
+#header { left: 100px; opacity: 0.8; filter: alpha(opacity=80); z-index: 900; background:  #5C1D1A;  height:  41px;  width: 100%;  margin: 0 0 10px 0;  padding: 0;  position: relative; }
 #header-navigation { left: 50px;  top: 0;  padding: 0; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation div:hover { }
