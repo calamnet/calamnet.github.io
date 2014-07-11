@@ -9,7 +9,7 @@ background-size: cover;font-size: 14px; }
 
 #inner-container { margin-top: 0;  margin-right: 0;  margin-left: 0; width: auto; }
 
-div#left-column { width: 860px; margin-top: 50px; }
+div#left-column { width: 860px; margin-top: 50px; margin-bottom: 20px; }
 div#right-column {width: 160px; margin-top: 160px; }
 
 #header-logo { display:none; }
