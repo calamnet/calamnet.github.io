@@ -252,7 +252,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .five-digit-input { width: 85px; }
 .six-digit-input { width: 100px; }
 
-table.two-column-stats th { width: 20% !important; }
+table.two-column-stats th { width: 20% !important; border-right: 1px solid #999; font-weight: 700; }
 table.two-column-stats td { width: 30% !important; }
 
 /* GAME PREFERENCES */
