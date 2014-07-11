@@ -17,12 +17,12 @@ div#right-column { position: absolute; top: 50px; left: 860px; }
 #header-navigation { left: 10px;  top: 0;  padding: 0; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation div:hover { }
-#header-navigation a { display: block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none;  color: #fff; }
+#header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none;  color: #fff; }
 #header-navigation a:hover, #header-navigation a:active, #header-navigation a:focus { color: #fff; background: #4C3A2C;}
 
 /* Navigation */
 .navigation { font-weight: normal;  text-align: left; padding: 0; margin: 0; color: #fff; }
-.navigation a { display: inline-block;  padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
+.navigation a { display: block;  padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
 
 #game-navigation .navigation { background: #5C1D1A; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
