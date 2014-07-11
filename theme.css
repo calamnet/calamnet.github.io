@@ -112,7 +112,7 @@ p.advice-message, p.warning { background: #c1c1c1; padding: 20px; width: 450px; 
 #game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Resource Bar */
-#resource-bar { /* width: 725px; */ width: 1020px; margin-top: -170px; }
+#resource-bar { /* width: 725px; */ width: 840px; margin-top: -170px; }
 #resource-bar thead { background: #747474; }
 #resource-bar thead th { font-weight: normal; padding: 3px 0; width: 98px; border-right: 1px inset #141413; }
 #resource-bar thead th:first-child { border-top-left-radius:4px; }
