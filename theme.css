@@ -312,7 +312,8 @@ div.selector select { font-family: Arial, sans-serif; }
 div#aid-trade-blockade { background: #c1c1c1; color: #000; }
 label[for="id_spell"] { width: 100px; display: inline-block; }
 
+/* Monarchy Form */
 form#monarchy-form {}
 form#monarchy-form table {}
-form#monarchy-form table th { width: 100px; }
+form#monarchy-form table th { width: 125px; vertical-align: top; font-weight: bold; }
 form#monarchy-form table td {}
