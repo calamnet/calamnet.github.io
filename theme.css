@@ -29,9 +29,9 @@ div#right-column {width: 160px; margin-top: 160px; }
 #game-navigation .navigation { background: #5C1D1A; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
 /* Account */
-#account-container { top: 0;  width: 250px; padding-top: 10px; }
+#account-container { top: 0;  width: 250px; padding-top: 10px; position: relative; display: inline-block; }
 #account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
-#account-header { color: #edf2fd; }
+#account-header { color: #edf2fd; margin-top: -3px; padding: 8px; }
 #account-header:hover { background-color: #494432; }
 #account-header.selected { background-color: #494432; }
 #account-details { font-size: 12px !important;  line-height: 16px;  background-color: #494432; }
