@@ -192,8 +192,8 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 /* Game-Header */
 .game-header { height: 30px; }
 .game-header h1 { border-top-left-radius:4px; border-top-right-radius:4px; height: 22px; margin: 0px 1px; padding: 6px 8px 1px 8px; text-decoration: none;color: #fff; background: #5C1D1A; }
-.game-header a h1 { background: #846F66; }
-.game-header a h1:hover { color: #000;  background: #AD9F99;  text-decoration: underline; }
+.game-header a h1 { background: #AD9F99; color: #000; }
+.game-header a h1:hover { color: #fff; background: #846F66; text-decoration: underline; }
 
 /* KINGDOM NEWS */
 .news-legend { background: #c1c1c1; color: #000; margin-top: 0; padding: 20px 0; }
