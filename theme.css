@@ -10,7 +10,7 @@ background-size: cover;font-size: 14px; }
 #inner-container { margin-top: 0;  margin-right: 0;  margin-left: 0; width: auto; }
 
 div#left-column { width: auto; margin-top: 50px; }
-div#right-column { position: absolute; top: 50px; left: 860px; }
+div#right-column { margin-top: -200px; }
 
 #header-logo { display:none; }
 #header { position: absolute; top: 0; left: 0; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background:  #5C1D1A;  height:  41px;  width: 100%;  margin: 0 0 10px 0;  padding: 0 0 0 100px; }
@@ -43,7 +43,7 @@ div#right-column { position: absolute; top: 50px; left: 860px; }
 #account-details .account-signout { border-top: 1px solid #29261c;  font-weight: bold;  text-align: right; }
 
 /* Middle */
-#middle { }
+#middle { width: 1020px; margin: 0 auto; }
 
 a, a:link, a:visited { color: #4C3A2C;  text-decoration: none; } 
 a.highlighted { color: #E68910; }
