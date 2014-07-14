@@ -1,10 +1,14 @@
 @import url("uniform.utopia.css"); 
 
-body { color: #fff; font-family: Arial, Helvetica, sans-serif; 
+body { 
+color: #fff; 
+font-family: Arial, Helvetica, sans-serif; 
 background-color: #2d1312;
 background-image: url(./images/background.jpg); 
 background-repeat: no-repeat;
-background-size: cover;font-size: 14px; }
+background-size: cover;font-size: 14px; 
+text-align: center; 
+}
 
 
 #outer-container { width: 1020px; margin: 0 auto; height: auto; }
@@ -267,7 +271,7 @@ table.two-column-stats th { width: 20% !important; border-right: 1px solid #999;
 table.two-column-stats td { width: 30% !important; }
 
 /* GAME PREFERENCES */
-.game-content div.preference-box { background: none; }
+.game-content div.preference-box { background: none; padding-top: 0; }
 .game-content div.preference-box.disabled { opacity: 0.5; }
 .game-content div.preference-box h3 { text-align: center; }
 .game-content table.applicant-view input[type="submit"], .game-content table.mail-view input[type="submit"], .game-content table.mail-view .button-link { font-size: 14px !important; }
