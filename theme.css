@@ -353,4 +353,6 @@ div#right-column { float: none; width: 160px; margin-top: 0; margin-bottom; 20px
 
 #resource-bar { width: 100%; margin-top: 0; }
 .page-summary { width: 100%; padding: 20px; margin: 0 0 20px 0; border-radius: 4px; background: #494432; }
+
+div.reverb, div#upoopu_extension { display: block !important; float: none !important; postion: relative !important; margin: 20px 0; padding: 0; }
 	}
