@@ -331,7 +331,7 @@ form#monarchy-form table td {}
 
 @media only screen and (max-device-width: 480px) {
 	
-	#outercontainer { width: 480px !important; }
+*, html, body { width: 480px !important; }
 
 .lobby-panel { border-radius: 4px; width: 100%; margin: 40px 0; padding: 20px; }
 .lobby-panel table { margin: 0; }
