@@ -7,7 +7,9 @@ background-color: #2d1312;
 background-image: url(./images/background.jpg); 
 background-repeat: no-repeat;
 background-size: cover;font-size: 14px; 
-text-align: center; 
+text-align: center;
+margin: 0;
+padding: 0;
 }
 
 
