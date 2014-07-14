@@ -224,7 +224,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
-.protected, .intel-fresh { color: #99ffbb !important; }
+.protected, .intel-fresh { color: #2736ff !important; }
 .monarch, .at-war, .intel-rotten { color: #F28585 !important; }
 .chamberlain, .intel-stale { color: #4a732e !important; }
 .you { font-weight: bold; }
