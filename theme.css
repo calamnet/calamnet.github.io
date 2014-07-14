@@ -224,9 +224,9 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
-.protected, .intel-fresh, .protected a { color: #2736ff !important; }
-.monarch, .at-war, .intel-rotten, .monarch a { color: #F28585 !important; }
-.chamberlain, .intel-stale, .chamberlain a { color: #4a732e !important; }
+.protected, .intel-fresh, .tablesorter tr.protected a { color: #2736ff !important; }
+.monarch, .at-war, .intel-rotten, .tablesorter tr.monarch a { color: #F28585 !important; }
+.chamberlain, .intel-stale, .tablesorter tr.chamberlain a { color: #4a732e !important; font-weight: bold; }
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #000; font-weight: bold; }
 
