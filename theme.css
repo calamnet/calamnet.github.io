@@ -139,7 +139,7 @@ p.advice-message, p.warning { background: #c1c1c1; padding: 20px; width: 450px; 
 .game-content tbody tr:nth-child(even) { background: #d1d1d1 !important; color: #000; }
 .game-content tbody tr.sub-total { background: none; }
 .game-content tfoot th { background: #747474; color: #fff; }
-.game-content tr.sub-total td { border-top 2px solid gray; }
+.game-content tr.sub-total th { border-top 2px solid gray; }
 .game-content tr.sub-total td { border-top: 2px solid gray; padding-bottom: 25px; }
 .game-content table.schedule { font-size:0.8em; }
 .game-content h2 { color: #fff; background: #5C1D1A; line-height: 20px; }
