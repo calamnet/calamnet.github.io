@@ -26,7 +26,7 @@ div#right-column {width: 160px; margin-top: 160px; }
 .navigation a { display: block;  padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
 .navigation a span.advice-message { color: #fff !important; }
-.navigation a span.advice-message:after { content: ' NEW'; }
+.navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
 #game-navigation .navigation { background: #5C1D1A; border: 1px solid #853733; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
 /* Account */
