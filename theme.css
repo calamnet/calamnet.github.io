@@ -258,6 +258,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 table.two-column-stats th { width: 20% !important; border-right: 1px solid #999; font-weight: 700; }
 table.two-column-stats td { width: 30% !important; }
+table.math-table td { border-color: gray; }
 
 /* GAME PREFERENCES */
 .game-content div.preference-box { background: rgb(86, 83, 74); }
