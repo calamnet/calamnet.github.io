@@ -344,8 +344,9 @@ form#monarchy-form table td {}
 
 div#left-column { float: none; display: block; width: 100%; margin-top: 0; margin-bottom: 20px; }
 div#right-column { float: none; width: 160px; margin-top: 0; margin-bottom; 20px; }
+#middle { width: 100%; margin: 0; }
 
-
+#header-navigation { margin: 0; width: 100%; }
 #game-navigation .current-date { z-index: 10000; position: relative; font-weight: 700; top: 0; left: 0; margin-bottom: 0; padding: 12px 14px; text-shadow: none; border: none; background: #747474; }
 
 #resource-bar { width: 100%; margin-top: 0; }
