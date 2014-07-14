@@ -331,29 +331,5 @@ form#monarchy-form table td {}
 
 @media only screen and (max-device-width: 480px) {
 	
-*, html, body { width: 480px !important; }
 
-.lobby-panel { border-radius: 4px; width: 100%; margin: 40px 0; padding: 20px; }
-.lobby-panel table { margin: 0; }
-.lobby-panel table th{ }
-.lobby-panel table td { }
-.lobby-panel h1 { font-size: 24px; line-height: 26px; font-weight: 700; text-align: left; margin: 0 0 10px 0; }
-.lobby-panel h1 a { color: #000; }
-.lobby-panel h1 a:hover { color: #000; }
-.lobby-panel h2 { font-size: 24px;  line-height: 30px; }
-.lobby-panel a { color: #747474 !important; text-decoration: underline; text-align: left; margin: 0 0 10px 0; }
-.lobby-panel p:first-child { margin: 0 0 10px 0; }
-
-div#left-column { float: none; display: block; width: 100%; margin-top: 0; margin-bottom: 20px; }
-div#right-column { float: none; width: 160px; margin-top: 0; margin-bottom; 20px; }
-#middle { width: 100%; margin: 0; }
-
-#header-navigation { margin: 0; width: 100%; }
-#header-navigation a { display: block; float: left; }
-#game-navigation .current-date { z-index: 10000; position: relative; font-weight: 700; top: 0; left: 0; margin-bottom: 0; padding: 12px 14px; text-shadow: none; border: none; background: #747474; }
-
-#resource-bar { width: 100%; margin-top: 0; }
-.page-summary { width: 100%; padding: 20px; margin: 0 0 20px 0; border-radius: 4px; background: #494432; }
-
-div.reverb, div#upoopu_extension { display: none !important; float: none !important; postion: relative !important; margin: 20px 0; padding: 0; }
 	}
