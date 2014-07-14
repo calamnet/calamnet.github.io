@@ -330,6 +330,8 @@ form#monarchy-form table td {}
 #skyscraper-ad { padding-top: 0 !important; }
 
 @media only screen and (max-device-width: 480px) {
+	
+	#outercontainer { width: 480px !important; }
 
 .lobby-panel { border-radius: 4px; width: 100%; margin: 40px 0; padding: 20px; }
 .lobby-panel table { margin: 0; }
@@ -350,5 +352,5 @@ div#right-column { float: none; width: 160px; margin-top: 0; margin-bottom; 20px
 #game-navigation .current-date { z-index: 10000; position: relative; font-weight: 700; top: 0; left: 0; margin-bottom: 0; padding: 12px 14px; text-shadow: none; border: none; background: #747474; }
 
 #resource-bar { width: 100%; margin-top: 0; }
-	
+.page-summary { width: 100%; padding: 20px; margin: 0 0 20px 0; border-radius: 4px; background: #494432; }
 	}
