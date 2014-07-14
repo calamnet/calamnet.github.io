@@ -226,7 +226,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .unused-slot { color: #B0B0B0; }
 .protected, .intel-fresh { color: #99ffbb !important; }
 .monarch, .at-war, .intel-rotten { color: #F28585 !important; }
-.chamberlain, .intel-stale { color: #5C1D1A !important; }
+.chamberlain, .intel-stale { color: #67ae35 !important; }
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #000; font-weight: bold; }
 
@@ -297,6 +297,7 @@ body.wysiwyg { color: #fff; background: #747474; font-size: 12px !important; }
 .tablesorter th .order-icon { background-image: url(./images/order_none.png); }
 .tablesorter th.headerSortUp .order-icon { background-image: url(./images/order_asc.png); }
 .tablesorter th.headerSortDown .order-icon { background-image: url(./images/order_desc.png); }
+.tablesorter a { color: #000 !important; }
 
 .campaign-meter-level div { border: 1px solid #789316; }
 .campaign-meter-level div.full { background-color: #789316; }
