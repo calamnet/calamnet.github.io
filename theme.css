@@ -3,7 +3,7 @@
 body { color: #fff; font-family: Arial, Helvetica, sans-serif; 
 background-color: #000;
 background-image: url(./images/background.jpg); 
-background-repeat: no-repeat;
+background-repeat: repeat;
 background-size: cover;font-size: 14px; }
 
 
@@ -26,7 +26,7 @@ div#right-column {width: 160px; margin-top: 160px; }
 .navigation a { display: block;  padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
 
-#game-navigation .navigation { background: #5C1D1A; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
+#game-navigation .navigation { background: #5C1D1A; border: 1px solid #853733; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
 /* Account */
 #account-container { top: 0;  width: 150px; padding-top: 10px; position: relative; display: inline-block; }
@@ -93,8 +93,11 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .good { color: #663311; }
 .bad { color: #663311; }
 .message, .messages { font-weight: bold; line-height: 20px; border: 1px solid; border-radius: 4px; }
-.good.message, .bad.message, .info.message, .messages { color: #000; background: #ddaa77; }
-.good.message a, .bad.message a, .info.message a, .messages a { color: #000 !imoprtant; }
+.info.message, .messages { color: #000; background: #ddaa77; }
+.good.message { background: #67ae35; color: #fff; font-weight: bold; }
+.bad.message { background: #fe0000; color: #fff; font-weight: bold; }
+.good.message a, .bad.message a  { color: #fff !imoprtant; }
+.info.message a, .messages a { color: #000 !imoprtant; }
 
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
