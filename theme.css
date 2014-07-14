@@ -7,7 +7,7 @@ background-repeat: repeat;
 background-size: cover;font-size: 14px; }
 
 
-#inner-container { margin: 0 auto !important; width: 1020px; }
+#inner-container { margin: 0 auto !important; width: 1020px; padding: 0; }
 
 div#left-column { width: 860px; margin-top: 100px; margin-bottom: 20px; }
 div#right-column {width: 160px; margin-top: 160px; }
@@ -43,7 +43,7 @@ div#right-column {width: 160px; margin-top: 160px; }
 #account-details .account-signout { border-top: 1px solid #29261c;  font-weight: bold;  text-align: right; }
 
 /* Middle */
-#middle { width: 1020px; margin: 0 auto !important; }
+#middle { width: 1020px; margin: 0 auto !important; padding: 0; }
 
 a, a:link, a:visited { color: #4C3A2C;  text-decoration: none; } 
 a.highlighted { color: #E68910; }
