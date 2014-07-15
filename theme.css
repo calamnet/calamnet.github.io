@@ -294,8 +294,9 @@ div.pagination+p, table.mail-view+p { height: 0px; padding: 0 !important; }
 /* Wysiwyg */
 div.wysiwyg { border: 1px solid #999; padding: 5px; background: rgb(86, 83, 74); }
 div.wysiwyg input, div.wysiwyg textarea { background: #fff; color: #000; }
+div.wysiwyg ul { background: #000 !important; }
 div.wysiwyg ul.toolbar li { background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px; border: 1px outset #83817d; }
-body.wysiwyg { color: #000; background: #c1c1c1; font-size: 12px !important; text-align: left; }
+body.wysiwyg { color: #000; background: #fff; font-size: 12px !important; text-align: left; }
 
 #bookmark-header { background-image: url(./images/gold_star.png); background-repeat: no-repeat; background-position: center 3px; }
 #bookmark-header:hover, #bookmark-header.selected { background-color: #494432; }
