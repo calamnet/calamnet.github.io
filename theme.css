@@ -203,7 +203,7 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 .game-content form.change-kingdom #royal-commands { border-top: 2px dotted #000; }
 .game-content form.change-kingdom #royal-commands table { border-top: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
 .game-content form.change-kingdom #royal-commands table tbody td, .game-content form.change-kingdom #royal-commands input[type=text] { font-size: 13px; font-weight: normal; }
-.game-content form.change-kingdom #royal-commands .button-link { line-height: 20px; }
+.game-content form.change-kingdom #royal-commands .button-link { line-height: 20px; color: #000 !important; }
 .game-content form.change-kingdom.change-kingdom-target #change-kingdom-button { height: 25px; top: 0; right: 0; }
 #change-kingdom-button { height: 25px; width: auto; }
 
@@ -303,13 +303,14 @@ body.wysiwyg { color: #000; background: #fff; font-size: 12px !important; text-a
 
 #bookmark-header { background-image: url(./images/gold_star.png); background-repeat: no-repeat; background-position: center 3px; }
 #bookmark-header:hover, #bookmark-header.selected { background-color: #494432; }
-#bookmark-details {}
+#bookmark-details { background: #c1c1c1; color: #000; }
 #bookmark-details div { padding-top: 1px; padding-bottom: 1px; }
 #bookmark-details a:hover { }
 #bookmark-details #bookmarks { border-top: 1px solid #29261c; border-bottom: 1px solid #29261c; }
 
 #royal-command-icon { background-image: url(./images/gold_crown.png); background-repeat: no-repeat; background-position: center 3px; }
 #royal-command-icon:hover { background-color: #494432; }
+
 
 .tablesorter th .order-icon { background-image: url(./images/order_none.png); }
 .tablesorter th.headerSortUp .order-icon { background-image: url(./images/order_asc.png); }
