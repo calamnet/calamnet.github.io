@@ -275,7 +275,8 @@ td.news-incident-report { text-align: left; }
 .province-flag .flag { margin-top: 0; margin-bottom: 0; }
 .province-flag .flagpole { background: url('./images/province_profile/flagpole.png') no-repeat; }
 .province-flag .flag-image .default-flag { background: url('./images/province_profile/default_flag.png') no-repeat; }
-.motto { background: url('./images/province_profile/scroll.png') no-repeat; }
+.motto {}
+.motto h3 { background: none !important; color: #000 !important; }
 
 .two-digit-input { width: 50px; }
 .three-digit-input { width: 55px; }
