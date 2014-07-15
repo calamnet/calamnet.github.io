@@ -20,7 +20,7 @@ div#left-column { width: 860px; margin-top: 100px; margin-bottom: 20px; }
 div#right-column {width: 160px; margin-top: 160px; }
 
 #header-logo { display:none; }
-#header { position: absolute; top: 0; left: 0; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background: #5C1D1A;  height:  41px;  width: 1010px;  margin: 0 0 10px 10px; padding: 0; }
+#header { position: absolute; top: 0; left: 0; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background: #5C1D1A; height:  41px; width: 1010px; margin: 0 0 10px 10px; padding: 0; }
 #header-navigation { left: auto;  top: 0; padding: 0; margin: 0 auto !important; width: 500px; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none; color: #fff; }
@@ -28,15 +28,15 @@ div#right-column {width: 160px; margin-top: 160px; }
 #header-navigation .navigation a:hover, #header-navigation .navigation a:active, #header-navigation .navigation a:focus { color: #fff !important; }
 
 /* Navigation */
-.navigation { font-weight: normal;  text-align: left; padding: 0; margin: 0; color: #fff; }
-.navigation a { display: block;  padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
+.navigation { font-weight: normal; text-align: left; padding: 0; margin: 0; color: #fff; }
+.navigation a { display: block; padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
 .navigation a span.advice-message { color: #fff !important; }
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
 #game-navigation .navigation { background: #5C1D1A; border: 1px solid #853733; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
 /* Account */
-#account-container { top: 0;  width: 150px; padding-top: 10px; position: relative; display: inline-block; }
+#account-container { top: 0; width: 150px; padding-top: 10px; position: relative; display: inline-block; }
 #account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
 #account-header { color: #edf2fd; margin-top: -3px; padding: 8px; }
 #account-header:hover { background-color: #494432; }
@@ -99,9 +99,9 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .messages a { color: #000 !important; }
 
 .message { line-height: 20px; border: 1px solid #fff; border-radius: 4px; }
-.info { background: #ddaa77 !important; color: #000; }
-.good { background: #67ae35 !important; color: #fff; }
-.bad { background: #fe0000 !important; color: #fff; }
+.info { background: #ddaa77 !important; color: #000 !important; }
+.good { background: #67ae35 !important; color: #fff !important; }
+.bad { background: #fe0000 !important; color: #fff !important; }
 .good a, .bad a  { color: #fff !important; }
 .info a { color: #000 !important; }
 .message, .good, .bad, .info.message, .good.message, .bad.message { font-weight: bold; }
@@ -295,7 +295,7 @@ div.pagination+p, table.mail-view+p { height: 0px; padding: 0 !important; }
 div.wysiwyg { border: 1px solid #999; padding: 5px; background: rgb(86, 83, 74); }
 div.wysiwyg input, div.wysiwyg textarea { background: #fff; color: #000; }
 div.wysiwyg ul.toolbar li { background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px; border: 1px outset #83817d; }
-body.wysiwyg { color: #fff; background: #747474; font-size: 12px !important; }
+body.wysiwyg { color: #000; background: #c1c1c1; font-size: 12px !important; text-align: left; }
 
 #bookmark-header { background-image: url(./images/gold_star.png); background-repeat: no-repeat; background-position: center 3px; }
 #bookmark-header:hover, #bookmark-header.selected { background-color: #494432; }
@@ -343,8 +343,3 @@ form#monarchy-form table th { width: 150px; vertical-align: top; font-weight: bo
 form#monarchy-form table td {}
 
 #skyscraper-ad { padding-top: 0 !important; }
-
-@media only screen and (max-device-width: 480px) {
-	
-
-	}
