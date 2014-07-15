@@ -283,6 +283,7 @@ td.news-incident-report { text-align: left; }
 .five-digit-input { width: 85px; }
 .six-digit-input { width: 100px; }
 
+table.one-column-stats th { font-weight: bold; border-right: 1px solid #ccc; }
 table.two-column-stats th { width: 20% !important; border-right: 1px solid #999; font-weight: 700; }
 table.two-column-stats td { width: 30% !important; }
 
