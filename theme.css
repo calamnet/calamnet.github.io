@@ -236,6 +236,9 @@ td.news-obituaries { background-image: url(./images/kingdom_news/obituaries.png)
 td.news-relations { background-image: url(./images/kingdom_news/relations.png); }
 td.news-province-modification { background-image: url(./images/kingdom_news/province_modification.png); }
 
+td.news-incident-date, td.news-incident-report { vertical-align: top; font-size: .9em; }
+td.news-incident-report { text-align: left; }
+
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
 .protected, .intel-fresh, .tablesorter tr.protected a { color: #2736ff !important; }
