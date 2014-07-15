@@ -102,9 +102,9 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .info { background: #ddaa77 !important; color: #000; }
 .good { background: #67ae35 !important; color: #fff; }
 .bad { background: #fe0000 !important; color: #fff; }
+.good a, .bad a  { color: #fff !important; }
+.info a { color: #000 !important; }
 .message, .good, .bad, .info.message, .good.message, .bad.message { font-weight: bold; }
-.good.message a, .bad.message a  { color: #fff !important; }
-.info.message a { color: #000 !important; }
 
 table.math-table .good { color: #67ae35 !important; background: none !important; }
 table.math-table .bad { color: #fe0000 !important; background: none !important; }
