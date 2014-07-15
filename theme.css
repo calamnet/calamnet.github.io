@@ -6,25 +6,24 @@ font-family: Arial, Helvetica, sans-serif;
 background-color: #2d1312;
 background-image: url(./images/background.jpg); 
 background-repeat: no-repeat;
-background-size: cover;font-size: 14px; 
+background-size: cover;
+font-size: 14px; 
 text-align: center;
 margin: 0;
 padding: 0;
 }
 
-
-#outer-container { width: 1020px; margin: 0 auto; height: auto; }
+#outer-container { width: 1020px; margin: 0 auto !important; height: auto; }
 #inner-container { margin: 0 auto !important; width: 1020px; padding: 0; }
 
 div#left-column { width: 860px; margin-top: 100px; margin-bottom: 20px; }
 div#right-column {width: 160px; margin-top: 160px; }
 
 #header-logo { display:none; }
-#header { position: absolute; top: 0; left: 0; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background:  #5C1D1A;  height:  41px;  width: 1010px;  margin: 0 0 10px 10px;  padding: 0; }
-#header-navigation { left: auto;  top: 0;  padding: 0; margin: 0 auto; width: 500px; }
+#header { position: absolute; top: 0; left: 0; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background: #5C1D1A;  height:  41px;  width: 1010px;  margin: 0 0 10px 10px; padding: 0; }
+#header-navigation { left: auto;  top: 0; padding: 0; margin: 0 auto !important; width: 500px; }
 #header-navigation div { margin: 0 !important; }
-#header-navigation div:hover { }
-#header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none;  color: #fff; }
+#header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none; color: #fff; }
 #header-navigation a:hover, #header-navigation a:active, #header-navigation a:focus { color: #fff !important; background: #4C3A2C;}
 #header-navigation .navigation a:hover, #header-navigation .navigation a:active, #header-navigation .navigation a:focus { color: #fff !important; }
 
@@ -95,17 +94,20 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .race-changes h2, .trait-changes h2 { font-size: 30px; }
 .page-summary { width: 450px; padding: 20px; margin: 0 0 20px 0; border-radius: 4px; background: #494432; }
 
-.campaigns .basic-details .campaign-summary h2 { }
-.campaigns .basic-details .campaign-summary .highlight-keyword { }
+/* Information Messages */
+.messages { font-weight: bold; line-height: 20px; border: 1px solid #fff; border-radius: 4px; color: #000; background: #ddaa77; }
+.messages a { color: #000 !important; }
 
-.good { color: #67ae35; font-weight: bold; }
-.bad { color: #fe0000; font-weight: bold; }
-.message, .messages { font-weight: bold; line-height: 20px; border: 1px solid; border-radius: 4px; }
-.info.message, .messages { color: #000; background: #ddaa77; }
-.good.message { background: #67ae35; color: #fff; font-weight: bold; }
-.bad.message { background: #fe0000; color: #fff; font-weight: bold; }
-.good.message a, .bad.message a  { color: #fff !imoprtant; }
-.info.message a, .messages a { color: #000 !imoprtant; }
+.message { line-height: 20px; border: 1px solid #fff; border-radius: 4px; }
+.info { background: #ddaa77 !important; color: #000; }
+.good { background: #67ae35 !important; color: #fff; }
+.bad { background: #fe0000 !important; color: #fff; }
+.message, .good, .bad, .info.message, .good.message, .bad.message { font-weight: bold; }
+.good.message a, .bad.message a  { color: #fff !important; }
+.info.message a { color: #000 !important; }
+
+table.math-table .good { color: #67ae35 !important; background: none !important; }
+table.math-table .bad { color: #fe0000 !important; background: none !important; }
 
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
