@@ -383,9 +383,9 @@ form#monarchy-form table td {}
 
 #skyscraper-ad { padding-top: 0 !important; }
 
-div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: 10px 0 0 0; background: #ddaa77; font-weight: bold; position: absolute; top: 118px; left: 120px; width: 200px; height: 180px; text-align: left; }
-div#hostility-meter-purchase+span.advice-message:after { content: '. You should probably check our their espionage page to see what ops need to be done. FOR THE LOVE OF GOD, HELP OUT YOUR KINGDOM'; }
+div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: 10px 0 0 0; background: #ddaa77; font-weight: bold; position: absolute; top: 328px; left: 230px; width: 480px; text-align: left; }
+div#hostility-meter-purchase+span.advice-message:after { content: '. You should probably check our their espionage page to see what ops need to be done. FOR THE LOVE OF ALL THINGS HOLY, HELP OUT YOUR KINGDOM!'; }
 span.advice-message+strong a { color: #ff0000 !important; }
 
 form.change-kingdom+div.reportable { display: block; position:relative; }
-div.reportable img { float:right; margin: 0 0 10px 0; padding: 0; }
+ div.reportable img { /* float:right; */ margin: 0 0 100px 0; /* padding: 0; */ } 
