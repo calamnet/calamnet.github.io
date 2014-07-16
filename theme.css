@@ -320,6 +320,8 @@ a.forum-edit-button { margin-top: 15px; background: #fff; color: #000 !important
 div.pagination+p, table.mail-view+p { height: 0px; padding: 0 !important; }
 
 form#mail-bulk-action table thead tr th { background: #5C1D1A; font-weight: bold; }
+form#mail-bulk-action table { border-top: none !important; }
+form#mail-bulk-action table tbody tr:last-child td { background: #5C1D1A; }
 div#uniform-select-all input#select-all { background: #fff; border-color: #000; border-top: none !important; }
 
 /* Wysiwyg */
