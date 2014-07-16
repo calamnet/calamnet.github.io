@@ -361,3 +361,4 @@ form#monarchy-form table td {}
 #skyscraper-ad { padding-top: 0 !important; }
 
 div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: 10px 0 0 0; background: #ddaa77; }
+span.advice-message+strong a { color: #ff0000 !important; }
