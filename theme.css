@@ -255,15 +255,17 @@ td.news-incident-report { text-align: left; }
 .tablesorter tr.monarch td { background: #5C1D1A; color: #fff; }
 .tablesorter tr.monarch a { color: #fff !important; }
 span.monarch { color: #5C1D1A;}
-.tablesorter tr.chamberlain td { /* background: #4a732e;*/ background: #ddaa77; color: #fff; }
-.tablesorter tr.chamberlain a { color: #fff !important; }
+.tablesorter tr.chamberlain td { /* background: #4a732e;*/ background: #ddaa77; color: #000; }
+.tablesorter tr.chamberlain a { color: #000 !important; }
 span.chamberlain {/*color: #4a732e;*/ color: #ddaa77; }
 .tablesorter tr.protected td { background: #2736ff; color: #fff; }
 .tablesorter tr.protected a { color: #fff !important; }
 span.protected { color: #2736ff; }
 
-.provinces-legend { font-size: 0.8em; }
+.provinces-legend { font-size: 0.8em; background: #fff !important; }
 .provinces-legend .invitations { font-size: 14px !important; }
+.provinces-legend span { font-weight: bold; }
+.provinces-legend span.invitations { display: inline-block; margin: 3px 0; padding: 3px; border-radius: 4px; }
 
 .dip-status { color: #000; }
 .dip-status-NORMAL { background-color: #01DF01; }
