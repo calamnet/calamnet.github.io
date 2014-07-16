@@ -350,7 +350,8 @@ body.wysiwyg { color: #000; background: #fff; font-size: 12px !important; text-a
 .tablesorter th .order-icon { background-image: url(./images/order_none.png); }
 .tablesorter th.headerSortUp .order-icon { background-image: url(./images/order_asc.png); }
 .tablesorter th.headerSortDown .order-icon { background-image: url(./images/order_desc.png); }
-.tablesorter tbody td { vertical-align: middle; padding-right: 0; }
+.tablesorter tbody td { vertical-align: middle; padding-right: 10px; }
+.tablesorter tbody td:last-child { text-align: left; }
 .tablesorter td.province-name { color: #5C1D1A; text-align: left; }
 .tablesorter a { color: #000 !important; }
 
