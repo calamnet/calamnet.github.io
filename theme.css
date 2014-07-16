@@ -220,7 +220,7 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 .game-header a h1:hover { color: #fff; background: #846F66; text-decoration: underline; }
 
 /* KINGDOM NEWS */
-div.news-legend { background: #ddaa77; color: #000; margin-top: 0; padding: 10px 20px;  border-bottom-left-radius:4px; border-bottom-right-radius:4px;}
+div.news-legend { background: #ddaa77; color: #000; margin-top: 0; padding: 10px 20px;  border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
 div.news-legend span { padding: 0 0 0 14px; background-position: top left; background-repeat: no-repeat; line-height: 12px; margin-left: 10px; }
 div.news-legend span.news-aid { background-image: url(./images/kingdom_news/aid_inline.png); }
 div.news-legend span.news-intra-kingdom-conflict { background-image: url(./images/kingdom_news/intra_kingdom_conflict_inline.png); }
