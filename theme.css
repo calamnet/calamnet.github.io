@@ -255,10 +255,10 @@ td.news-incident-report { text-align: left; }
 .tablesorter tr.monarch td { background: #5C1D1A; color: #fff; }
 .tablesorter tr.monarch a { color: #fff !important; }
 span.monarch { color: #5C1D1A;}
-.tablesorter tr.chamberlain td { background: #4a732e; color: #fff; }
+.tablesorter tr.chamberlain td { /* background: #4a732e;*/ background: #ddaa77; color: #fff; }
 .tablesorter tr.chamberlain a { color: #fff !important; }
-span.chamberlain { color: #4a732e; }
-.tablesorter tr.protected td { background: #4a732e; color: #fff; }
+span.chamberlain {/*color: #4a732e;*/ color: #ddaa77; }
+.tablesorter tr.protected td { background: #2736ff; color: #fff; }
 .tablesorter tr.protected a { color: #fff !important; }
 span.protected { color: #2736ff; }
 
