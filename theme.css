@@ -265,7 +265,8 @@ span.protected { color: #2736ff; }
 .provinces-legend { font-size: 0.8em; background: #fff !important; }
 .provinces-legend .invitations { font-size: 14px !important; }
 .provinces-legend span { font-weight: bold; }
-.provinces-legend span.invitations { display: inline-block; margin: -70px 0 0 0; padding: 3px; border-radius: 4px; }
+.provinces-legend span.invitations { display: inline-block; margin: -68px 0 0 0; padding: 3px 6px; border-radius: 4px; }
+.provinces-legend span.invitations.bad { background: #ddaa77 !important; color: #000 !important; }
 
 .dip-status { color: #000; }
 .dip-status-NORMAL { background-color: #01DF01; }
