@@ -246,13 +246,21 @@ td.news-incident-report { text-align: left; }
 
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
-.protected, .intel-fresh, .tablesorter tr.protected a { color: #2736ff !important; }
-.monarch, .at-war, .intel-rotten, .tablesorter tr.monarch a { color: #F28585 !important; }
-.tablesorter tr.monarch td { background: #5C1D1A; color: #fff; }
-.tablesorter tr.monarch a { color: #fff !important; }
-.chamberlain, .intel-stale, .tablesorter tr.chamberlain a { color: #4a732e !important; font-weight: bold; }
+.intel-fresh { color: #2736ff !important; }
+.at-war, .intel-rotten { color: #F28585 !important; }
+.intel-stale { color: #4a732e !important; font-weight: bold; }
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #000; font-weight: bold; }
+
+.tablesorter tr.monarch td { background: #5C1D1A; color: #fff; }
+.tablesorter tr.monarch a { color: #fff !important; }
+span.monarch { color: #5C1D1A;}
+.tablesorter tr.chamberlain td { background: #4a732e; color: #fff; }
+.tablesorter tr.chamberlain a { color: #fff !important; }
+span.chamberlain { color: #4a732e; }
+.tablesorter tr.protected td { background: #4a732e; color: #fff; }
+.tablesorter tr.protected a { color: #fff !important; }
+span.protected { color: #2736ff; }
 
 .provinces-legend { font-size: 0.8em; }
 .provinces-legend .invitations { font-size: 14px !important; }
