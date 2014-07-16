@@ -266,7 +266,7 @@ span.protected { color: #2736ff; }
 .provinces-legend { font-size: 0.8em; background: #fff !important; }
 .provinces-legend .invitations { font-size: 14px !important; }
 .provinces-legend span { font-weight: bold; }
-.provinces-legend span.invitations { display: inline-block; margin: -68px 0 0 0; padding: 3px 6px; border-radius: 4px; }
+.provinces-legend span.invitations { display: inline-block; margin: -68px 0 0 0; padding: 3px 6px; border-radius: 4px;  float: none; position: absolute; right: 20px; }
 .provinces-legend span.invitations.bad { background: #ddaa77 !important; color: #000 !important; }
 
 .dip-status { color: #000; }
@@ -374,5 +374,5 @@ form#monarchy-form table td {}
 
 #skyscraper-ad { padding-top: 0 !important; }
 
-div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: -52px 0 0 0; background: #ddaa77; font-weight: bold; float: none; position: absolute; right: 20px; }
+div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: -52px 0 0 0; background: #ddaa77; font-weight: bold; }
 span.advice-message+strong a { color: #ff0000 !important; }
