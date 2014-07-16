@@ -317,7 +317,7 @@ table.mail-view tbody td { padding-bottom: 10px; }
 .game-content table.mail-view tr td.forum-moderator-buttons form input[type="submit"], .game-content table.mail-view tr td form.forum-delete-button input[type="submit"] { color: #000 !important; }
 .game-content table.mail-view tr td form.forum-delete-button input[type="submit"] { margin-top: 5px; }
 a.forum-edit-button { margin-top: 15px; background: #fff; color: #000 !important; text-decoration: none !important; border-color: #000; }
-.pagination { background:  #ddaa77; color: #000; padding: 10px 0; margin-top: -40px; }
+.pagination { background:  #ddaa77; color: #000; padding: 10px 0 14px 0; margin-top: -40px; }
 .pagination a { color: #000 !important; }
 div.pagination+p { height: 0px; padding: 0 !important; }
 /* table.mail-view+p { height: 0px; padding: 0 !important; }*/
