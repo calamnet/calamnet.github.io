@@ -313,15 +313,17 @@ table.mail-view th { vertical-align: bottom; }
 table.mail-view td.formatted-text { background: #c1c1c1); }
 table.mail-view tbody td { padding-bottom: 10px; }
 .game-content table.mail-view tr td.forum-moderator-buttons { padding: 10px 0 0 0; }
-.game-content table.mail-view tr td.forum-moderator-buttons form input[type="submit"], .game-content table.mail-view tr td form.forum-delete-button input[type="submit"], .game-content form#mail-bulk-action input[type="submit"] { color: #000 !important; }
+.game-content table.mail-view tr td.forum-moderator-buttons form input[type="submit"], .game-content table.mail-view tr td form.forum-delete-button input[type="submit"] { color: #000 !important; }
 .game-content table.mail-view tr td form.forum-delete-button input[type="submit"] { margin-top: 5px; }
 a.forum-edit-button { margin-top: 15px; background: #fff; color: #000 !important; text-decoration: none !important; border-color: #000; }
 .pagination { background:  #eecc99; color: #000; padding: 10px 0; }
 div.pagination+p, table.mail-view+p { height: 0px; padding: 0 !important; }
 
+/* Mail Page */
 form#mail-bulk-action table thead tr th { background: #5C1D1A; font-weight: bold; }
 form#mail-bulk-action table { border-top: none !important; }
 form#mail-bulk-action table tbody tr:last-child td { background: #5C1D1A; }
+.game-content form#mail-bulk-action input[type="submit"] { color: #000 !important; background: #c1c1c1 !important; }
 div#uniform-select-all input#select-all { background: #fff; border-color: #000; border-top: none !important; }
 
 /* Wysiwyg */
@@ -331,6 +333,7 @@ div.wysiwyg ul { background: #000 !important; }
 div.wysiwyg ul.toolbar li { background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px; border: 1px outset #83817d; }
 body.wysiwyg { color: #000; background: #fff; font-size: 12px !important; text-align: left; }
 
+/* Bookmarks */
 #bookmark-header { background-image: url(./images/gold_star.png); background-repeat: no-repeat; background-position: center 3px; }
 #bookmark-header:hover, #bookmark-header.selected { background-color: #494432; }
 #bookmark-details { background: #c1c1c1; color: #000; }
@@ -338,10 +341,11 @@ body.wysiwyg { color: #000; background: #fff; font-size: 12px !important; text-a
 #bookmark-details a:hover { }
 #bookmark-details #bookmarks { border-top: 1px solid #29261c; border-bottom: 1px solid #29261c; }
 
+/* Royal Command */
 #royal-command-icon { background-image: url(./images/gold_crown.png); background-repeat: no-repeat; background-position: center 3px; }
 #royal-command-icon:hover { background-color: #494432; }
 
-
+/* Kingdom Page */
 .tablesorter th .order-icon { background-image: url(./images/order_none.png); }
 .tablesorter th.headerSortUp .order-icon { background-image: url(./images/order_asc.png); }
 .tablesorter th.headerSortDown .order-icon { background-image: url(./images/order_desc.png); }
