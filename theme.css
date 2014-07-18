@@ -89,6 +89,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .lobby-panel h1 a:hover { color: #000; }
 .lobby-panel h2 { font-size: 20px;  line-height: 22px; text-align: left; margin-bottom: 10px; }
 .lobby-panel h2 a { color: #fff !important; }
+.lobby-panel h2 strong { color: #ff0000; }
 .lobby-panel a { color: #747474 !important; text-decoration: underline; text-align: left; margin: 0 0 10px 0; }
 .lobby-panel p:first-child { margin: 0 0 10px 0; }
 .age-changes h3, .campaigns h3 { line-height: 24px; }
