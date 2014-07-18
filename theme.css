@@ -353,7 +353,7 @@ form#mail-bulk-action+div.pagination, table+div.pagination { margin-top: -10px; 
 /* table.mail-view+p { height: 0px; padding: 0 !important; }*/
 
 @media only screen and (max-device-width: 480px) {
-table.mail-view { width: 625px !important; }
+table.mail-view { width: 600px !important; }
 }
 
 /* Mail Page */
