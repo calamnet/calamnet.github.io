@@ -244,8 +244,8 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 
 @media only screen and (max-device-width: 480px) {
   .game-header { width: 600px; }
-  .game-header h1 { font-size: 24px; line-height: 26px; height: 30px; }
-  .game-content { margin-top: 0; width: 600px; font-size: 20px; line-height: 22px; }
+  .game-header h1 { font-size: 24px; line-height: 26px; height: 30px; padding: 10px 8px; }
+  .game-content { margin-top: 10px; width: 600px; font-size: 20px; line-height: 22px; }
   .game-content p.advice-message, .game-content p.warning { width: 550px; }
 }
 
