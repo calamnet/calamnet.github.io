@@ -85,13 +85,13 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .lobby-panel table th{ }
 .lobby-panel table td { }
 .lobby-panel div.divider { display: none; }
-.lobby-panel h1 { font-size: 24px; line-height: 26px; font-weight: 700; text-align: left; margin: 0 0 10px 0; }
-.lobby-panel h1 a { color: #000; }
+.lobby-panel h1 { font-size: 30px; line-height: 32px; font-weight: 700; text-align: left; margin: 0 0 10px 0; }
 .lobby-panel h1 a:hover { color: #000; }
 .lobby-panel h2 { font-size: 20px;  line-height: 22px; text-align: left; margin-bottom: 10px; }
-.lobby-panel h2 a { color: #fff !important; }
 .lobby-panel h2 strong { color: #ff0000; }
 .lobby-panel a { color: #747474 !important; text-decoration: underline; text-align: left; margin: 0 0 10px 0; }
+.lobby-panel h1 a { color: #000 !important; }
+.lobby-panel h2 a { color: #fff !important; }
 .lobby-panel p:first-child { margin: 0 0 10px 0; }
 .age-changes h3, .campaigns h3 { line-height: 24px; }
 .recruitment-campaigns h1, .race-changes h1, .trait-changes h1 { font-size: 40px; line-height: 45px; }
