@@ -99,6 +99,11 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .page-summary { width: 450px; padding: 20px; margin: 0 0 20px 0; border-radius: 4px; background: #494432; }
 div.lobby-panel .page-summary { width: auto; background: none; margin-bottom: 10px; padding: 0; }
 div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; }
+
+@media only screen and (max-device-width: 480px) {
+  .lobby-panel h1 { font-size: 60px; line-height: 62px; }
+}
+
 /* Information Messages */
 .messages { font-weight: bold; line-height: 20px; border: 1px solid #fff; border-radius: 4px; color: #000; background: #ddaa77; }
 .messages a { color: #000 !important; }
