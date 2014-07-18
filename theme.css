@@ -87,13 +87,15 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .lobby-panel h1 { font-size: 24px; line-height: 26px; font-weight: 700; text-align: left; margin: 0 0 10px 0; }
 .lobby-panel h1 a { color: #000; }
 .lobby-panel h1 a:hover { color: #000; }
-.lobby-panel h2 { font-size: 24px;  line-height: 30px; }
+.lobby-panel h2 { font-size: 20px;  line-height: 22px; text-align: left; }
+.lobby-panel h2 a { color: #fff !important; }
 .lobby-panel a { color: #747474 !important; text-decoration: underline; text-align: left; margin: 0 0 10px 0; }
 .lobby-panel p:first-child { margin: 0 0 10px 0; }
 .age-changes h3, .campaigns h3 { line-height: 24px; }
 .recruitment-campaigns h1, .race-changes h1, .trait-changes h1 { font-size: 40px; line-height: 45px; }
 .race-changes h2, .trait-changes h2 { font-size: 30px; }
 .page-summary { width: 450px; padding: 20px; margin: 0 0 20px 0; border-radius: 4px; background: #494432; }
+div.lobby-panel .page-summer { width: auto; background: none; margin-bottom: 10px; padding: 0; }
 
 /* Information Messages */
 .messages { font-weight: bold; line-height: 20px; border: 1px solid #fff; border-radius: 4px; color: #000; background: #ddaa77; }
@@ -320,7 +322,7 @@ a.forum-edit-button { margin-top: 15px; background: #fff; color: #000 !important
 .pagination { background:  #ddaa77; color: #000; padding: 10px 0 14px 0; margin-top: -40px; }
 .pagination a { color: #000 !important; }
 div.pagination+p { height: 0px; padding: 0 !important; }
-form#mail-bulk-action+div.pagination { margin-top: -10px; border-bottom-right-radius:4px; border-bottom-left-radius:4px; }
+form#mail-bulk-action+div.pagination, table+div.pagination { margin-top: -10px; border-bottom-right-radius:4px; border-bottom-left-radius:4px; }
 /* table.mail-view+p { height: 0px; padding: 0 !important; }*/
 
 /* Mail Page */
