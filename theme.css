@@ -238,7 +238,7 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 @media only screen and (max-device-width: 480px) {
   .game-header { width: 650px; }
   .game-content { width: 650px; }
-  .game-content p.advice-message, .game-content p.warning { width: 635px; }
+  .game-content p.advice-message, .game-content p.warning { width: 620px; }
 }
 
 /* KINGDOM NEWS */
