@@ -35,6 +35,14 @@ div#right-column {width: 160px; margin-top: 160px; }
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
 #game-navigation .navigation { background: #5C1D1A; border: 1px solid #853733; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
+@media only screen and (max-device-width: 480px) {
+  #game-navigation { width: 150px; }
+  #game-navigation a { font-size: 24px; font-size: 26px; }
+  .game-header { width: 650px; }
+  .game-content { width: 675px; }
+}
+
+
 /* Account */
 #account-container { top: 0; right: 90px; width: 150px; padding-top: 10px; position: relative; display: inline-block; }
 #account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
