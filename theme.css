@@ -363,6 +363,10 @@ form#mail-bulk-action table tbody tr:last-child td { background: #5C1D1A; }
 .game-content form#mail-bulk-action input[type="submit"] { color: #000 !important; background: #c1c1c1 !important; }
 div#uniform-select-all input#select-all { background: #fff; border-color: #000; border-top: none !important; }
 
+@media only screen and (max-device-width: 480px) {
+form#mail-bulk-action table { font-size: 24px; line-height: 26px; }
+}
+
 /* Wysiwyg */
 div.wysiwyg { border: 1px solid #999; padding: 5px; background: rgb(86, 83, 74); }
 div.wysiwyg input, div.wysiwyg textarea { background: #fff; color: #000; }
