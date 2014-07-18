@@ -101,6 +101,7 @@ div.lobby-panel .page-summary { width: auto; background: none; margin-bottom: 10
 div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; }
 
 @media only screen and (max-device-width: 480px) {
+  .lobby-panel { font-size: 20px; line-height: 22px; }
   .lobby-panel h1 { font-size: 72px; line-height: 76px; }
 }
 
