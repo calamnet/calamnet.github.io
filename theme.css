@@ -80,7 +80,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 
 /* Lobby-Panel */
 .age-changes, .lobby-panel, .campaigns { background: #c1c1c1; color: #000; }
-.lobby-panel { border-radius: 4px; width: 450px; margin: 40px 0; padding: 20px; }
+.lobby-panel { border-radius: 4px; width: 450px; margin: 40px auto; padding: 20px; }
 .lobby-panel table { margin: 0; }
 .lobby-panel table th{ }
 .lobby-panel table td { }
@@ -98,7 +98,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .race-changes h2, .trait-changes h2 { font-size: 30px; }
 .page-summary { width: 450px; padding: 20px; margin: 0 0 20px 0; border-radius: 4px; background: #494432; }
 div.lobby-panel .page-summary { width: auto; background: none; margin-bottom: 10px; padding: 0; }
-
+div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto; }
 /* Information Messages */
 .messages { font-weight: bold; line-height: 20px; border: 1px solid #fff; border-radius: 4px; color: #000; background: #ddaa77; }
 .messages a { color: #000 !important; }
