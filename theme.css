@@ -204,6 +204,14 @@ form input[type=submit], .button-link { border: 1px solid; border-radius: 4px; f
 form input[type=submit]:hover, .button-link:hover { background: #c99a1a; }
 form input[type=submit]:active, .button-link:active { background: #ba8500; }
 
+
+@media only screen and (max-device-width: 480px) {
+  form input[type="submit"], .button-link { font-size: 36px; padding: 10px 40px; }
+  form input[type="text"], form input[type="password"] { height: 30px; font-size: 24px; }
+  .game-content form.change-kingdom .change-kingdom-form { width: 350px; }
+  .game-content form.change-kingdom.change-kingdom-target #change-kingdom-button { height: auto; }
+}
+
 div.selector span, div.uploader span.filename, div.uploader span.action { padding-left: 5px; font-weight: normal; text-align: left; }
 div.uploader span.filename, div.uploader span.action { }
 div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px; }
