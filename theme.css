@@ -36,7 +36,7 @@ div#right-column {width: 160px; margin-top: 160px; }
 #game-navigation .navigation { background: #5C1D1A; border: 1px solid #853733; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
 @media only screen and (max-device-width: 480px) {
-  #game-navigation { width: 150px; }
+  #game-navigation { width: 200px; }
   #game-navigation a, #game-navigation .navigation a { font-size: 30px; line-height: 32px; padding; 20px 8px; display: block; }
 }
 
@@ -236,9 +236,9 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 .game-header a h1:hover { color: #fff; background: #846F66; text-decoration: underline; }
 
 @media only screen and (max-device-width: 480px) {
-  .game-header { width: 650px; }
-  .game-content { width: 650px; }
-  .game-content p.advice-message, .game-content p.warning { width: 610px; }
+  .game-header { width: 600px; }
+  .game-content { width: 600px; }
+  .game-content p.advice-message, .game-content p.warning { width: 550px; }
 }
 
 /* KINGDOM NEWS */
