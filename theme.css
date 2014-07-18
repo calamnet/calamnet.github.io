@@ -320,7 +320,7 @@ a.forum-edit-button { margin-top: 15px; background: #fff; color: #000 !important
 .pagination { background:  #ddaa77; color: #000; padding: 10px 0 14px 0; margin-top: -40px; }
 .pagination a { color: #000 !important; }
 div.pagination+p { height: 0px; padding: 0 !important; }
-form#mail-bulk-action+div.pagiation { margin-top: 0; }
+form#mail-bulk-action+div.pagination { margin-top: 0; }
 /* table.mail-view+p { height: 0px; padding: 0 !important; }*/
 
 /* Mail Page */
