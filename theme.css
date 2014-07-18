@@ -37,7 +37,7 @@ div#right-column {width: 160px; margin-top: 160px; }
 
 @media only screen and (max-device-width: 480px) {
   #game-navigation { width: 150px; }
-  #game-navigation a { font-size: 24px; font-size: 26px; padding; 20px 8px; }
+  #game-navigation a, #game-navigation .navigation a { font-size: 24px; font-size: 26px; padding; 20px 8px; }
 }
 
 
