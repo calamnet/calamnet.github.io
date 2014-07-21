@@ -35,12 +35,6 @@ div#right-column {width: 160px; margin-top: 160px; }
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
 #game-navigation .navigation { background: #5C1D1A; border: 1px solid #853733; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
-@media only screen and (max-device-width: 480px) {
-  #game-navigation { width: 200px; }
-  #game-navigation a, #game-navigation .navigation a { font-size: 30px; line-height: 32px; padding; 20px 8px; display: block; }
-}
-
-
 /* Account */
 #account-container { top: 0; right: 90px; width: 150px; padding-top: 10px; position: relative; display: inline-block; }
 #account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
@@ -105,11 +99,6 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .page-summary { width: 450px; padding: 20px; margin: 0 0 20px 0; border-radius: 4px; background: #494432; }
 div.lobby-panel .page-summary { width: auto; background: none; margin-bottom: 10px; padding: 0; }
 div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; }
-
-@media only screen and (max-device-width: 480px) {
-  .lobby-panel { font-size: 20px; line-height: 22px; }
-  .lobby-panel h1 { font-size: 72px; line-height: 76px; }
-}
 
 /* Information Messages */
 .messages { font-weight: bold; line-height: 20px; border: 1px solid #fff; border-radius: 4px; color: #000; background: #ddaa77; }
@@ -204,13 +193,6 @@ form input[type=submit], .button-link { border: 1px solid; border-radius: 4px; f
 form input[type=submit]:hover, .button-link:hover { background: #c99a1a; }
 form input[type=submit]:active, .button-link:active { background: #ba8500; }
 
-
-@media only screen and (max-device-width: 480px) {
-  form input[type="submit"], .button-link { font-size: 36px; padding: 10px 40px; height: auto !important; }
-  form input[type="text"], form input[type="password"] { height: 30px; font-size: 24px; }
-  .game-content form.change-kingdom .change-kingdom-form { width: 350px; }
-}
-
 div.selector span, div.uploader span.filename, div.uploader span.action { padding-left: 5px; font-weight: normal; text-align: left; }
 div.uploader span.filename, div.uploader span.action { }
 div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px; }
@@ -242,13 +224,6 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 .game-header a h1 { background: #AD9F99; color: #000; border: 1px solid #846F66; }
 .game-header a h1:hover { color: #fff; background: #846F66; text-decoration: underline; }
 
-@media only screen and (max-device-width: 480px) {
-  .game-header { width: 600px; }
-  .game-header h1 { font-size: 24px; line-height: 26px; height: 30px; padding: 10px 8px; }
-  .game-content { margin-top: 70px; width: 600px; font-size: 20px; line-height: 22px; }
-  .game-content p.advice-message, .game-content p.warning { width: 550px; }
-}
-
 /* KINGDOM NEWS */
 div.news-legend { background: #ddaa77; color: #000; margin-top: 0; padding: 10px 20px;  border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
 div.news-legend span { padding: 0 0 0 14px; background-position: top left; background-repeat: no-repeat; line-height: 12px; margin-left: 10px; }
@@ -260,7 +235,6 @@ div.news-legend span.news-dragon { background-image: url(./images/kingdom_news/d
 div.news-legend span.news-obituaries { background-image: url(./images/kingdom_news/obituaries_inline.png); }
 div.news-legend span.news-relations { background-image: url(./images/kingdom_news/relations_inline.png); }
 div.news-legend span.news-province-modification { background-image: url(./images/kingdom_news/province_modification_inline.png); }
-
 
 td.news-aid { background-image: url(./images/kingdom_news/aid.png); }
 td.news-intra-kingdom-conflict { background-image: url(./images/kingdom_news/intra_kingdom_conflict.png); }
@@ -334,11 +308,6 @@ table.two-column-stats {}
 table.two-column-stats th { width: 20% !important; border-right: 1px solid #999; font-weight: 700; }
 table.two-column-stats td { width: 30% !important; }
 
-@media only screen and (max-device-width: 480px) {
-  .game-content table.two-column-stats { font-size: 20px; line-height: 22px; }
-}
-
-
 /* GAME PREFERENCES */
 .game-content div.preference-box { background: none; padding-top: 0; }
 .game-content div.preference-box.disabled { opacity: 0.5; }
@@ -359,10 +328,6 @@ a.forum-edit-button { margin-top: 15px; background: #fff; color: #000 !important
 div.pagination+p { height: 0px; padding: 0 !important; }
 form#mail-bulk-action+div.pagination, table+div.pagination { margin-top: -10px; border-bottom-right-radius:4px; border-bottom-left-radius:4px; }
 /* table.mail-view+p { height: 0px; padding: 0 !important; }*/
-
-@media only screen and (max-device-width: 480px) {
-table.mail-view { width: 600px !important; font-size: 24px; line-height: 26px; }
-}
 
 /* Mail Page */
 form#mail-bulk-action table thead tr th { background: #5C1D1A; font-weight: bold; }
@@ -433,3 +398,19 @@ form#monarchy-form table td {}
 
 div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: 10px 0 0 0; background: #ddaa77; font-weight: bold; }
 span.advice-message+strong a { color: #ff0000 !important; }
+
+@media only screen and (max-device-width: 480px) {
+  #game-navigation { width: 200px; }
+  #game-navigation a, #game-navigation .navigation a { font-size: 30px; line-height: 32px; padding; 20px 8px; display: block; }
+  table.mail-view { width: 600px !important; font-size: 24px; line-height: 26px; }
+  .game-content table.two-column-stats { font-size: 20px; line-height: 22px; }
+  .game-header { width: 600px; }
+  .game-header h1 { font-size: 24px; line-height: 26px; height: 30px; padding: 10px 8px; }
+  .game-content { margin-top: 70px; width: 600px; font-size: 20px; line-height: 22px; }
+  .game-content p.advice-message, .game-content p.warning { width: 550px; }
+  form input[type="submit"], .button-link { font-size: 36px; padding: 10px 40px; height: auto !important; }
+  form input[type="text"], form input[type="password"] { height: 30px; font-size: 24px; }
+  .game-content form.change-kingdom .change-kingdom-form { width: 350px; }
+  .lobby-panel { font-size: 20px; line-height: 22px; }
+  .lobby-panel h1 { font-size: 72px; line-height: 76px; }
+}
