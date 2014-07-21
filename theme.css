@@ -413,4 +413,5 @@ span.advice-message+strong a { color: #ff0000 !important; }
   .game-content form.change-kingdom .change-kingdom-form { width: 350px; }
   .lobby-panel { font-size: 20px; line-height: 22px; }
   .lobby-panel h1 { font-size: 72px; line-height: 76px; }
+  .game-content table.mail-view form { height: auto !important; }
 }
