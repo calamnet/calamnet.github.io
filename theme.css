@@ -392,7 +392,7 @@ div#throne-game-message { display: none; }
 
 div.selector select { font-family: Arial, sans-serif; }
 div#aid-trade-blockade { background: #c1c1c1; color: #000; }
-div#aid-trade-blockade+p { background: none; color: #000; }
+div#aid-trade-blockade+p { background: none; color: #000; text-align: center; }
 div#aid-trade-blockade ul { padding: 10px; }
 label[for="id_spell"] { width: 100px; display: inline-block; }
 
