@@ -116,7 +116,7 @@ div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; }
 
 table.math-table .good { color: #67ae35 !important; background: none !important; }
 table.math-table .bad { color: #fe0000 !important; background: none !important; }
-table.two-column-stats td div.bad { padding: 10px; }
+table.two-column-stats td div.bad, table.two-column-stats td div.good { padding: 10px; }
 
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
@@ -392,7 +392,8 @@ div#throne-game-message { display: none; }
 
 div.selector select { font-family: Arial, sans-serif; }
 div#aid-trade-blockade { background: #c1c1c1; color: #000; }
-div#aid-trade-blockage+p { background: none; color: #000; }
+div#aid-trade-blockade+p { background: none; color: #000; }
+div#aid-trade-blockade ul { padding: 10px; }
 label[for="id_spell"] { width: 100px; display: inline-block; }
 
 /* Monarchy Form */
