@@ -130,7 +130,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .error { color: #e55700; }
 
 #game-navigation { }
-#game-navigation .current-date { z-index: 10000; position: absolute; font-weight: 700; top: -210px; left: 0; margin-bottom: 0; padding: 12px 14px; text-shadow: none; border: none; background: #747474; }
+#game-navigation .current-date { z-index: 10000; position: absolute; font-size: .8em; font-weight: 700; top: -210px; left: 0; margin-bottom: 0; padding: 12px 14px; text-shadow: none; border: none; background: #747474; }
 #game-navigation a { line-height: 0.6em; color: #fff; }
 #game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
