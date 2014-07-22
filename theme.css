@@ -251,14 +251,14 @@ td.news-incident-report { text-align: left; }
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
 .intel-fresh { color: #2736ff !important; }
-.at-war, .intel-rotten { color: #F28585 !important; }
+.at-war, .intel-rotten { color: #ddaa77 !important; }
 .intel-stale { color: #4a732e !important; font-weight: bold; }
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #000; font-weight: bold; }
 
 
-.game-content table.province-target-finder tbody tr.at-war { background: #f28585 !important; color: #fff !important; }
-.game-content table.province-target-finder tbody tr.at-war a { color: #fff !important; }
+.game-content table.province-target-finder tbody tr.at-war { background: #ddaa77 !important; color: #000 !important; }
+.game-content table.province-target-finder tbody tr.at-war a { color: #000 !important; }
 .tablesorter tr.monarch td { background: #5C1D1A; color: #fff; }
 .tablesorter tr.monarch a { color: #fff !important; }
 span.monarch { color: #5C1D1A;}
