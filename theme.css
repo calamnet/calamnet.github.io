@@ -410,6 +410,7 @@ span.advice-message+strong a { color: #ff0000 !important; }
 /* Utools Specific */
 #game-navigation a+a { display: inline-block !important; float: right; margin-top: -25px !important; }
 #game-navigation { margin-left: 0 !important; position: relative !important; width: 100px !important; }
+#game-navigation div.navigation div { height: 25px; }
 
 
 @media only screen and (max-device-width: 480px) {
