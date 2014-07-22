@@ -64,6 +64,8 @@ h2 { font-size: 1.1em; }
 h3 { font-size: 1em; }
 h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 
+p:empty { display: none; }
+
 #footer { display: none; }
 
 /* Report This */
@@ -114,6 +116,7 @@ div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; }
 
 table.math-table .good { color: #67ae35 !important; background: none !important; }
 table.math-table .bad { color: #fe0000 !important; background: none !important; }
+table.two-column-stats td div.bad { padding: 10px; }
 
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
@@ -389,6 +392,7 @@ div#throne-game-message { display: none; }
 
 div.selector select { font-family: Arial, sans-serif; }
 div#aid-trade-blockade { background: #c1c1c1; color: #000; }
+div#aid-trade-blockage+p { background: none; color: #000; }
 label[for="id_spell"] { width: 100px; display: inline-block; }
 
 /* Monarchy Form */
