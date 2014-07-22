@@ -257,8 +257,8 @@ td.news-incident-report { text-align: left; }
 .slot-number { font-size: 0.8em; color: #000; font-weight: bold; }
 
 
-.province-target-finder tr.at-war { background: #f28585 !important; color: #fff !important; }
-.province-target-finder tr.at-war a { color: #fff !important; }
+.game-content table.province-target-finder tbody tr.at-war { background: #f28585 !important; color: #fff !important; }
+.game-content table.province-target-finder tbody tr.at-war a { color: #fff !important; }
 .tablesorter tr.monarch td { background: #5C1D1A; color: #fff; }
 .tablesorter tr.monarch a { color: #fff !important; }
 span.monarch { color: #5C1D1A;}
