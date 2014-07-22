@@ -408,7 +408,7 @@ div#hostility-meter-purchase+span.advice-message { display: inline-block; paddin
 span.advice-message+strong a { color: #ff0000 !important; }
 
 /* Utools Specific */
-a+a { display: inline !important; }
+#game-navigation a+a { display: inline-block !important; float: right; margin-top: -25px !important; }
 #game-navigation { margin-left: 0 !important; position: relative !important; width: 100px !important; }
 
 
