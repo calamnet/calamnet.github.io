@@ -256,6 +256,9 @@ td.news-incident-report { text-align: left; }
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #000; font-weight: bold; }
 
+
+.province-target-finder tr.at-war { background: #f28585; color: #fff !important; }
+.province-target-finder tr.at-war a { color: #fff !important; }
 .tablesorter tr.monarch td { background: #5C1D1A; color: #fff; }
 .tablesorter tr.monarch a { color: #fff !important; }
 span.monarch { color: #5C1D1A;}
