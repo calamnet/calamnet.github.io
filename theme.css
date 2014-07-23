@@ -410,7 +410,7 @@ span.advice-message+strong a { color: #ff0000 !important; }
 /* Utools Specific */
 #game-navigation a+a { display: block !important; position: absolute; top: 0; right: 0; }
 #game-navigation a+span, #game-navigation a+span+span { display: none !important; }
-#game-navigation a+span.advice-message { display: inline-block !important; color: #fff !important; }
+#game-navigation a+span.advice-message { display: inline-block !important; color: #fff !important; float: right; margin-right: 10px; margin-top: -20px;  }
 #game-navigation a+span.advice-message:after { content: ' NEW'; }
 #game-navigation a+span+a { display: block !important; float: none; margin-top: 0; height: 25px; }
 #game-navigation { margin-left: 0 !important; position: relative !important; width: 100px !important; }
