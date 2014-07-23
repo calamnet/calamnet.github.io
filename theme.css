@@ -413,6 +413,12 @@ span.advice-message+strong a { color: #ff0000 !important; }
 #game-navigation a+span+a { display: block !important; float: none; margin-top: 0; height: 25px; }
 #game-navigation { margin-left: 0 !important; position: relative !important; width: 100px !important; }
 #game-navigation div.navigation div { position: relative; }
+table.dont_sort_table tr.monarch td { background: #5C1D1A; color: #fff; }
+table.dont_sort_table tr.monarch a { color: #fff !important; }
+table.dont_sort_table tr.chamberlain td { /* background: #4a732e;*/ background: #ddaa77; color: #000; }
+table.dont_sort_table tr.chamberlain a { color: #000 !important; }
+table.dont_sort_table tr.protected td { background: #2736ff; color: #fff; }
+table.dont_sort_table tr.protected a { color: #fff !important; }
 
 @media only screen and (max-device-width: 480px) {
   #game-navigation { width: 200px !important; }
