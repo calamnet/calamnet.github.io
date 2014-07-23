@@ -416,7 +416,7 @@ span.advice-message+strong a { color: #ff0000 !important; }
 
 
 @media only screen and (max-device-width: 480px) {
-  #game-navigation { width: auto; }
+  #game-navigation { width: 200px !important; }
   #game-navigation a, #game-navigation .navigation a { font-size: 30px; line-height: 32px; padding; 20px 8px; display: block; }
   table.mail-view { width: 600px !important; font-size: 24px; line-height: 26px; }
   .game-content table.two-column-stats { font-size: 20px; line-height: 22px; }
