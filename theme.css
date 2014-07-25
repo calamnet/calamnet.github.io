@@ -423,10 +423,10 @@ table.dont_sort_table tr.chamberlain a { color: #000 !important; }
 table.dont_sort_table tr.protected td { background: #2736ff; color: #fff; }
 table.dont_sort_table tr.protected a { color: #fff !important; }
 
-tr th#rescell1, tr th#rescell2, tr th#rescell3 { position: absolute; right: -50px; top: 0; }
-tr th#rescell1 {}
-tr th#rescell2 {}
-tr th#rescell3 {}
+tr th#rescell1, tr th#rescell2, tr th#rescell3 { position: absolute; right: -125px; }
+tr th#rescell1 { top: -150px; }
+tr th#rescell2 { top: -125px; }
+tr th#rescell3 { top: -100px; }
 tr th div#cellNotice {}
 
 @media only screen and (max-device-width: 480px) {
