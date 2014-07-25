@@ -423,10 +423,10 @@ table.dont_sort_table tr.chamberlain a { color: #000 !important; }
 table.dont_sort_table tr.protected td { background: #2736ff; color: #fff; }
 table.dont_sort_table tr.protected a { color: #fff !important; }
 
-tr th#rescell1, tr th#rescell2, tr th#rescell3, tr th div#cellNotice { padding: 2px 6px; text-align: center; width: 100px; position: absolute; right: -125px; border-radius: 4px; background: #5C1D1A !important; }
-tr th#rescell1 { top: -150px; }
+tr th#rescell1, tr th#rescell2, tr th#rescell3, tr th div#cellNotice { padding: 2px 6px; text-align: center !important; width: 100px; position: absolute; right: -125px; border-radius: 4px; background: #5C1D1A !important; }
+tr th#rescell1 { top: -150px; color: #fff !important; }
 tr th#rescell2 { top: -124px; }
-tr th#rescell3 { top: -90px; }
+tr th#rescell3 { top: -90px; color: #fff !important; }
 tr th div#cellNotice { min-height: 200px; top: -65px; }
 
 @media only screen and (max-device-width: 480px) {
