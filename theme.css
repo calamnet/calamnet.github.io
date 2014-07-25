@@ -415,7 +415,7 @@ span.advice-message+strong a { color: #ff0000 !important; }
 #game-navigation a+span+a { display: block !important; float: none; margin-top: 0; height: 25px; }
 #game-navigation { margin-left: 0 !important; position: relative !important; width: 100px !important; }
 #game-navigation div.navigation div { position: relative; }
-table.dont_sort_table tr thead td a { color: #fff !important; }
+table.dont_sort_table tr thead th a { color: #fff !important; }
 table.dont_sort_table tr.monarch td { background: #5C1D1A; color: #fff; }
 table.dont_sort_table tr.monarch a { color: #fff !important; }
 table.dont_sort_table tr.chamberlain td { /* background: #4a732e;*/ background: #ddaa77; color: #000; }
