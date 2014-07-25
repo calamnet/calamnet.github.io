@@ -427,7 +427,7 @@ tr th#rescell1, tr th#rescell2, tr th#rescell3, tr th div#cellNotice { padding: 
 tr th#rescell1 { top: -150px; color: #fff !important; }
 tr th#rescell2 { top: -124px; }
 tr th#rescell3 { top: -90px; color: #fff !important; }
-tr th div#cellNotice { min-height: 200px; top: -65px; }
+tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
 @media only screen and (max-device-width: 480px) {
   #game-navigation { width: 200px !important; }
