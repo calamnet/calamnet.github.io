@@ -433,7 +433,7 @@ tr th#rescell2 { top: -124px; }
 tr th#rescell3 { top: -90px; color: #fff !important; }
 tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
-div.wyswyg iframe.formatted-content { height: 500px; }
+div.wysiwyg iframe.formatted-content { height: 500px; }
 
 @media only screen and (max-device-width: 480px) {
   #game-navigation { width: 200px !important; }
