@@ -433,6 +433,8 @@ tr th#rescell2 { top: -124px; }
 tr th#rescell3 { top: -90px; color: #fff !important; }
 tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
+.formatted-content { min-height: 500px; }
+
 @media only screen and (max-device-width: 480px) {
   #game-navigation { width: 200px !important; }
   #game-navigation div.navigation div { height: auto !important; }
