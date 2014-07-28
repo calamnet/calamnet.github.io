@@ -435,7 +435,13 @@ tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
 div.wysiwyg iframe { height: 500px !important; }
 
+div.reverb-widget iframe { height: 500px !important; width: 250px !important; }
+
+div#upoopu_extension_credentials { top: 10px !important; left: 10px !important; }
+
 @media only screen and (max-device-width: 480px) {
+  div.reverb-widget iframe { height: auto !important; width: auto !important; }
+  div.wysiwyg iframe { height: 350px !important; }
   #game-navigation { width: 200px !important; }
   #game-navigation div.navigation div { height: auto !important; }
   #game-navigation a, #game-navigation .navigation a { font-size: 30px; line-height: 32px; padding: 20px 8px !important; display: block; }
