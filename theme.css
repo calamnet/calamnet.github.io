@@ -406,8 +406,10 @@ form#monarchy-form table td {}
 
 #skyscraper-ad { padding-top: 0 !important; }
 
-div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: 10px 0 0 0; background: #ddaa77; font-weight: bold; }
+div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: 10px 0 0 0; background: #ddaa77 !important; font-weight: bold; }
 span.advice-message+strong a { color: #ff0000 !important; }
+
+div#hostility-meter-purchase+span.advice-message { color: #000 !important; }
 
 /* Utools Specific */
 #game-navigation a+a { display: block !important; position: absolute; top: 0; right: 0; }
