@@ -311,8 +311,8 @@ span.protected { color: #2736ff; }
 table.one-column-stats {}
 table.one-column-stats th { font-weight: bold; border-right: 1px solid #ccc; }
 table.two-column-stats {}
-table.two-column-stats th { width: 20% !important; border-right: 1px solid #999; font-weight: 700; }
-table.two-column-stats td { width: 30% !important; }
+table.two-column-stats th { width: 20% !important; border-right: 1px solid #999; font-weight: 700; background: #c1c1c1; color: #000; }
+table.two-column-stats td { width: 30% !important; background: #c1c1c1; color: #000; }
 
 /* GAME PREFERENCES */
 .game-content div.preference-box { background: none; padding-top: 0; }
