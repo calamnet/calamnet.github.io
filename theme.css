@@ -254,7 +254,8 @@ td.news-incident-report { text-align: left; }
 /* KINGDOM DETAILS */
 .unused-slot {  }
 .intel-fresh { color: #2736ff !important; }
-.at-war, .intel-rotten { color: #ddaa77 !important; }
+.at-war { color: #ddaa77 !important; }
+.intel-rotten { color: #9f6022 !important; }
 .intel-stale { color: #4a732e !important; font-weight: bold; }
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #000; font-weight: bold; }
