@@ -314,6 +314,8 @@ table.two-column-stats {}
 table.two-column-stats th { width: 20% !important; border-right: 1px solid #999; font-weight: 700; background: #c1c1c1; color: #000; }
 table.two-column-stats td { width: 30% !important; background: #c1c1c1; color: #000; }
 
+table.two-column-stats tbody th, table.two-column-stats tbody td { background: #c1c1c1 !important; color: #000 !important; }
+
 /* GAME PREFERENCES */
 .game-content div.preference-box { background: none; padding-top: 0; }
 .game-content div.preference-box.disabled { opacity: 0.5; }
