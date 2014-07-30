@@ -477,7 +477,7 @@ div#left-column { width: 1000px; }
 #outer-container, #inner-container, #middle { width: 1160px; }
 /* Account */
 #account-container { top: -10px; right: 0; }
-#resource-bar { width: 100% important; margin-top: 0; }
+#resource-bar { width: 980px !important; margin-top: 0; }
 #resource-bar th, #resource-bar td { font-size: 24px !important; }
 
 #game-navigation { width: 100% !important; }
@@ -485,7 +485,7 @@ div#left-column { width: 1000px; }
 #game-navigation .current-date { z-index: 10000; position: relative; top: auto; left: auto; }
 
 .game-header, .game-content { width: 100% !important; }
-.game-content { margin-top: 0; }
+.game-content { margin-top: 10px; }
 }
 
 
