@@ -464,8 +464,13 @@ and (max-device-width : 1024px) {
   	.lobby-panel { font-size: 20px; line-height: 22px; }
   	.lobby-panel h1 { font-size: 72px; line-height: 76px; }
   	.game-content table.mail-view form { height: auto !important; }
-  	body { background-color: #ff0000 !important; background-image: none !important; }
-  
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
 }
 
 
