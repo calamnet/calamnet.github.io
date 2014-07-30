@@ -473,8 +473,10 @@ and (max-device-width : 1024px) {
 body { font-size: 32px; }
 #header { height:  60px !important; }
 #header-navigation { left: auto !important; }
+div#left-column { width: 1000px; }
+#outer-container, #inner-container, #middle { width: 1160px; }
 /* Account */
-#account-container { top: auto; right: 0; }
+#account-container { top: -10px; right: 0; }
 #resource-bar { width: 100% important; margin-top: 0; }
 #resource-bar th, #resource-bar td { font-size: 24px !important; }
 
