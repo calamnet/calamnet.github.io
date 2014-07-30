@@ -466,19 +466,6 @@ and (max-width : 480px) {
   	.game-content table.mail-view form { height: auto !important; }
   
 }
-
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-
-.reverb-widget { position: relative !important; }
-}
- 
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-.reverb-widget { position: relative !important; }
-}
  
 /* iPads (portrait and landscape) ----------- */
 @media only screen
