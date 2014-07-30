@@ -474,9 +474,13 @@ body { font-size: 32px; }
 #header { height:  60px !important; }
 #header-navigation { left: 200px !important; }
 /* Account */
-#account-container { top: -10px; right: 150px; background: #5C1D1A !important; height: 60px; }
+#account-container { top: -10px; right: -150px; background: #5C1D1A !important; height: 60px; }
 #resource-bar { width: 100% important; }
 #resource-bar th, #resource-bar td { font-size: 24px !important; }
+
+#game-navigation { width: 100% !important; }
+#game-navigation .navigation { float: left; }
+#game-navigation .current-date { z-index: 10000; position: relative; top: auto; left: auto; }
 }
 
 
