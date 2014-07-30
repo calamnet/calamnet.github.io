@@ -444,7 +444,7 @@ tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
-and (mmax-device-width : 480px) {
+and (max-device-width : 480px) {
 /* Styles */
 	.reverb-widget { position: relative !important; }
 	div.reverb-widget iframe { width: 175px !important; }
