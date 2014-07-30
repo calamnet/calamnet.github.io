@@ -442,22 +442,70 @@ tr th#rescell2 { top: -124px; }
 tr th#rescell3 { top: -90px; color: #fff !important; }
 tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
-@media only screen and (max-device-width: 480px) {
-  div.reverb-widget iframe { width: 175px !important; }
-  div.wysiwyg iframe { height: 350px !important; }
-  #game-navigation { width: 200px !important; }
-  #game-navigation div.navigation div { height: auto !important; }
-  #game-navigation a, #game-navigation .navigation a { font-size: 30px; line-height: 32px; padding: 20px 8px !important; display: block; }
-  table.mail-view { width: 600px !important; font-size: 24px; line-height: 26px; }
-  .game-content table.two-column-stats { font-size: 20px; line-height: 22px; }
-  .game-header { width: 600px; }
-  .game-header h1 { font-size: 24px; line-height: 26px; height: 30px; padding: 10px 8px; }
-  .game-content { margin-top: 70px; width: 600px; font-size: 20px; line-height: 22px; }
-  .game-content p.advice-message, .game-content p.warning { width: 550px; }
-  form input[type="submit"], .button-link { font-size: 36px; padding: 10px 40px; height: auto !important; }
-  form input[type="text"], form input[type="password"] { height: 30px; font-size: 24px; }
-  .game-content form.change-kingdom .change-kingdom-form { width: 350px; }
-  .lobby-panel { font-size: 20px; line-height: 22px; }
-  .lobby-panel h1 { font-size: 72px; line-height: 76px; }
-  .game-content table.mail-view form { height: auto !important; }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+
+	div.reverb-widget iframe { width: 175px !important; }
+  	div.wysiwyg iframe { height: 350px !important; }
+  	#game-navigation { width: 200px !important; }
+  	#game-navigation div.navigation div { height: auto !important; }
+  	#game-navigation a, #game-navigation .navigation a { font-size: 30px; line-height: 32px; padding: 20px 8px !important; display: block; }
+  	table.mail-view { width: 600px !important; font-size: 24px; line-height: 26px; }
+  	.game-content table.two-column-stats { font-size: 20px; line-height: 22px; }
+  	.game-header { width: 600px; }
+  	.game-header h1 { font-size: 24px; line-height: 26px; height: 30px; padding: 10px 8px; }
+  	.game-content { margin-top: 70px; width: 600px; font-size: 20px; line-height: 22px; }
+  	.game-content p.advice-message, .game-content p.warning { width: 550px; }
+  	form input[type="submit"], .button-link { font-size: 36px; padding: 10px 40px; height: auto !important; }
+  	form input[type="text"], form input[type="password"] { height: 30px; font-size: 24px; }
+  	.game-content form.change-kingdom .change-kingdom-form { width: 350px; }
+  	.lobby-panel { font-size: 20px; line-height: 22px; }
+  	.lobby-panel h1 { font-size: 72px; line-height: 76px; }
+  	.game-content table.mail-view form { height: auto !important; }
+  
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+ 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 }
