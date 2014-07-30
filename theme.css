@@ -444,7 +444,7 @@ tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
-and (max-device-width : 480px) {
+and (max-device-width : 1024px) {
 /* Styles */
 	.reverb-widget { position: relative !important; }
 	div.reverb-widget iframe { width: 175px !important; }
@@ -464,17 +464,12 @@ and (max-device-width : 480px) {
   	.lobby-panel { font-size: 20px; line-height: 22px; }
   	.lobby-panel h1 { font-size: 72px; line-height: 76px; }
   	.game-content table.mail-view form { height: auto !important; }
+  	background-color: #ff0000 !important;
+	background-image: none !important; 
   
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width: 481px)
-and (max-device-width: 1024px) {
-background-color: #ff0000 !important;
-background-image: none !important; 
-}
- 
+
 /* iPhone 4 ----------- */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
