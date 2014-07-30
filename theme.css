@@ -466,6 +466,14 @@ and (max-width : 480px) {
   	.game-content table.mail-view form { height: auto !important; }
   
 }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 421px)
+and (max-width : 769px) {
+background-color: #ff0000 !important;
+background-image: none !important; 
+}
  
 /* iPads (portrait and landscape) ----------- */
 @media only screen
