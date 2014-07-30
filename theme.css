@@ -444,7 +444,6 @@ tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
-and (min-width : 320px)
 and (max-width : 480px) {
 /* Styles */
 	.reverb-widget { position: relative; }
@@ -466,18 +465,6 @@ and (max-width : 480px) {
   	.lobby-panel h1 { font-size: 72px; line-height: 76px; }
   	.game-content table.mail-view form { height: auto !important; }
   
-}
- 
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-/* Styles */
-}
- 
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-/* Styles */
 }
  
 /* iPads (portrait and landscape) ----------- */
