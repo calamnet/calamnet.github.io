@@ -447,7 +447,7 @@ tr th div#cellNotice { right: auto; position: relative; width: auto; }
 and (min-width : 320px)
 and (max-width : 480px) {
 /* Styles */
-
+	.reverb-widget { position: relative; }
 	div.reverb-widget iframe { width: 175px !important; }
   	div.wysiwyg iframe { height: 350px !important; }
   	#game-navigation { width: 200px !important; }
