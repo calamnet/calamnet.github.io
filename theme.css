@@ -506,4 +506,6 @@ background-image: none;
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 .reverb-widget { position: relative !important; }
+background-color: #ff0000;
+background-image: none; 
 }
