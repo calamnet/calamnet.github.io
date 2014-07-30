@@ -472,10 +472,10 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 body { font-size: 32px; }
 #header { height:  60px !important; }
-#header-navigation { left: 200px !important; }
+#header-navigation { left: auto !important; }
 /* Account */
 #account-container { top: -10px; right: -150px; background: #5C1D1A !important; height: 60px; }
-#resource-bar { width: 100% important; }
+#resource-bar { width: 100% important; margin-top: 0; }
 #resource-bar th, #resource-bar td { font-size: 24px !important; }
 
 #game-navigation { width: 100% !important; }
