@@ -484,7 +484,7 @@ div#left-column { width: 1000px; }
 #game-navigation .navigation { float: left; margin-right: 5px; }
 #game-navigation .current-date { z-index: 10000; position: relative; top: auto; left: auto; }
 
-.game-header, .game-content { width: 100% !important; }
+.game-header, .game-content, table.mail-view { width: 100% !important; }
 .game-content { margin-top: 10px; }
 }
 
