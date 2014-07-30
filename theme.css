@@ -444,7 +444,7 @@ tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
-and (max-width : 480px) {
+and (mmax-device-width : 480px) {
 /* Styles */
 	.reverb-widget { position: relative !important; }
 	div.reverb-widget iframe { width: 175px !important; }
@@ -469,36 +469,10 @@ and (max-width : 480px) {
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen
-and (min-width : 421px)
-and (max-width : 769px) {
+and (min-device-width: 481px)
+and (max-device-width: 1024px) {
 background-color: #ff0000 !important;
 background-image: none !important; 
-}
- 
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-width : 768px)
-and (max-width : 1024px) {
-background-color: #ff0000 !important;
-background-image: none !important; 
-}
- 
-/* iPads (landscape) ----------- */
-@media only screen
-and (min-width : 768px)
-and (max-width : 1024px)
-and (orientation : landscape) {
-background-color: #ff0000;
-background-image: none; 
-}
- 
-/* iPads (portrait) ----------- */
-@media only screen
-and (min-width : 768px)
-and (max-width : 1024px)
-and (orientation : portrait) {
-background-color: #ff0000;
-background-image: none; 
 }
  
 /* iPhone 4 ----------- */
@@ -506,6 +480,4 @@ background-image: none;
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 .reverb-widget { position: relative !important; }
-background-color: #ff0000;
-background-image: none; 
 }
