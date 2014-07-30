@@ -470,7 +470,7 @@ and (max-device-width : 1024px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
-body { background-color: #ff0000 !important; background-image: none !important; }
+body { background-color: #ff0000 !important; background-image: none !important; font-size: 32px; }
 }
 
 
