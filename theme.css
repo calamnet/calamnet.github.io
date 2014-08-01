@@ -121,7 +121,7 @@ table.math-table tr {}
 table.math-table thead th { text-align: left !important; }
 table.math-table thead th, table.math-table thead td { margin: 0; padding: 0; }
 table.math-table tbody th, table.math-table tbody td, table.math-table tbody tr.sub-total td, table.math-table tbody tr.sub-total th { margin: 0; padding: 5px; }
-table.math-table tbody tr.sub-total td, table.math-table tbody tr.sub-total th { border-bottom: 10px solid gray; border-top: 5px solid gray; }
+table.math-table tbody tr.sub-total td, table.math-table tbody tr.sub-total th { border-bottom: 15px solid #2d1312; border-top: 2px solid gray; }
 table.math-table tr.sub-total td, table.math-table tr.sub-total th { background: #ddaa77; color: #000; font-weight: bold; }
 table.math-table tr td div.good { color: #067700 !important; background: none !important; }
 table.math-table tr td div.good:before { content: '+'; }
