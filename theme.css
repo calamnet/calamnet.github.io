@@ -116,8 +116,8 @@ div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; }
 
 table.two-column-stats td div.bad, table.two-column-stats td div.good { padding: 10px; }
 table.math-table tr.sub-total td, table.math-table tr.sub-total th { background: #ddaa77; color: #fff; font-weight: bold; }
-table.math-table tr.sub-total td span.good { color: #067700;}
-table.math-table tr.sub-total td span.bad { color: #7a0500; }
+table.math-table tr.sub-total td div.good { color: #067700; background: none !important; }
+table.math-table tr.sub-total td div.bad { color: #7a0500; background: none !important; }
 
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
