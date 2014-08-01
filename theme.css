@@ -119,7 +119,7 @@ table.two-column-stats td div.bad, table.two-column-stats td div.good { padding:
 table.math-table {}
 table.math-table tr {}
 table.math-table thead th, table.math-table thead td { margin: 0; padding: 0; }
-table.math-table tbody th, table.math-table tbody td, table.math-table tbody tr.sub-total td { margin: 0; padding: 5px; border-width: 5px; }
+table.math-table tbody th, table.math-table tbody td, table.math-table tbody tr.sub-total td, table.math-table tbody tr.sub-total th { margin: 0; padding: 5px; border-width: 5px; border-bottom: 10px solid gray; }
 table.math-table tr.sub-total td, table.math-table tr.sub-total th { background: #ddaa77; color: #000; font-weight: bold; }
 table.math-table tr td div.good { color: #067700 !important; background: none !important; }
 table.math-table tr td div.good:before { content: '+'; }
