@@ -467,29 +467,6 @@ and (max-device-width : 1024px) {
   	.game-content table.mail-view form { height: auto !important; }
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-body { font-size: 32px; }
-#header { height:  60px !important; }
-#header-navigation { left: auto !important; }
-div#left-column { width: 1000px; }
-#outer-container, #inner-container, #middle { width: 1160px; }
-/* Account */
-#account-container { top: -10px; right: 0; }
-#resource-bar { width: 100% !important; margin-top: 0; }
-#resource-bar th, #resource-bar td { font-size: 24px !important; }
-
-#game-navigation { width: 100% !important; }
-#game-navigation .navigation { float: left; margin-right: 5px; }
-#game-navigation .current-date { z-index: 10000; position: relative; top: auto; left: auto; }
-
-.game-header, .game-content, table.mail-view { width: 100% !important; }
-.game-content { margin-top: 10px; }
-}
-
-
 /* iPhone 4 ----------- */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
