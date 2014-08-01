@@ -116,6 +116,7 @@ div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; }
 
 table.two-column-stats td div.bad, table.two-column-stats td div.good { padding: 10px; }
 
+/* Math Table - State Page */
 table.math-table {}
 table.math-table tr {}
 table.math-table thead th { text-align: left !important; }
