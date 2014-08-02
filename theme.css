@@ -328,7 +328,7 @@ table.two-column-stats tbody tr td div.meter-container { color: #000 !important;
 
 table.two-column-stats tbody th, table.two-column-stats tbody td { background: #c1c1c1 !important; color: #000 !important; }
 
-table.two-column-stats tbody tr:nth-child(even) { background: transparent !important; color: #000; }
+table.two-column-stats tbody tr:nth-child(even) th, table.two-column-stats tbody tr:nth-child(even) td { background: transparent !important; color: #000; }
 
 /* GAME PREFERENCES */
 .game-content div.preference-box { background: none; padding-top: 0; }
