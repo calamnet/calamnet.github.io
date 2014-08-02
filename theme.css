@@ -176,7 +176,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .game-content table.schedule { font-size:0.8em; }
 .game-content h2, .game-content h3 { color: #fff; background: #5C1D1A; line-height: 20px; }
 .game-content h2, .game-content form h2, .game-content h3, .game-content form h3 { padding: 10px 0; border-top-right-radius:4px; border-top-left-radius:4px; margin: 20px 0 0 0; }
-.game-content form h2 { margin-top 20px !important; }
+.game-content form h2 { margin-top: 20px !important; }
 .game-content h3 { color: #fff; }
 .game-content ul, .game-content p { background: #c1c1c1; margin: 0; padding: 20px; color: #000; }
 .game-content p:first-child { border-top-right-radius:4px; }
