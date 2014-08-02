@@ -323,7 +323,7 @@ table.one-column-stats th { font-weight: bold; border-right: 1px solid #ccc; }
 table.two-column-stats {}
 table.two-column-stats th { width: 20% !important; border-right: 1px solid #999; font-weight: 700; background: #c1c1c1; color: #000; }
 table.two-column-stats td { width: 30% !important; background: #c1c1c1; color: #000; }
-table.two-column-stats tbody tr:nth-child(even) { background: rgb(48, 48, 48) !important; color: #000; }
+table.two-column-stats tbody tr:nth-child(even) { background: transparent !important; color: #000; }
 table.two-column-stats tbody tr td div+div { color: #111 !important; font-weight: bold; }
 table.two-column-stats tbody tr td div.meter-container { color: #000 !important; font-weight: normal; }
 
