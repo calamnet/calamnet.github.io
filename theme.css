@@ -127,7 +127,7 @@ table.math-table tr.sub-total td, table.math-table tr.sub-total th { background:
 table.math-table tr td div.good { color: #067700 !important; background: none !important; }
 table.math-table tr td div.good:before { content: '+'; }
 table.math-table tr td div.bad { color: #7a0500 !important; background: none !important; }
-table.math-table+ul { display: none; }
+table.math-table+ul {  }
 
 /* User profile page*/
 .lobby-panel .statement { background: url('./images/province_profile/scroll.png') no-repeat; }
