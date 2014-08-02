@@ -166,7 +166,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
 .game-content tbody td input, .game-content tbody td textarea { background: #fff; color: #000; }
-.game-content tbody tr { border-bottom: 2px groove rgba(48, 48, 48, 0.4); border-top: 2px groove rgba(48, 48, 48, 0.4); }
+.game-content tbody tr { border-bottom: 1px solid #747474; border-top: 1px solid #747474; }
 .game-content tbody tr:nth-child(even) { background: #d1d1d1 !important; color: #000; }
 .game-content tbody tr.sub-total { background: none; }
 .game-content tfoot th { background: #747474; color: #fff; }
