@@ -408,7 +408,7 @@ body.wysiwyg { color: #000; background: #fff; font-size: 12px !important; text-a
 
 td#inline-hostility-meter { text-align: left; text-shadow: none; font-weight: normal; }
 
-div#throne-game-message { display: none; }
+div#throne-game-message { }
 
 div.selector select { font-family: Arial, sans-serif; }
 div#aid-trade-blockade { background: #c1c1c1; color: #000; }
