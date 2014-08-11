@@ -335,6 +335,8 @@ table.two-column-stats tbody th, table.two-column-stats tbody td { background: #
 
 table.two-column-stats tbody tr:nth-child(even) th, table.two-column-stats tbody tr:nth-child(even) td { background: transparent !important; color: #000; }
 
+table.two-column-stats+table.two-column-stats { background: #ff0000; }
+
 /* GAME PREFERENCES */
 .game-content div.preference-box { background: none; padding-top: 0; }
 .game-content div.preference-box.disabled { opacity: 0.5; }
