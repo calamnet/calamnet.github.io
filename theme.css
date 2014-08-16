@@ -467,7 +467,7 @@ td font { color: #747474; }
 div#toggler {}
 div#botlinks {}
 div#botupdate {}
-div#overlay { background: #5C1D1A; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; }
+div#overlay { background: #5C1D1A; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -492,6 +492,8 @@ and (max-device-width : 767px) {
   	.lobby-panel h1 { font-size: 72px; line-height: 76px; }
   	div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 0 10px 0; text-align: left; }
   	.game-content table.mail-view form { height: auto !important; }
+  	div#ircchat { width: auto; }
+  	div#overlay { width: auto; }
 }
 
 /* iPhone 4 ----------- */
