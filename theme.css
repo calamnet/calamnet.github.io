@@ -463,6 +463,7 @@ tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
 /* Munk Specific */
 div#ircchat { padding: 75px 0 0 0; width: 1010px; }
+td font { color: #747474; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
