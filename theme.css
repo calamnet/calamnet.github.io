@@ -461,6 +461,9 @@ tr th#rescell2 { top: -124px; }
 tr th#rescell3 { top: -90px; color: #fff !important; }
 tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
+/* Munk Specific */
+div#ircchat { padding: 75px 0 0 0; width: 1010px; }
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (max-device-width : 767px) {
