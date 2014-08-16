@@ -467,7 +467,7 @@ td font { color: #747474; }
 div#toggler {}
 div#botlinks {}
 div#botupdate {}
-div#overlay { background: #5C1D1A; color: #fff; border-radius: 4px; margin: 0 0 10px 0; }
+div#overlay { background: #5C1D1A; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
