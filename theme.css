@@ -495,6 +495,8 @@ and (max-device-width : 767px) {
   	
   	.game-content div.change-kingdom-form { width: 100% !important; right: 20px !important; position: relative !important; height: 100px !important; background: #5C1D1A !important; margin-bottom: 20px !important; margin-left: 20px !important; }
 	div#bookmark-container { z-index: 999; }
+	
+	a#create-royal-command, a#cancel-create-royal-command { display: inline-block; width: 150px; }
 		
 	}
 
