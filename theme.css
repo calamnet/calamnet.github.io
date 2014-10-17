@@ -33,7 +33,11 @@ div#right-column {width: 160px; margin-top: 160px; }
 .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
 .navigation a span.advice-message { color: #fff !important; }
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
-#game-navigation .navigation { background: #5C1D1A; border: 1px solid #853733; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
+#game-navigation .navigation, #game-navigation .current-date { background: #5C1D1A; border: 1px solid #853733; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
+
+#game-navigation { }
+#game-navigation a { line-height: 0.6em; color: #fff; }
+#game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Account */
 #account-container { top: 0; right: 0; width: 150px; padding-top: 10px; position: relative; display: inline-block; }
@@ -141,11 +145,6 @@ p.advice-message, p.warning { background: #c1c1c1; padding: 20px; width: 450px; 
 td#new-royal-command-content p.advice-message { width: auto !important; }
 .warning { color: #e55700; }
 .error { color: #e55700; }
-
-#game-navigation { }
-#game-navigation .current-date { }
-#game-navigation a { line-height: 0.6em; color: #fff; }
-#game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Resource Bar */
 #resource-bar { }
