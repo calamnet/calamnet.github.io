@@ -20,7 +20,7 @@ div#left-column { width: 860px; margin-bottom: 20px; margin-left: 0 !important; 
 div#right-column {width: 160px; margin-top: 60px; }
 
 #header-logo {  }
-#header { width: 100%; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background: #5C1D1A; height:  41px; margin: 0 0 10px 10px; padding: 0; }
+#header { width: 100%; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background: #5C1D1A; height:  41px; margin: 0 0 10px 0; padding: 0; }
 #header-navigation { top: 0; padding: 0; margin: 0 auto !important; min-width: 500px; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none; color: #fff; }
@@ -147,7 +147,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .error { color: #e55700; }
 
 /* Resource Bar */
-#resource-bar { }
+#resource-bar { width: 750px; }
 #resource-bar thead { background: #747474; }
 #resource-bar thead th { font-weight: normal; padding: 3px 0; width: 98px; border-right: 1px inset #141413; }
 #resource-bar thead th:first-child { border-top-left-radius:4px; }
