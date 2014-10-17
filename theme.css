@@ -149,11 +149,11 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 
 /* Resource Bar */
 #resource-bar { width: 730px; box-shadow: 0px 0px 4px #000; }
-#resource-bar thead { background: #415c1a; }
+#resource-bar thead { background: #3e2954; }
 #resource-bar thead th { font-weight: normal; padding: 3px 0; width: 98px; border-right: 1px inset #141413; }
 #resource-bar thead th:first-child { border-top-left-radius:4px; }
 #resource-bar thead th:last-child { border-top-right-radius:4px; border-right: none; }
-#resource-bar tbody th, #resource-bar tbody td { background: #FBF0EF; width: 98px; border-right: 1px inset #444444; padding: 3px 6px 3px 6px; font-size: 11px !important; font-weight: lighter; text-align: right; color: #000; }
+#resource-bar tbody th, #resource-bar tbody td { background: #ebeeec; width: 98px; border-right: 1px inset #444444; padding: 3px 6px 3px 6px; font-size: 11px !important; font-weight: lighter; text-align: right; color: #000; }
 #resource-bar tbody th { font-size: 12px !important; font-weight: bolder; }
 #resource-bar tbody th:first-child { border-bottom-left-radius:4px;  }
 #resource-bar tbody th:last-child { border-bottom-right-radius:4px; border-right: none; }
