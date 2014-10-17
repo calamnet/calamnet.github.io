@@ -21,9 +21,8 @@ div#right-column {width: 160px; margin-top: 60px; }
 
 #header-logo { display: none; width: 0; height: 0; }
 #header { width: 100%; background: #5C1D1A; height:  50px; margin: 0 0 10px 0; padding: 0; box-shadow: 0px 0px 4px #000; }
-#header-navigation { top: 0; margin: 0 auto; background: url(./images/logo_header.png) no-repeat top left; padding: 0; height: 49px; width: 1020px; }
+#header-navigation { top: 0; margin: 0 auto; background: url(./images/logo_header.png) no-repeat top left; padding: 0 0 0 260px; height: 49px; width: 860px; }
 #header-navigation div { margin: 0 !important; }
-#header-navigation div:first-child { margin: 0 0 0 260px; }
 #header-navigation .navigation { box-shadow: 0px 0px 0px #000; }
 #header-navigation a { display: inline-block;  padding: 16px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 #header-navigation a:hover, #header-navigation a:active, #header-navigation a:focus { color: #fff !important; background: #4C3A2C;}
