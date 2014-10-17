@@ -147,7 +147,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .error { color: #e55700; }
 
 /* Resource Bar */
-#resource-bar { width: 750px; }
+#resource-bar { width: 730px; }
 #resource-bar thead { background: #747474; }
 #resource-bar thead th { font-weight: normal; padding: 3px 0; width: 98px; border-right: 1px inset #141413; }
 #resource-bar thead th:first-child { border-top-left-radius:4px; }
