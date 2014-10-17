@@ -29,6 +29,7 @@ div#right-column {width: 160px; margin-top: 60px; }
 
 /* Navigation */
 .navigation { font-weight: normal; text-align: left; padding: 0; margin: 0; color: #fff; box-shadow: 0px 0px 4px #000; }
+#header-navigation .navigation { box-shadow: 0px 0px 0px #000; }
 .navigation a { display: block; padding: 8px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
 .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
 .navigation a span.advice-message { color: #fff !important; }
