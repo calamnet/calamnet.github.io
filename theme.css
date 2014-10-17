@@ -56,7 +56,7 @@ div#right-column {width: 160px; margin-top: 60px; }
 #account-details .account-signout { border-top: 1px solid #29261c;  font-weight: bold;  text-align: right; }
 
 /* Middle */
-#middle { width: 1020px; margin: 0 auto !important; padding: 0; background: url(./images/frontpage-logo.png) no-repeat top left; }
+#middle { width: 1020px; margin: 0 auto !important; padding: 0; }
 
 a, a:link, a:visited { color: #4C3A2C;  text-decoration: none; } 
 a.highlighted { color: #E68910; }
