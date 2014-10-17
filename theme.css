@@ -16,12 +16,12 @@ padding: 0;
 #outer-container { width: 100%; margin: 0 auto !important; height: auto; }
 #inner-container { margin: 0 auto !important; width: 100%; padding: 0; }
 
-div#left-column { width: 860px; margin-top: 100px; margin-bottom: 20px; margin-left: 0 !important; }
-div#right-column {width: 160px; margin-top: 160px; }
+div#left-column { width: 860px; margin-bottom: 20px; margin-left: 0 !important; }
+div#right-column {width: 160px; margin-top: 60px; }
 
 #header-logo {  }
-#header { width: 100%; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background: #5C1D1A; height:  41px; margin: 0 0 10px 0; padding: 0; }
-#header-navigation { top: 0; padding: 0; margin: 0 auto !important; min-width: 500px; }
+#header { width: 100%; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background: #5C1D1A; height:  41px; margin: 0 0 10px 10px; padding: 0; }
+#header-navigation { left: 100px;  top: 0; padding: 0; margin: 0 auto !important; min-width: 500px; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none; color: #fff; }
 #header-navigation a:hover, #header-navigation a:active, #header-navigation a:focus { color: #fff !important; background: #4C3A2C;}
