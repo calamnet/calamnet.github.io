@@ -46,7 +46,7 @@ div#right-column {width: 160px; margin-top: 60px; }
 #account-header { color: #edf2fd; padding: 13px; }
 #account-header:hover { background-color: #494432; }
 #account-header.selected { background-color: #494432; }
-#account-details { font-size: 12px !important;  line-height: 16px;  background-color: #494432; }
+#account-details { left: 0; width: 150px; font-size: 12px !important;  line-height: 16px;  background-color: #494432; }
 #account-details .account-title { font-weight: bolder;  border-bottom: 1px solid #29261c; }
 #account-details .alert a { color: #fff; }
 #account-details a { color: #fff !important; }
