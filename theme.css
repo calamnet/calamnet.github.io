@@ -129,7 +129,7 @@ p:empty, ul:empty { display: none; }
 
 /* Lobby-Panel */
 .age-changes, .lobby-panel, .campaigns { background: #461c0c; color: #fff; box-shadow: 0px 0px 4px #000; }
-.lobby-panel { border-radius: 4px; width: 450px; margin: 40px auto 10px; auto; padding: 20px; }
+.lobby-panel { border-radius: 4px; width: 450px; margin: 40px auto 10px; auto; padding: 20px; border: 1px solid #fff; }
 .lobby-panel table { margin: 0; }
 .lobby-panel table th{ }
 .lobby-panel table td { }
