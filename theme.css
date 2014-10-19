@@ -61,7 +61,7 @@ div#left-column { width: 860px; margin-bottom: 20px; margin-left: 0 !important; 
 div#right-column {width: 160px; margin-top: 60px; }
 
 #header-logo { display: none; width: 0 !important; height: 0 !important; }
-#header { width: 100%; background: #000; height:  50px; margin: 0 0 10px 0; padding: 0; box-shadow: 0px 0px 4px #000; }
+#header { width: 100%; background: #461c0c; height:  50px; margin: 0 0 10px 0; padding: 0; box-shadow: 0px 0px 4px #000; }
 #header-navigation { left: auto; top: 0; margin: 0 auto; background: url(./images/logo_header.png) no-repeat top left; padding: 0 0 0 260px; height: 49px; width: 760px; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation .navigation { box-shadow: 0px 0px 0px #000; }
@@ -75,7 +75,7 @@ div#right-column {width: 160px; margin-top: 60px; }
 .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
 .navigation a span.advice-message { color: #fff !important; }
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
-#game-navigation .navigation, #game-navigation .current-date { background: #294e54; border: 1px solid #1a3a3f; border-radius:4px; }
+#game-navigation .navigation, #game-navigation .current-date { background: #461c0c; border: 1px solid #1a3a3f; border-radius:4px; }
 #game-navigation .current-date { background: #caa710; border-color: #7f6806; box-shadow: 0px 0px 4px #000; padding: 5px 0; font-weight: bold; }
 
 #game-navigation { }
@@ -216,7 +216,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .game-content tr.sub-total th { border-top 2px solid gray !important; }
 .game-content tr.sub-total td { border-top: 2px solid gray; padding-bottom: 25px; }
 .game-content table.schedule { font-size:0.8em; }
-.game-content h2, .game-content h3 { color: #fff; background: #294e54; line-height: 20px; }
+.game-content h2, .game-content h3 { color: #fff; background: #461c0c; line-height: 20px; }
 .game-content h2, .game-content form h2, .game-content h3, .game-content form h3 { padding: 10px 0; border-top-right-radius:4px; border-top-left-radius:4px; margin: 20px 0 0 0; }
 .game-content form h2 { margin-top: 20px !important; }
 .game-content h3 { color: #fff; }
@@ -240,12 +240,12 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .game-content input#btnExplore { width: auto;  background: #c1c1c1 !important;  border-color: none;  border-radius: 4px;  color: #000 !important; }
 
 form ul.errorlist { color: #e26f80; }
-.game-content form.change-kingdom { border-top-right-radius:4px; border-bottom-right-radius:4px; background: #294e54; color: #fff; }
-.game-content form.change-kingdom .change-kingdom-heading { background: #294e54; color: #fff; line-height: 20px; padding-top: 10px; margin-top: 0; }
+.game-content form.change-kingdom { border-top-right-radius:4px; border-bottom-right-radius:4px; background: #461c0c; color: #fff; }
+.game-content form.change-kingdom .change-kingdom-heading { background: #461c0c; color: #fff; line-height: 20px; padding-top: 10px; margin-top: 0; }
 .game-content form.change-kingdom .change-kingdom-heading a { color: #fff !important; text-decoration: underline; }
-.game-content form.change-kingdom .change-kingdom-heading a:hover, .game-content form.change-kingdom .change-kingdom-heading a:active, .game-content form.change-kingdom .change-kingdom-heading a:focus { color: #294e54 !important; text-decoration: underline; }
+.game-content form.change-kingdom .change-kingdom-heading a:hover, .game-content form.change-kingdom .change-kingdom-heading a:active, .game-content form.change-kingdom .change-kingdom-heading a:focus { color: #461c0c !important; text-decoration: underline; }
 .game-content form.change-kingdom .change-kingdom-form { color: #a9a9a9; right: 40px; }
-.game-content form.change-kingdom.change-kingdom-target { margin-top: 20px; border-radius: 4px; background: #294e54; color: #fff; margin-bottom: 0 !important; padding: 20px 0; }
+.game-content form.change-kingdom.change-kingdom-target { margin-top: 20px; border-radius: 4px; background: #461c0c; color: #fff; margin-bottom: 0 !important; padding: 20px 0; }
 .game-content form.change-kingdom .change-kingdom-nav a, .game-content form.change-kingdom .change-kingdom-nav a.button-link { width: 75px;  background: #c1c1c1 !important;  border-color: none;  border-radius: 4px;  color: #000 !important; }
 .game-content form.change-kingdom a.button-link { background: #fff; color: #000; }
 
@@ -253,7 +253,7 @@ input[type=text], form textarea, form input[type=text], form input[type=password
 
 form input[type=text], form input[type=password] { height: 18px; }
 form .errorlist { font-size: 12px !important; }
-form input[type=submit], .button-link { border: 1px solid; border-radius: 4px; font-weight: normal; background: #294e54; color: #fff !important; margin-top: 10px; }
+form input[type=submit], .button-link { border: 1px solid; border-radius: 4px; font-weight: normal; background: #461c0c; color: #fff !important; margin-top: 10px; }
 form input[type=submit]:hover, .button-link:hover { background: #c99a1a; }
 form input[type=submit]:active, .button-link:active { background: #ba8500; }
 
@@ -282,7 +282,7 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 
 /* Game-Header */
 .game-header { height: 30px; }
-.game-header h1 { box-shadow: 0px 0px 4px #000; border-top-left-radius:4px; border-top-right-radius:4px; height: 22px; margin: 0px 2px; padding: 6px 8px 1px 8px; text-decoration: none;color: #fff; background: #294e54; }
+.game-header h1 { box-shadow: 0px 0px 4px #000; border-top-left-radius:4px; border-top-right-radius:4px; height: 22px; margin: 0px 2px; padding: 6px 8px 1px 8px; text-decoration: none;color: #fff; background: #461c0c; }
 .game-header h1 a { color: #fff !important; }
 .game-header h1 a:hover, .game-header h1 a:active, .game-header h1 a:focus { text-decoration: underline; }
 .game-header a h1 { background: #AD9F99; color: #000; border: 1px solid #846F66; }
@@ -324,9 +324,9 @@ td.news-incident-report { text-align: left; }
 
 .game-content table.province-target-finder tbody tr.at-war { background: #ddaa77 !important; color: #000 !important; }
 .game-content table.province-target-finder tbody tr.at-war a { color: #000 !important; }
-.tablesorter tr.monarch td { background: #294e54; color: #fff; }
+.tablesorter tr.monarch td { background: #461c0c; color: #fff; }
 .tablesorter tr.monarch a { color: #fff !important; }
-span.monarch { color: #294e54;}
+span.monarch { color: #461c0c;}
 .tablesorter tr.chamberlain td { /* background: #4a732e;*/ background: #ddaa77; color: #000; }
 .tablesorter tr.chamberlain a { color: #000 !important; }
 span.chamberlain {/*color: #4a732e;*/ color: #ddaa77; }
@@ -390,7 +390,7 @@ table.two-column-stats+table.two-column-stats { background: #ff0000; }
 .game-content div.preference-box h3 { text-align: center; }
 .game-content table.applicant-view input[type="submit"], .game-content table.mail-view input[type="submit"], .game-content table.mail-view .button-link { font-size: 14px !important; }
 table.mail-view { width: 725px !important; }
-table.mail-view thead th { white-space: nowrap; background: #294e54; }
+table.mail-view thead th { white-space: nowrap; background: #461c0c; }
 table.mail-view th { vertical-align: bottom; }
 .game-content table.mail-view th a { font-size: 1em !important; color: #fff !important; }
 table.mail-view td.formatted-text { background: #c1c1c1); }
@@ -406,9 +406,9 @@ form#mail-bulk-action+div.pagination, table+div.pagination { margin-top: -10px; 
 /* table.mail-view+p { height: 0px; padding: 0 !important; }*/
 
 /* Mail Page */
-form#mail-bulk-action table thead tr th { background: #294e54; font-weight: bold; }
+form#mail-bulk-action table thead tr th { background: #461c0c; font-weight: bold; }
 form#mail-bulk-action table { border-top: none !important; }
-form#mail-bulk-action table tbody tr:last-child td { background: #294e54; }
+form#mail-bulk-action table tbody tr:last-child td { background: #461c0c; }
 .game-content form#mail-bulk-action input[type="submit"] { color: #000 !important; background: #c1c1c1 !important; }
 div#uniform-select-all input#select-all { background: #fff; border-color: #000; border-top: none !important; }
 
@@ -438,7 +438,7 @@ body.wysiwyg { color: #000; background: #fff; font-size: 12px !important; text-a
 .tablesorter th.headerSortDown .order-icon { background-image: url(./images/order_desc.png); }
 .tablesorter tbody td { vertical-align: middle; padding-right: 10px; }
 .tablesorter tbody td:last-child { text-align: left; }
-.tablesorter td.province-name { color: #294e54; text-align: left; }
+.tablesorter td.province-name { color: #461c0c; text-align: left; }
 .tablesorter a { color: #000 !important; }
 
 .campaign-meter-level div { border: 1px solid #789316; }
@@ -492,14 +492,14 @@ div#upoopu_extension_credentials { top: 10px !important; left: 10px !important; 
 #game-navigation { margin-left: 0 !important; position: relative !important; width: 100px !important; }
 #game-navigation div.navigation div { position: relative; }
 table.dont_sort_table thead tr th a { color: #fff !important; }
-table.dont_sort_table tr.monarch td { background: #294e54; color: #fff; }
+table.dont_sort_table tr.monarch td { background: #461c0c; color: #fff; }
 table.dont_sort_table tr.monarch a { color: #fff !important; }
 table.dont_sort_table tr.chamberlain td { /* background: #4a732e;*/ background: #ddaa77; color: #000; }
 table.dont_sort_table tr.chamberlain a { color: #000 !important; }
 table.dont_sort_table tr.protected td { background: #2736ff; color: #fff; }
 table.dont_sort_table tr.protected a { color: #fff !important; }
 
-tr th#rescell1, tr th#rescell2, tr th#rescell3, tr th div#cellNotice { padding: 2px 6px; text-align: center !important; width: 100px; position: absolute; right: -125px; border-radius: 4px; background: #294e54 !important; }
+tr th#rescell1, tr th#rescell2, tr th#rescell3, tr th div#cellNotice { padding: 2px 6px; text-align: center !important; width: 100px; position: absolute; right: -125px; border-radius: 4px; background: #461c0c !important; }
 tr th#rescell1 { top: -150px; color: #fff !important; }
 tr th#rescell2 { top: -124px; }
 tr th#rescell3 { top: -90px; color: #fff !important; }
@@ -509,7 +509,7 @@ tr th div#cellNotice { right: auto; position: relative; width: auto; }
 div#ircchat { padding: 75px 0 0 0; width: 1010px; }
 td font { color: #747474; }
 div#toggler, div#botlinks, div#botupdate { margin-top: 75px !important; margin-left: 400px !important; width: auto !important; padding: 5px; }
-div#overlay { background: #294e54; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
+div#overlay { background: #461c0c; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -538,7 +538,7 @@ and (max-device-width : 767px) {
   	div#overlay { width: auto; }
 	#resource-bar { width: 600px; }
   	
-  	.game-content div.change-kingdom-form { width: 100% !important; right: 20px !important; position: relative !important; height: 100px !important; background: #294e54 !important; margin-bottom: 20px !important; margin-left: 20px !important; }
+  	.game-content div.change-kingdom-form { width: 100% !important; right: 20px !important; position: relative !important; height: 100px !important; background: #461c0c !important; margin-bottom: 20px !important; margin-left: 20px !important; }
 	div#bookmark-container { z-index: 999; }
 	
 	a#create-royal-command, a#cancel-create-royal-command, a.update-royal-command, a.delete-royal-command, a.cancel-edit-royal-command { display: inline-block; width: 150px; }
