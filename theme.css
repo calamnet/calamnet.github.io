@@ -150,11 +150,11 @@ div.lobby-panel .page-summary { width: auto; background: none; margin-bottom: 10
 div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; }
 
 /* Information Messages */
-.messages { font-weight: bold; line-height: 20px; border: 1px solid #fff; border-radius: 4px; color: #000; background: #ddaa77; }
+.messages { font-weight: bold; line-height: 20px; border: 1px solid #fff; border-radius: 4px; color: #000; background: #eac575; }
 .messages a { color: #000 !important; }
 
 .message { line-height: 20px; border: 1px solid #fff; border-radius: 4px; }
-.info { background: #ddaa77 !important; color: #000 !important; }
+.info { background: #eac575 !important; color: #000 !important; }
 .good { background: #67ae35 !important; color: #fff !important; }
 .bad { background: #fe0000 !important; color: #fff !important; }
 .good a, .bad a  { color: #fff !important; }
@@ -170,7 +170,7 @@ table.math-table thead th { text-align: left !important; }
 table.math-table thead th, table.math-table thead td { margin: 0; padding: 0; }
 table.math-table tbody th, table.math-table tbody td, table.math-table tbody tr.sub-total td, table.math-table tbody tr.sub-total th { margin: 0; padding: 5px; }
 table.math-table tbody tr.sub-total td, table.math-table tbody tr.sub-total th { border-bottom: 15px solid #2d1312; border-top: 2px solid gray; }
-table.math-table tr.sub-total td, table.math-table tr.sub-total th { background: #ddaa77; color: #000; font-weight: bold; }
+table.math-table tr.sub-total td, table.math-table tr.sub-total th { background: #eac575; color: #000; font-weight: bold; }
 table.math-table tr td div.good { color: #067700 !important; background: none !important; }
 table.math-table tr td div.good:before { content: '+'; }
 table.math-table tr td div.bad { color: #7a0500 !important; background: none !important; }
@@ -191,9 +191,9 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 
 /* Resource Bar */
 #resource-bar { width: 730px; box-shadow: 0px 0px 4px #000; border-radius: 4px; }
-#resource-bar thead { background: #3e2954; }
+#resource-bar thead { background: #f77e2b; }
 #resource-bar thead th { font-weight: normal; padding: 3px 0; width: 98px; border-right: 1px inset #141413; }
-#resource-bar tbody th, #resource-bar tbody td { background: #ebeeec; width: 98px; border-right: 1px inset #444444; padding: 3px 6px 3px 6px; font-size: 11px !important; font-weight: lighter; text-align: right; color: #000; }
+#resource-bar tbody th, #resource-bar tbody td { background: #fdfeb2; width: 98px; border-right: 1px inset #444444; padding: 3px 6px 3px 6px; font-size: 11px !important; font-weight: lighter; text-align: right; color: #000; }
 #resource-bar tbody th { font-size: 12px !important; font-weight: bolder; }
 #resource-bar tbody th:first-child { border-bottom-left-radius:4px;  }
 #resource-bar tbody th:last-child { border-bottom-right-radius:4px; border-right: none; }
@@ -229,7 +229,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .game-content #throne-monarch-message { margin: 20px 0 0 0; box-shadow: 0px 0px 4px #000; }
 .game-content #throne-monarch-message h2 { background: #663311 !important; border-top-right-radius:0px; border-top-left-radius:0px; }
 .game-content #throne-monarch-message h2:after { content: ' you should probably read and follow'; }
-.game-content #throne-monarch-message p { color: #000; background: #ddaa77 !important; font-weight: bold; border-bottom-right-radius:0px; border-bottom-left-radius:0px; }
+.game-content #throne-monarch-message p { color: #000; background: #eac575 !important; font-weight: bold; border-bottom-right-radius:0px; border-bottom-left-radius:0px; }
 .game-content #throne-game-message { box-shadow: 0px 0px 4px #000; }
 .game-content #throne-game-message h2:after { content: 's and Utopian News'; } 
 .game-content #throne-game-message h2 { border-top-right-radius:0px; border-top-left-radius:0px; }
@@ -289,7 +289,7 @@ div#uniform-id_dob_0, div#uniform-id_dob_1, div#uniform-id_dob_2 { width: 100px;
 .game-header a h1:hover { color: #fff; background: #846F66; text-decoration: underline; }
 
 /* KINGDOM NEWS */
-div.news-legend { background: #ddaa77; color: #000; margin-top: 0; padding: 10px 20px;  border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
+div.news-legend { background: #eac575; color: #000; margin-top: 0; padding: 10px 20px;  border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
 div.news-legend span { padding: 0 0 0 14px; background-position: top left; background-repeat: no-repeat; line-height: 12px; margin-left: 10px; }
 div.news-legend span.news-aid { background-image: url(./images/kingdom_news/aid_inline.png); }
 div.news-legend span.news-intra-kingdom-conflict { background-image: url(./images/kingdom_news/intra_kingdom_conflict_inline.png); }
@@ -315,21 +315,21 @@ td.news-incident-report { text-align: left; }
 /* KINGDOM DETAILS */
 .unused-slot { }
 .intel-fresh { color: #2736ff !important; }
-.at-war { color: #ddaa77 !important; }
+.at-war { color: #eac575 !important; }
 .intel-rotten { color: #9f6022 !important; }
 .intel-stale { color: #4a732e !important; font-weight: bold; }
 .you { font-weight: bold; }
 .slot-number { font-size: 0.8em; color: #000; font-weight: bold; }
 
 
-.game-content table.province-target-finder tbody tr.at-war { background: #ddaa77 !important; color: #000 !important; }
+.game-content table.province-target-finder tbody tr.at-war { background: #eac575 !important; color: #000 !important; }
 .game-content table.province-target-finder tbody tr.at-war a { color: #000 !important; }
 .tablesorter tr.monarch td { background: #461c0c; color: #fff; }
 .tablesorter tr.monarch a { color: #fff !important; }
 span.monarch { color: #461c0c;}
-.tablesorter tr.chamberlain td { /* background: #4a732e;*/ background: #ddaa77; color: #000; }
+.tablesorter tr.chamberlain td { /* background: #4a732e;*/ background: #eac575; color: #000; }
 .tablesorter tr.chamberlain a { color: #000 !important; }
-span.chamberlain {/*color: #4a732e;*/ color: #ddaa77; }
+span.chamberlain {/*color: #4a732e;*/ color: #eac575; }
 .tablesorter tr.protected td { background: #2736ff; color: #fff; }
 .tablesorter tr.protected a { color: #fff !important; }
 span.protected { color: #2736ff; }
@@ -339,7 +339,7 @@ span.protected { color: #2736ff; }
 .provinces-legend .invitations { font-size: 14px !important; }
 .provinces-legend span { font-weight: bold; }
 .provinces-legend span.invitations { display: inline-block; margin: 15px 0 0 0; padding: 2px 6px; border-radius: 4px;  float: none; position: absolute; right: 20px; }
-.provinces-legend span.invitations.bad { background: #ddaa77 !important; color: #000 !important; }
+.provinces-legend span.invitations.bad { background: #eac575 !important; color: #000 !important; }
 
 .dip-status { color: #000; }
 .dip-status-NORMAL { background-color: #01DF01; }
@@ -399,7 +399,7 @@ table.mail-view tbody td { padding-bottom: 10px; }
 .game-content table.mail-view tr td.forum-moderator-buttons form input[type="submit"], .game-content table.mail-view tr td form.forum-delete-button input[type="submit"], form#target-finder-form input[type="submit"] { color: #000 !important; }
 .game-content table.mail-view tr td form.forum-delete-button input[type="submit"] { margin-top: 5px; }
 a.forum-edit-button { margin-top: 15px; background: #fff; color: #000 !important; text-decoration: none !important; border-color: #000; }
-.pagination { background:  #ddaa77; color: #000; padding: 10px 0 14px 0; margin-top: -40px; }
+.pagination { background:  #eac575; color: #000; padding: 10px 0 14px 0; margin-top: -40px; }
 .pagination a { color: #000 !important; }
 div.pagination+p { height: 0px; padding: 0 !important; }
 form#mail-bulk-action+div.pagination, table+div.pagination { margin-top: -10px; border-bottom-right-radius:4px; border-bottom-left-radius:4px; }
@@ -472,7 +472,7 @@ form#monarchy-form table td {}
 
 #skyscraper-ad { padding-top: 0 !important; }
 
-div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: 10px 0; background: #ddaa77 !important; font-weight: bold; }
+div#hostility-meter-purchase+span.advice-message { display: inline-block; padding: 10px; border-radius: 4px; margin: 10px 0; background: #eac575 !important; font-weight: bold; }
 span.advice-message+strong a { color: #ff0000 !important; }
 
 div#hostility-meter-purchase+span.advice-message { color: #000 !important; display: block; }
@@ -494,7 +494,7 @@ div#upoopu_extension_credentials { top: 10px !important; left: 10px !important; 
 table.dont_sort_table thead tr th a { color: #fff !important; }
 table.dont_sort_table tr.monarch td { background: #461c0c; color: #fff; }
 table.dont_sort_table tr.monarch a { color: #fff !important; }
-table.dont_sort_table tr.chamberlain td { /* background: #4a732e;*/ background: #ddaa77; color: #000; }
+table.dont_sort_table tr.chamberlain td { /* background: #4a732e;*/ background: #eac575; color: #000; }
 table.dont_sort_table tr.chamberlain a { color: #000 !important; }
 table.dont_sort_table tr.protected td { background: #2736ff; color: #fff; }
 table.dont_sort_table tr.protected a { color: #fff !important; }
