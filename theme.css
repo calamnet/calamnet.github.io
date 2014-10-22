@@ -502,7 +502,8 @@ and (max-device-width : 767px) {
 	div#bookmark-container { z-index: 999; }
 	
 	a#create-royal-command, a#cancel-create-royal-command, a.update-royal-command, a.delete-royal-command, a.cancel-edit-royal-command { display: inline-block; width: 150px; }
-	a.remove_bookmark_link { display: block; width: 150px; }	
+	a.remove_bookmark_link { display: block; width: 150px; }
+	#account-container { top: 50px; }	
 	}
 
 /* iPhone 4 ----------- */
