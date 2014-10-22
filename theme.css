@@ -106,7 +106,7 @@ p:empty, ul:empty { display: none; }
 .race-changes h2, .trait-changes h2 { font-size: 30px; }
 .page-summary { width: 450px; padding: 20px; margin: 0 0 20px 0; border-radius: 4px; background: #494432; }
 div.lobby-panel .page-summary { width: auto; background: none; margin-bottom: 10px; padding: 0; }
-div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; }
+div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; background: #eac575; }
 
 /* Information Messages */
 .messages { font-weight: bold; line-height: 20px; border: 1px solid #fff; border-radius: 4px; color: #000; background: #eac575; }
@@ -170,7 +170,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .game-content tbody td { padding-right: 20px; }
 .game-content tbody td input, .game-content tbody td textarea { background: #fff; color: #000; }
 .game-content tbody tr { border-bottom: 1px solid #747474; border-top: 1px solid #747474; }
-.game-content tbody tr:nth-child(even) { background: #d1d1d1 !important; color: #000; }
+.game-content tbody tr:nth-child(even) { background: #c1c1c1 !important; color: #000; }
 .game-content tbody tr.sub-total { background: none; }
 .game-content tfoot th { background: #747474; color: #fff; }
 .game-content tr.sub-total th { border-top 2px solid gray !important; }
