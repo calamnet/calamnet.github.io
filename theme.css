@@ -472,12 +472,10 @@ div#toggler, div#botlinks, div#botupdate { margin-top: 75px !important; margin-l
 div#overlay { background: #461c0c; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (max-width : 1200px) {
+
 	#account-container { top: 50px; }
 	#header-logo { left: 0; }
 	#header-navigation { left: 260px; margin: 0; }
-}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
