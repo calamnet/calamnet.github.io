@@ -475,6 +475,8 @@ div#overlay { background: #461c0c; color: #fff; border-radius: 4px; margin: 0 0 
 @media only screen
 and (max-width : 1020px) {
 	#account-container { top: 50px; }
+	#header-logo { left: 0; }
+	#header-navigation { left: 260px; }
 }
 
 @media only screen
