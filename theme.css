@@ -42,7 +42,7 @@ div#right-column {width: 160px; margin-top: 60px; }
 #game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Account */
-#account-container { top: 75px; left: 0; right: auto; padding-top: 10px; position: absolute; }
+#account-container { top: 75px; left: 0; width: 100px; height: 50px; right: auto; padding-top: 10px; position: absolute; }
 #account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
 #account-header { color: #edf2fd; padding: 13px; background-color: #494432; border-radius: 4px; }
 #account-header:hover { background-color: #461c0c; }
