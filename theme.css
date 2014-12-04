@@ -19,9 +19,9 @@ padding: 0;
 div#left-column { width: 860px; margin-bottom: 20px; margin-left: 0 !important; }
 div#right-column {width: 160px; margin-top: 60px; }
 
-#header-logo { position: absolute; top: 0; left: 100px; background: url(./images/logo_header.png) no-repeat top left; width: 243px !important; height: 49px !important;  }
+#header-logo { position: absolute; top: 0; left: 0; background: url(./images/logo_header.png) no-repeat top left; width: 243px !important; height: 49px !important;  }
 #header { width: 100%; background: #461c0c; height:  50px; margin: 0 0 10px 0; padding: 0; box-shadow: 0px 0px 4px #000; }
-#header-navigation { left: auto; top: 0; margin: 0 auto; padding: 0; height: 49px; width: 760px; }
+#header-navigation { left: 260px; top: 0; margin: 0; padding: 0; height: 49px; width: 760px; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation .navigation { box-shadow: 0px 0px 0px #000; }
 #header-navigation a { display: inline-block;  padding: 16px; margin: 0; border-right: none; text-decoration: none; color: #fff; }
@@ -42,7 +42,7 @@ div#right-column {width: 160px; margin-top: 60px; }
 #game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Account */
-#account-container { top: 0; left: 0; right: auto; width: 100px; padding-top: 10px; position: absolute; }
+#account-container { top: 75px; background-color: #494432; left: 0; right: auto; width: 100px; padding-top: 10px; position: absolute; border-radius: 4px; }
 #account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
 #account-header { color: #edf2fd; padding: 13px; }
 #account-header:hover { background-color: #494432; }
@@ -470,12 +470,6 @@ div#ircchat { padding: 75px 0 0 0; width: 1010px; }
 td font { color: #747474; }
 div#toggler, div#botlinks, div#botupdate { margin-top: 75px !important; margin-left: 400px !important; width: auto !important; padding: 5px; }
 div#overlay { background: #461c0c; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
-
-/* Smartphones (portrait and landscape) ----------- */
-
-	#account-container { top: 50px; }
-	#header-logo { left: 0; }
-	#header-navigation { left: 260px; margin: 0; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
