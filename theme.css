@@ -482,9 +482,10 @@ and (max-width : 1020px) {
 @media only screen
 and (max-device-width : 767px) {
 /* Styles */
+	.reverb { width: 100%; }
 	.reverb-widget { position: relative !important; }
 	div.reverb-widget iframe { width: 100% !important; }
-  	div.wysiwyg iframe { height: 350px !important; }
+  	div.wysiwyg iframe { height: 350px !important; padding: 10px; }
   	#game-navigation { width: 200px !important; }
   	#game-navigation div.navigation div { height: auto !important; }
   	#game-navigation a, #game-navigation .navigation a { font-size: 30px; line-height: 32px; padding: 20px 8px !important; display: block; }
