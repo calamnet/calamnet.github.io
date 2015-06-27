@@ -499,7 +499,7 @@ and (max-device-width : 767px) {
   	.game-content p.advice-message, .game-content p.warning { width: 550px; }
   	form input[type="submit"], .button-link { font-size: 36px; padding: 10px 40px; height: auto !important; }
   	form input[type="text"], form input[type="password"] { height: 30px; font-size: 24px; }
-  	.game-content form.change-kingdom .change-kingdom-form { width: 350px; }
+  	.game-content form.change-kingdom .change-kingdom-form { width: 580px; padding: 0 10px; }
   	.lobby-panel { font-size: 20px; line-height: 22px; margin: 0 0 10px 0; }
   	.lobby-panel h1 { font-size: 72px; line-height: 76px; }
   	div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 0 10px 0; text-align: left; }
