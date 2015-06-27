@@ -293,6 +293,9 @@ span.chamberlain {/*color: #4a732e;*/ color: #eac575; }
 .tablesorter tr.protected td { background: #2736ff; color: #fff; }
 .tablesorter tr.protected a { color: #fff !important; }
 span.protected { color: #2736ff; }
+.tablesorter tr.you td { background: #18460C; color: #fff; }
+.tablesorter tr.you a { color: #fff !important; }
+span.you { color: #18460C;}
 
 /* Provinces Legend */
 .provinces-legend { font-size: 0.8em; background: #fff !important; }
