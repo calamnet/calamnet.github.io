@@ -507,6 +507,8 @@ and (max-device-width : 767px) {
   	div#ircchat { width: auto; }
   	div#overlay { width: auto; }
 	#resource-bar { width: 600px; }
+	
+	.game-content form.change-kingdom .change-kingdom-heading { width: auto; }
   	
   	.game-content div.change-kingdom-form { width: 100% !important; right: 20px !important; position: relative !important; height: 100px !important; background: #461c0c !important; margin-bottom: 20px !important; margin-left: 20px !important; }
 	div#bookmark-container { z-index: 999; }
