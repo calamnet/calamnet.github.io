@@ -510,7 +510,7 @@ and (max-device-width : 767px) {
 	
 	.game-content form.change-kingdom .change-kingdom-heading { width: auto; }
 	.game-content form.change-kingdom .change-kingdom-nav { display: block !important; margin: 5px auto !important; text-align: center !important; }
-	.game-content form.change-kingdom a.button-link { width: 150px !important; padding: 10px; margin: 5px; }
+	.game-content form.change-kingdom a.button-link { width: 150px !important; padding: 10px; margin: 5px; font-weight: bold; font-size: 20px; }
 	.game-content form.change-kingdom a.button-link:hover, .game-content form.change-kingdom a.button-link:active, .game-content form.change-kingdom a.button-link:focus { background: #eac575 !important; }
 
   	
