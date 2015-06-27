@@ -510,7 +510,7 @@ and (max-device-width : 767px) {
 	#bookmark-header { background-image: url(./images/star.png) !important; height: 32px; width: 32px; }
 	
 	.game-content form.change-kingdom div.change-kingdom-form { width: 580px !important; padding: 20px 10px; text-align: center; }
-	.game-content form.change-kingdom .change-kingdom-heading { width: auto; font-size: 30px; margin: 20px 10px; }
+	.game-content form.change-kingdom .change-kingdom-heading { width: auto; font-size: 30px; padding: 20px 10px; }
 	.game-content form.change-kingdom .change-kingdom-nav { display: block !important; margin: 5px auto !important; text-align: center !important; }
 	.game-content form.change-kingdom a.button-link { width: 150px !important; padding: 10px; margin: 5px; font-weight: bold; font-size: 20px; }
 	.game-content form.change-kingdom a.button-link:hover, .game-content form.change-kingdom a.button-link:active, .game-content form.change-kingdom a.button-link:focus { background: #eac575 !important; }
