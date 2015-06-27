@@ -507,7 +507,7 @@ and (max-device-width : 767px) {
   	div#overlay { width: auto; }
 	#resource-bar { width: 600px; }
 	
-	.game-content form.change-kingdom div.change-kingdom-form { width: 580px !important; padding: 0 10px; }
+	.game-content form.change-kingdom div.change-kingdom-form { width: 580px !important; padding: 20px 10px; text-align: center; }
 	.game-content form.change-kingdom .change-kingdom-heading { width: auto; }
 	.game-content form.change-kingdom .change-kingdom-nav { display: block !important; margin: 5px auto !important; text-align: center !important; }
 	.game-content form.change-kingdom a.button-link { width: 150px !important; padding: 10px; margin: 5px; font-weight: bold; font-size: 20px; }
