@@ -509,13 +509,15 @@ and (max-device-width : 767px) {
 	#resource-bar { width: 600px; }
 	
 	.game-content form.change-kingdom .change-kingdom-heading { width: auto; }
-	.game-content form.change-kingdom .change-kingdom-nav { display: block !important; margin: 5px auto !important; }
+	.game-content form.change-kingdom .change-kingdom-nav { display: block !important; margin: 5px auto !important; text-align: center !important; }
 	.game-content form.change-kingdom a.button-link { width: 150px !important; padding: 10px; margin: 5px; }
 	.game-content form.change-kingdom a.button-link:hover, .game-content form.change-kingdom a.button-link:active, .game-content form.change-kingdom a.button-link:focus { background: #eac575 !important; }
 
   	
   	.game-content div.change-kingdom-form { width: 100% !important; right: 20px !important; position: relative !important; height: 100px !important; background: #461c0c !important; margin-bottom: 20px !important; margin-left: 20px !important; }
 	div#bookmark-container { z-index: 999; }
+	
+	#bookmark-container input { margin-right: 8px; }
 	
 	a#create-royal-command, a#cancel-create-royal-command, a.update-royal-command, a.delete-royal-command, a.cancel-edit-royal-command { display: inline-block; width: 150px; }
 	a.remove_bookmark_link { display: block; width: 150px; }
