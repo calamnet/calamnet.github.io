@@ -507,7 +507,7 @@ and (max-device-width : 767px) {
   	div#overlay { width: auto; }
 	#resource-bar { width: 600px; }
 	
-	#bookmark-header { background-image: url(./images/star.png) top left no-repeat; height: 32px; width: 32px; }
+	#bookmark-header { background-image: url(./images/star.png) !important; height: 32px; width: 32px; }
 	
 	.game-content form.change-kingdom div.change-kingdom-form { width: 580px !important; padding: 20px 10px; text-align: center; }
 	.game-content form.change-kingdom .change-kingdom-heading { width: auto; }
