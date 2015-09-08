@@ -304,7 +304,7 @@ span.you { color: #18460C;}
 .provinces-legend span.invitations { display: inline-block; margin: 15px 0 0 0; padding: 2px 6px; border-radius: 4px;  float: none; position: absolute; right: 20px; }
 .provinces-legend span.invitations.bad { background: #eac575 !important; color: #000 !important; }
 
-.dip-status { color: #000; }
+.dip-status { color: #000; } 
 .dip-status-NORMAL { background-color: #01DF01; }
 .dip-status-UNFRIENDLY { background-color: #FFBF00; }
 .dip-status-HOSTILE { background:#FF4000 url(./images/hostile_meter/hostile_gradient.png) repeat-y; }
