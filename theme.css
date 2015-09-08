@@ -510,8 +510,8 @@ and (max-device-width : 767px) {
   	div#overlay { width: auto; }
 	#resource-bar { width: 600px; }
 	
-	.game-content ul { list-style: none; padding: 0 0 0 20px;}
-	.game-content ul li { list-style: disc; padding: 0 0 0 4px; margin: 0 0 0 4px; }
+	.game-content ul { list-style: none !important; padding: 0 0 0 20px; }
+	.game-content ul li { list-style: disc !important; padding: 0 0 0 4px; margin: 0 0 0 4px; }
 	
 	
 	#bookmark-header { background-image: url(./images/star.png) !important; height: 32px; width: 32px; }
