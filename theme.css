@@ -510,6 +510,10 @@ and (max-device-width : 767px) {
   	div#overlay { width: auto; }
 	#resource-bar { width: 600px; }
 	
+	.game-content ul { list-style: none; padding: 0 0 0 20px;}
+	.game-content ul li { list-style: disc; padding: 0 0 0 4px; margin: 0 0 0 4px; }
+	
+	
 	#bookmark-header { background-image: url(./images/star.png) !important; height: 32px; width: 32px; }
 	
 	.game-content form.change-kingdom div.change-kingdom-form { width: 580px !important; padding: 20px 10px; text-align: center; }
