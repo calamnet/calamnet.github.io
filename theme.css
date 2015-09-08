@@ -536,6 +536,7 @@ and (max-device-width : 767px) {
 	
 	form#mail-bulk-action table {}
 	form#mail-bulk-action table td { font-size: 1.5em !important; }
+	.pagination { font-size: 1.2em; }
 	}
 
 /* iPhone 4 ----------- */
