@@ -500,8 +500,9 @@ and (max-device-width : 767px) {
   	.game-header h1 { font-size: 24px; line-height: 26px; height: 30px; padding: 10px 8px; }
   	.game-content { margin-top: 70px; width: 600px; font-size: 20px; line-height: 22px; }
   	.game-content p.advice-message, .game-content p.warning { width: 550px; }
-  	form input[type="submit"], .button-link { font-size: 36px; padding: 10px 40px; height: auto !important; }
-  	form input[type="text"], form input[type="password"] { height: 30px; font-size: 24px; }
+  	form input[type="submit"], .button-link { font-size: 40px; padding: 15px 40px; height: auto !important; }
+  	form div.selector select {}
+  	form input[type="text"], form input[type="password"] { height: 36px; font-size: 30px; }
   	.lobby-panel { font-size: 20px; line-height: 22px; margin: 0 0 10px 0; }
   	.lobby-panel h1 { font-size: 72px; line-height: 76px; }
   	div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 0 10px 0; text-align: left; }
@@ -510,9 +511,8 @@ and (max-device-width : 767px) {
   	div#overlay { width: auto; }
 	#resource-bar { width: 600px; }
 	
-	.game-content ul { list-style: none !important; padding: 0 0 0 20px; }
+	.game-content ul { list-style: none !important; padding: 20px 20px 20px 40px; }
 	.game-content ul li { list-style: disc !important; padding: 0 0 0 4px; margin: 0 0 0 4px; }
-	
 	
 	#bookmark-header { background-image: url(./images/star.png) !important; height: 32px; width: 32px; }
 	
