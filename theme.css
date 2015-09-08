@@ -533,6 +533,9 @@ and (max-device-width : 767px) {
 	#account-container { top: 50px; }
 	#header-logo { left: 0; }
 	#header-navigation { left: 260px; }
+	
+	form#mail-bulk-action table {}
+	form#mail-bulk-action table td { font-size: 1.5em !important; }
 	}
 
 /* iPhone 4 ----------- */
