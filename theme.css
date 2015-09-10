@@ -260,7 +260,7 @@ div.news-legend span.news-obituaries { background-image: url(./images/kingdom_ne
 div.news-legend span.news-relations { background-image: url(./images/kingdom_news/relations_inline.png); }
 div.news-legend span.news-province-modification { background-image: url(./images/kingdom_news/province_modification_inline.png); }
 
-td.news-aid { background-image: url(./images/kingdom_news/aid.png); }
+td.news-aid { background-image: url(./images/kingdom_news/aid.png); } 
 td.news-intra-kingdom-conflict { background-image: url(./images/kingdom_news/intra_kingdom_conflict.png); }
 td.news-actions-against-our-kingdom { background-image: url(./images/kingdom_news/actions_against_our_kingdom.png); }
 td.news-actions-by-our-kingdom { background-image: url(./images/kingdom_news/actions_by_our_kingdom.png); }
