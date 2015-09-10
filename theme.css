@@ -537,6 +537,12 @@ and (max-device-width : 767px) {
 	form#mail-bulk-action table {}
 	form#mail-bulk-action table td { font-size: 1.5em !important; }
 	.pagination { font-size: 1.2em; }
+	
+	/*Experimental*/
+	div.game-navigation { width: 20% !important; }
+	div.game-content { width: 75% !important; }
+	div.game-content p, div.game-content table, div.game-content h2, div#throne-monarch-message { width: 100% !important; }
+	div#right-column { display: none !important; }
 	}
 
 /* iPhone 4 ----------- */
