@@ -539,6 +539,7 @@ and (max-device-width : 767px) {
 	.pagination { font-size: 1.2em; }
 	
 	/*Experimental*/
+	div#header { width: 105% !important;}
 	div#left-column { width: 100% !important; }
 	div#game-navigation { width: 20% !important; margin-top: 66px; }
 	div.game-content, div.game-header { width: 75% !important; }
