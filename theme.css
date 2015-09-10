@@ -541,9 +541,10 @@ and (max-device-width : 767px) {
 	/*Experimental*/
 	div#left-column { width: 100% !important; }
 	div#game-navigation { width: 20% !important; margin-top: 46px; }
-	div.game-content { width: 75% !important; }
+	div.game-content, div.game-header { width: 75% !important; }
 	table#resource-bar { margin-left: -20%; margin-top:-44px; position: relative; width: 120% !important; }
 	div.game-content p, div.game-content table, div.game-content h2, div#throne-monarch-message { width: 100% !important; }
+	div.game-content h2, div.game-content p { padding: 0px !important; }
 	div#right-column { display: none !important; } 
 	}
 
