@@ -17,7 +17,7 @@ padding: 0;
 #inner-container { margin: 0 auto !important; width: 100%; padding: 0; }
 
 div#left-column { width: 860px; margin-bottom: 20px; margin-left: 0 !important; }
-div#right-column {width: 160px; margin-top: 60px; }
+div#right-column {width: 160px; margin-top: 60px; } 
 
 #header-logo { position: absolute; top: 0; left: 0; background: url(./images/logo_header.png) no-repeat top left; width: 243px !important; height: 49px !important;  }
 #header { width: 100%; background: #461c0c; height:  50px; margin: 0 0 10px 0; padding: 0; box-shadow: 0px 0px 4px #000; }
