@@ -554,6 +554,8 @@ and (max-device-width : 767px) {
 	div.game-content table.mail-view { width: 100% !important; }
 	div.game-content table.mail-view td:first-child, div.game-content table.mail-view th:first-child { width: 25% !important; }
 	div.game-content table.mail-view td:last-child, div.game-content table.mail-view th:last-child { width: 75% !important; }
+	div.game-content table.mail-view p { padding: 0 !important; }
+		
 	}
 
 /* iPhone 4 ----------- */
