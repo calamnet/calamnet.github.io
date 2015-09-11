@@ -14,7 +14,7 @@ padding: 0;
 }
 
 #outer-container { width: 100%; margin: 0 auto !important; height: auto; }
-#inner-container { margin: 0 auto !important; width: 100%; padding: 0; }
+#inner-container { margin: 0 auto !important; width: 100%; padding: 0; } 
 
 div#left-column { width: 860px; margin-bottom: 20px; margin-left: 0 !important; }
 div#right-column {width: 160px; margin-top: 60px; } 
