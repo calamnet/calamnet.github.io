@@ -557,7 +557,6 @@ and (max-device-width : 767px) {
 	div.game-content table.mail-view p { padding: 0 !important; } 
 	.pagination { padding: 20px; width: 100%; }
 	form textarea { width: 100%; margin-top: 10px; }
-		
 	}
 
 /* iPhone 4 ----------- */
