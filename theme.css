@@ -500,7 +500,6 @@ and (max-device-width : 767px) {
   	.game-header h1 { font-size: 30px; line-height: 32px; height: 36px; padding: 10px; margin: 0 10px 0 0; }
   	.game-content { margin-top: 70px; width: 600px; font-size: 20px; line-height: 22px; }
   	.game-content p.advice-message, .game-content p.warning { width: 550px; }
-  	.game-content div#throne-monarch-message { margin-top: 40px; }
   	form input[type="submit"], .button-link { font-size: 40px; padding: 15px 40px; height: auto !important; }
   	form input[type="text"], form input[type="password"] { height: 36px; font-size: 30px; }
   	.lobby-panel { font-size: 20px; line-height: 22px; margin: 0 0 10px 0; }
@@ -548,10 +547,13 @@ and (max-device-width : 767px) {
 	div.game-header { position: absolute; width: 100% !important; top: 76px; }
 	div.game-content p, div.game-content h2, div#throne-monarch-message { width: 100% !important; }
 	div.game-content table { width: 105% !important; }
-	div.game-content, div#game-navigation { margin-top: 120px 0 0 0 !important; }
+	div.game-content, div#game-navigation { margin-top: 150px !important; }
 	table.two-column-stats th, table.two-column-stats td { padding: 20px !important; font-size: 1.2em; }
 	div.game-content h2 { padding: 20px !important; }
 	div#right-column { display: none !important; }
+	div.game-content table.mail-view { width: 100% !important; }
+	div.game-content table.mail-view td:first-child, div.game-content table.mail-view th:first-child { width: 25% !important; }
+	div.game-content table.mail-view td:last-child, div.game-content table.mail-view th:last-child { width: 75% !important; }
 	}
 
 /* iPhone 4 ----------- */
