@@ -552,7 +552,7 @@ and (max-device-width : 767px) {
 	div.game-content h2 { padding: 20px !important; }
 	div#right-column { display: none !important; }
 	div.game-content table.mail-view { width: 105% !important; }
-	div.game-content table.mail-view td:first-child, div.game-content table.mail-view th:first-child { width: 25% !important; }
+	div.game-content table.mail-view td:first-child, div.game-content table.mail-view th:first-child { width: 35% !important; }
 	div.game-content table.mail-view p { padding: 0 !important; }
 	.pagination { padding: 20px; width: 100%; }
 	form textarea { width: 100%; margin-top: 10px; }
