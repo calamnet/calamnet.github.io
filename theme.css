@@ -556,7 +556,7 @@ and (max-device-width : 767px) {
 	div.game-content table.mail-view td:last-child, div.game-content table.mail-view th:last-child { width: 75% !important; }
 	div.game-content table.mail-view p { padding: 0 !important; } 
 	.pagination { padding: 20px; width: 100%; }
-	form text-area { width: 100%; margin-top: 10px; }
+	form textarea { width: 100%; margin-top: 10px; }
 		
 	}
 
