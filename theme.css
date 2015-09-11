@@ -500,7 +500,7 @@ and (max-device-width : 767px) {
   	.game-header h1 { font-size: 30px; line-height: 32px; height: 36px; padding: 10px; margin: 0 10px 0 0; }
   	.game-content { margin-top: 70px; width: 600px; font-size: 20px; line-height: 22px; }
   	.game-content p.advice-message, .game-content p.warning { width: 550px; }
-  	form input[type="submit"], .button-link { font-size: 40px; padding: 15px 40px; height: auto !important; }
+  	form input[type="submit"], .button-link { font-size: 48px; padding: 15px 40px; height: auto !important; margin: 20px 0; }
   	form input[type="text"], form input[type="password"] { height: 36px; font-size: 30px; }
   	.lobby-panel { font-size: 20px; line-height: 22px; margin: 0 0 10px 0; }
   	.lobby-panel h1 { font-size: 72px; line-height: 76px; }
@@ -554,6 +554,7 @@ and (max-device-width : 767px) {
 	div.game-content table.mail-view { width: 105% !important; }
 	div.game-content table.mail-view td:first-child, div.game-content table.mail-view th:first-child { width: 35% !important; }
 	div.game-content table.mail-view p { padding: 0 !important; }
+	.game-content table.mail-view input[type="text"] { margin-top: 10px; }
 	.pagination { padding: 20px; width: 100%; } 
 	form textarea { width: 100%; margin-top: 10px; }
 	}
