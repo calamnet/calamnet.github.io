@@ -331,7 +331,7 @@ span.you { color: #18460C;}
 .three-digit-input { width: 55px; }
 .four-digit-input { width: 70px; }
 .five-digit-input { width: 85px; }
-.six-digit-input { width: 100px; }
+.six-digit-input { width: 100px; } 
 
 table.one-column-stats {}
 table.one-column-stats th { font-weight: bold; border-right: 1px solid #ccc; }
