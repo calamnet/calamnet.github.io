@@ -121,6 +121,8 @@ div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 auto 10px auto; background: #
 .message, .good, .bad, .info.message, .good.message, .bad.message { font-weight: bold; }
 .info.message, .good.message, .bad.message { box-shadow: 0px 0px 4px #000; }
 
+table tr th div.good, table tr th div.bad { padding: 10px; white-space:nowrap; }
+
 table.two-column-stats td div.bad, table.two-column-stats td div.good { padding: 10px; }
 
 /* Math Table - State Page */
