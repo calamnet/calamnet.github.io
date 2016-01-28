@@ -551,6 +551,7 @@ and (max-device-width : 767px) {
 	div.game-header { position: absolute; width: 100% !important; top: 100px; }
 	div.game-content p, div.game-content h2, div#throne-monarch-message { width: 100% !important; }
 	div.game-content table { width: 105% !important; }
+	div.game-content table.tablesorter { width: 100% !important; }
 	div.game-content, div#game-navigation { margin-top: 165px !important; }
 	table.two-column-stats th, table.two-column-stats td { padding: 20px !important; font-size: 1.2em; }
 	div.game-content h2 { padding: 20px !important; }
