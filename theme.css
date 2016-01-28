@@ -286,7 +286,7 @@ td.news-incident-report { text-align: left; }
 
 .game-content table.province-target-finder tbody tr.at-war { background: #eac575 !important; color: #000 !important; }
 .game-content table.province-target-finder tbody tr.at-war a { color: #000 !important; }
-.tablesorter { table-layout: fixed; }
+.tablesorter { table-layout: fixed; width: 100% !important; }
 .tablesorter tr.monarch td { background: #461c0c; color: #fff; }
 .tablesorter tr.monarch a { color: #fff !important; }
 span.monarch { color: #461c0c;}
