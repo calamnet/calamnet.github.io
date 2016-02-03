@@ -365,6 +365,10 @@ table.mail-view tbody td { padding-bottom: 10px; }
 .game-content table.mail-view tr td.forum-moderator-buttons { padding: 10px 0 0 0; }
 .game-content table.mail-view tr td.forum-moderator-buttons form input[type="submit"], .game-content table.mail-view tr td form.forum-delete-button input[type="submit"], form#target-finder-form input[type="submit"] { color: #000 !important; }
 .game-content table.mail-view tr td form.forum-delete-button input[type="submit"] { margin-top: 5px; }
+/* Forum Lists */
+.game-content table.mail-view tr td p { padding: 10px 0; }
+.game-content table.mail-view tr td ol, .game-content table.mail-view tr td ul  { margin: 0 0 10px 50px; list-style: none; }
+.game-content table.mail-view tr td ol li, .game-content table.mail-view tr td ul li  {}
 a.forum-edit-button { margin-top: 15px; background: #fff; color: #000 !important; text-decoration: none !important; border-color: #000; }
 .pagination { background:  #eac575; color: #000; padding: 10px 0 14px 0; margin-top: -40px; }
 .pagination a { color: #000 !important; }
