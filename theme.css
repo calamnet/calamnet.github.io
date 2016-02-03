@@ -368,7 +368,10 @@ table.mail-view tbody td { padding-bottom: 10px; }
 /* Forum Lists */
 .game-content table.mail-view tr td p { padding: 10px 0; }
 .game-content table.mail-view tr td ol, .game-content table.mail-view tr td ul  { margin: 0 0 10px 50px; list-style: none; }
-.game-content table.mail-view tr td ol li, .game-content table.mail-view tr td ul li  {}
+.game-content table.mail-view tr td ol li { list-style: decimal; }
+.game-content table.mail-view tr td ol li ol li { list-style: lower-alpha; }
+.game-content table.mail-view tr td ul li  { list-style: disc; }
+.game-content table.mail-view tr td ul li ul li { list-style: square; }
 a.forum-edit-button { margin-top: 15px; background: #fff; color: #000 !important; text-decoration: none !important; border-color: #000; }
 .pagination { background:  #eac575; color: #000; padding: 10px 0 14px 0; margin-top: -40px; }
 .pagination a { color: #000 !important; }
@@ -386,7 +389,7 @@ div#uniform-select-all input#select-all { background: #fff; border-color: #000; 
 /* Wysiwyg */
 div.wysiwyg { border: 1px solid #999; padding: 5px; background: rgb(86, 83, 74); }
 div.wysiwyg input, div.wysiwyg textarea { background: #fff; color: #000; }
-div.wysiwyg ul { background: #000 !important; }
+div.wysiwyg ul { background: #000 !important; margin: 0 !important; }
 div.wysiwyg ul.toolbar li { background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px; border: 1px outset #83817d; }
 body.wysiwyg { color: #000; background: #fff; font-size: 12px !important; text-align: left; }
 
