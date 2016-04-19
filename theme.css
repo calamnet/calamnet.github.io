@@ -490,7 +490,7 @@ div#showchat { height: 100px !important; }
 td font { color: #747474; }
 div#toggler, div#botlinks, div#botupdate { margin-top: 75px !important; margin-left: 400px !important; width: auto !important; padding: 5px; }
 div#overlay { background: #461c0c; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
-span#orders { background: #d7d7d7; display: inline-block; padding: 10px; margin-bottom: 10px; }
+span#orders { background: #d7d7d7; display: inline-block; padding: 10px; margin-bottom: 10px; width: 100%; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -578,7 +578,7 @@ and (max-device-width : 767px) {
 	.pagination { padding: 20px; width: 100%; }
 	form textarea { width: 100%; margin-top: 10px; }
 	
-	span#orders { background: #d7d7d7; display: inline-block; padding: 10px; margin-bottom: 10px; }
+	span#orders { background: #d7d7d7; display: inline-block; padding: 10px; margin-bottom: 10px; width: auto; }
 	}
 
 /* iPhone 4 ----------- */
