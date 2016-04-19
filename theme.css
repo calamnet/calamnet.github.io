@@ -524,7 +524,7 @@ and (max-device-width : 767px) {
   	div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 0 10px 0; text-align: left; }
   	.game-content table.mail-view form { height: auto !important; }
   	div#ircchat { width: auto; }
-  	div#overlay { width: auto; }
+  	div#overlay { width: auto; margin: 40px; }
 	#resource-bar { width: 600px; }
 	
 	.game-content ul { list-style: none !important; padding: 20px 20px 20px 40px; }
@@ -576,6 +576,8 @@ and (max-device-width : 767px) {
 	.game-content table.mail-view input[type="text"] { margin-top: 10px; }
 	.pagination { padding: 20px; width: 100%; }
 	form textarea { width: 100%; margin-top: 10px; }
+	
+	span#orders { background: #d7d7d7; display: inline-block; padding: 10px; margin-bottom: 10px; }
 	}
 
 /* iPhone 4 ----------- */
