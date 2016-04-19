@@ -463,7 +463,7 @@ div.reverb-widget iframe { height: 500px !important; width: 250px !important; }
 div#upoopu_extension_credentials { top: 10px !important; left: 10px !important; }
 
 /* Utools Specific */
-#game-navigation a+a { display: block !important; position: absolute; top: 0; right: 0; padding: 0 !important; }
+#game-navigation a+a { display: block !important; position: absolute; top: 0; right: 0; padding: 2px 0 0 0 !important; }
 #game-navigation a+span, #game-navigation a+span+span { display: none !important; }
 #game-navigation a+span.advice-message { display: inline-block !important; color: #fff !important; float: right; margin-right: 10px; margin-top: -20px;  }
 #game-navigation a+span.advice-message:after { content: ' NEW'; }
