@@ -170,6 +170,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .game-content tbody th { border-left: 1px solid #747474; }
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
+.game-content tbody td div span { color: #fff; min-height: 30px; }
 .game-content tbody td input, .game-content tbody td textarea { background: #fff; color: #000; }
 .game-content tbody tr { border-bottom: 1px solid #747474; border-top: 1px solid #747474; }
 .game-content tbody tr:nth-child(even) { background: #c1c1c1 !important; color: #000; }
