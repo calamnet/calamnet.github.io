@@ -13,6 +13,8 @@ margin: 0;
 padding: 0;
 }
 
+p#donatebox { overflow: hidden !important; }
+
 #outer-container { width: 100%; margin: 0 auto !important; height: auto; }
 #inner-container { margin: 0 auto !important; width: 100%; padding: 0; }
 
