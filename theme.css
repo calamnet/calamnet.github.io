@@ -498,6 +498,25 @@ div#toggler, div#botlinks, div#botupdate { margin-top: 75px !important; margin-l
 div#overlay { background: #461c0c; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
 span#orders { background: #d7d7d7; display: inline-block; padding: 10px; margin-bottom: 10px; width: 100%; }
 
+/* Header Secondary Navigation */
+#header-navigation-2nd-level {
+    top: 0;
+    position: absolute;
+    right: 0;
+    left: auto;
+}
+#header-navigation-2nd-level div.navigation {}
+#header-navigation-2nd-level div.navigation a { background: #fff !important; }
+
+/* Aid Page */
+#showaids {}
+#showaids a { color: #461c0c !important; }
+
+input[type=button], input[type=reset], input[type=submit] {     background: #461c0c;
+    color: #ffffff;
+    border-radius: 4px;
+    border-color: #461c0c !important;}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (max-width : 1020px) {
